@@ -4,7 +4,7 @@ file = open("dicionario_medico.txt", encoding="utf-8")
 texto = file.read()
 
 #limpeza
-texto = re.sub(r'\f(?=[a-zà-öø-ÿ])|\n\f(?=[A-Z])', '', texto)
+texto = re.sub(r'\f(?=[a-zÀ-ÖØ-öø-ÿ])|\n\f(?=[A-ZÀ-ÖØ-Ý])', '', texto)
 
 
 def limpa_descricao(descricao):
