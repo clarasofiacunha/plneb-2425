@@ -27,9 +27,9 @@ Assim, é necessário tratar o conteúdo das descrições para garantir a separa
 texto = re.sub(r'\f(?=[a-zà-öø-ÿ])|\n\f(?=[A-Z])', '', texto)
 ```
 
-1. `\f(?=[a-zÀ-ÖØ-öø-ÿ])`: Se o caractere de quebra de página (\f) for seguido por uma letra minúscula, é removido. Isto permite remover quebras de página desnecessárias no meio de descrições ou entre conceitos (estes começam com uma letra minúscula).
+1. `\f(?=[a-zÀ-ÖØ-öø-ÿ])`: Se o caractere de quebra de página (\f) for seguido por uma letra minúscula, é removido. Isto permite remover quebras de página desnecessárias no meio de descrições ou entre conceitos.
 
-2. `\n\f(?=[A-Z])`: Se houver uma quebra de linha (\n) seguida de uma quebra de página (\f) e logo depois uma letra maiúscula, a quebra de página é removida. Isto acontece quando há quebras de página entre o nome de um conceito e a respetiva descrição (estas começam com uma letra maiúscula).
+2. `\n\f(?=[A-Z])`: Se houver uma quebra de linha (\n) seguida de uma quebra de página (\f) e logo depois uma letra maiúscula, a quebra de página é removida. Isto acontece quando há quebras de página entre o nome de um conceito e a respetiva descrição.
 
 
 O próximo passo foi garantir que as descrições dos conceitos fossem formatadas corretamente, sem quebras de linha extras:
