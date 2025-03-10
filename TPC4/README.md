@@ -27,13 +27,13 @@ O `TPC4.html` é composto pelos seguintes elementos principais:
 
 1. **Cabeçalho (\<header>)**: Contém a navegação da página, incluindo um botão para a página inicial e links para as seções "Destinations" e "Contact".
 
-2. **Seção de Introdução (\<div class="welcome">)**: Esta seção contém uma breve apresentação pessoal e inclui um slider de imagens destacando alguns dos destinos visitados. 
+2. **Secção de Introdução (\<div class="welcome">)**: Esta seção contém uma breve apresentação pessoal e inclui um slider de imagens destacando alguns dos destinos visitados. 
 
-3. **Seção de Destinos (\<section id="destinations">)**: Contém uma lista de destinos organizados numericamente, cada um com um link para a sua respetiva página. Além disso, tem um mapa interativo da Europa, onde os destinos são marcados numericamente.
+3. **Secção de Destinos (\<section id="destinations">)**: Contém uma lista de destinos organizados numericamente, cada um com um link para a sua respetiva página. Além disso, tem um mapa interativo da Europa, onde os destinos são marcados numericamente.
 
-4. **Seção de Destinos Favoritos (\<section id="top-destinations">)**: Lista os meus cinco destinos favoritos, permitindo acesso rápido a essas páginas.
+4. **Secção de Destinos Favoritos (\<section id="top-destinations">)**: Lista os meus cinco destinos favoritos, permitindo acesso rápido a essas páginas.
 
-5. **Seção de Contacto (\<section id="contact">)**: Inclui uma breve mensagem incentivando os visitantes a entrarem em contato para partilharem as suas viagens. Há um link para o meu perfil no Instagram, acompanhado por um ícone da rede social.
+5. **Secção de Contacto (\<section id="contact">)**: Inclui uma breve mensagem incentivando os visitantes a entrarem em contato para partilharem as suas viagens. Há um link para o meu perfil no Instagram, acompanhado por um ícone da rede social.
 
 
 ##
