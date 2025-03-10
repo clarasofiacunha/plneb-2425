@@ -1,6 +1,6 @@
 # TPC4: Criação de Página HTML
 
-Este projeto teve como objetivo a criação de uma página HTML com um tema livre. Optei por desenvolver uma página dedicada às minhas viagens, onde compartilho minhas experiências em diversos destinos europeus.
+Este projeto teve como objetivo a criação de uma página HTML com um tema livre. Optei por desenvolver uma página dedicada às minhas viagens, onde compartilho as minhas experiências em diversos destinos europeus.
 
 A página está organizada em quatro seções principais:
 
