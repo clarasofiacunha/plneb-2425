@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="icon.png">
+    <title id="page-title"></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="TPC4.html" class="home-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="30" height="30">
+                    <path class="home-icon" d="M32 2L2 32h12v28h16V40h8v20h16V32h12z" fill="rgb(109, 96, 68)"/>
+                </svg>
+            </a>
+            <a href="TPC4.html#destinations">DESTINATIONS</a>
+            <a href="TPC4.html#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="image-with-text">
+            <img id="destination-image" class="destination-image">
+            <div class="overlay">
+                <div class="small-rectangle">
+                    <p class="top-text" id="country-name"></p>
+                    <p class="bottom-text" id="destination-name"></p>
+                </div>
+                <p class="overlay-text" id="description"></p>
+            </div>
+        </div>
+
+        <div class="container-destinations">
+            <div class="destination-description" id="details"></div>
+            <div class="media-container">
+                <div class="scroll-arrow-left">&#8592;</div>
+                <div class="image-gallery" id="gallery"></div>
+                <div class="scroll-arrow-right">&#8594;</div>
+            </div>            
+        </div>
+    </main>
+    <script>
+        const destinos = {
+            amsterdam: {
+                title: "Amsterdam - My Travel Blog",
+                country: "THE NETHERLANDS",
+                name: "AMSTERDAM",
+                image: "Destinations/Amsterdam/amsterdam.jpg",
+                description: `Amsterdam is the capital of the Netherlands, and one of the most popular tourist destinations in all of Europe. The city is well-known for its past, the elaborate canal system and the architecture of their iconic, narrow houses. Amsterdam offers way more than just cheap thrills! You can wander the sidewalks (by foot, or more popularly, by bike) and explore the Old Centre, Red Light, Dam Square, Grachtengordel and Museum districts. With its vibrant culture, lively cafes, and artistic heritage, Amsterdam is a city that captivates visitors at every corner.`,
+                details: `
+                    <p> From the moment I arrived, I was completely enchanted by the city. <\p>
+                    <p> There’s always something to do in Amsterdam. I had the chance to visit the Anne Frank Museum, explore various art museums, and experience the immersive "This is Holland," which takes you to all corners of the Netherlands in a unique way. Amsterdam is a city that offers something for everyone, whether you're looking for culture, art, or simply a great place to relax. </p>
+                    <p> Without a doubt, Amsterdam has become one of my favorite cities. If you ever have the chance to visit, make sure to enjoy every moment! </p>
+                `,
+                gallery: [
+                    "Destinations/Amsterdam/4.jpg",
+                    "Destinations/Amsterdam/1.jpg",
+                    "Destinations/Amsterdam/2.jpg",
+                    "Destinations/Amsterdam/3.jpg",
+                    "Destinations/Amsterdam/5.jpg",
+                    "Destinations/Amsterdam/7.jpg",
+                    "Destinations/Amsterdam/6.jpg",
+                    "Destinations/Amsterdam/8.jpg"
+                ]
+            },
+            barcelona: {
+                title: "Barcelona - My Travel Blog",
+                country: "SPAIN",
+                name: "BARCELONA",
+                image: "Destinations/Barcelona/barcelona.jpg",
+                description: "Barcelona is the vibrant capital of Catalonia and one of Spain’s most exciting cities. Known for its stunning architecture, lively culture, and beautiful Mediterranean beaches, Barcelona offers something for everyone. Stroll down La Rambla, explore the historic Gothic Quarter, or marvel at Gaudí’s masterpieces like the Sagrada Familia and Park Güell. With its world-class cuisine, buzzing nightlife, and rich artistic heritage, Barcelona is a city that never fails to impress.",
+                details: `
+                    <p> I went to Barcelona because my dad and sister were participating in the Iberian Capoeira Games in 2018. On the first day, we spent time together as a family, exploring the city. In the following days, my mom and I ventured out on our own to discover more  while my dad and sister went to their training sessions. </p>
+                    <p> One of the highlights was visiting the Bunkers del Carmel, where we were treated to an incredible panoramic view of the entire city. We also took some time to admire the majestic Arc de Triomf, a beautiful monument that perfectly reflects the city’s rich history. And of course, La Sagrada Familia was a must-see. </p>
+                    <p> I absolutely loved the city! The mix of history, art, and vibrant culture was captivating. Barcelona’s lively atmosphere and welcoming vibe made it an unforgettable experience, and I can’t wait to go back! </p>
+                `,
+                gallery: [
+                    "Destinations/Barcelona/1.jpg",
+                    "Destinations/Barcelona/4.jpg",
+                    "Destinations/Barcelona/2.jpg",
+                    "Destinations/Barcelona/6.jpg",
+                    "Destinations/Barcelona/9.jpg",
+                    "Destinations/Barcelona/3.jpg",
+                    "Destinations/Barcelona/11.jpg",
+                    "Destinations/Barcelona/10.jpg",
+                    "Destinations/Barcelona/5.jpg",
+                    "Destinations/Barcelona/8.jpg"
+                ]
+            },
+            brussels: {
+                title: "Brussels - My Travel Blog",
+                country: "BELGIUM",
+                name: "BRUSSELS",
+                image: "Destinations/Brussels/brussels.jpg",
+                description: "Brussels is the capital of Belgium and the heart of the European Union. The city is famous for its rich history, stunning architecture, and delicious cuisine - especially its world-renowned chocolate, waffles, and beer. Stroll through the charming streets to discover the Grand Place, one of the most beautiful squares in Europe, or explore the Atomium, a futuristic landmark. From the historic Upper Town to the trendy neighborhoods of Saint-Gilles and Ixelles, Brussels is a perfect blend of old and new, making it a must-visit destination.",
+                details: `
+                    <p> Brussels was one of the trips I enjoyed the least. There isn’t much to do, and I felt like I had seen everything in just one day. However, visiting the Atomium was such a cool experience, and the views were incredible.  
+                    <p> An amusing thing happened in Brussels: I sat on some stairs in the city center, listening to a street musician play. I recorded a few videos and enjoyed the moment. When I got back to the hotel, I looked up his Instagram and discovered he was actually Portuguese! It was such a funny and unexpected coincidence. Despite the city not being my favorite, it had its memorable moments! </p>
+                `,
+                gallery: [
+                    "Destinations/Brussels/3.jpg",
+                    "Destinations/Brussels/1.jpg",
+                    "Destinations/Brussels/5.jpg",
+                    "Destinations/Brussels/4.jpg",
+                    "Destinations/Brussels/8.jpg",
+                    "Destinations/Brussels/10.jpg",
+                    "Destinations/Brussels/14.jpg",
+                    "Destinations/Brussels/7.jpg",
+                    "Destinations/Brussels/9.jpg",
+                    "Destinations/Brussels/2.jpg",
+                    "Destinations/Brussels/6.jpg",
+                    "Destinations/Brussels/12.jpg",
+                    "Destinations/Brussels/15.jpg",
+                    "Destinations/Brussels/11.jpg",
+                    "Destinations/Brussels/13.jpg",
+                    "Destinations/Brussels/16.jpg"
+                ]
+            },
+            cotedazur: {
+                title: "Côte d'Azur - My Travel Blog",
+                country: "FRANCE",
+                name: "CÔTE D'AZUR",
+                image: "Destinations/Cotedazur/cotedazur.jpg",
+                description: "The Côte d’Azur is a glamorous Mediterranean coastline in southeastern France, including the luxurious city-state of Monaco. Known for its stunning beaches, luxury yachts, and chic towns like Nice, Cannes, and Saint-Tropez, the region offers a mix of elegance and relaxation. Monaco adds a touch of opulence with its famous Monte Carlo Casino and Grand Prix. Whether you're enjoying the sun or exploring charming streets, the Côte d’Azur is a perfect blend of beauty and sophistication.",
+                details: `
+                    <p> This trip was special because it was the first one I took with my boyfriend. I absolutely loved the vibe of the region - there’s something magical about the Mediterranean coast. The beaches were beautiful, and we spent a lot of time relaxing by the sea.  One of the highlights was walking along the iconic red carpet in Cannes, where the famous film festival takes place. We also had a blast visiting the amusement parks, which added a fun, adventurous touch to the trip.
+                    <p> There was a little incident during the trip though: we decided to drive to an Italian city for a quick getaway. As we were entering the city, a truck, while reversing, accidentally hit our car. Needless to say, we didn’t end up visiting Italy after that! It was dramatic at the time, but now it’s just one of those stories we laugh about and will always remember. </p>
+                `,
+                gallery: [
+                    "Destinations/Cotedazur/2.jpg",
+                    "Destinations/Cotedazur/12.jpg",
+                    "Destinations/Cotedazur/3.jpg",
+                    "Destinations/Cotedazur/11.jpg",
+                    "Destinations/Cotedazur/4.jpg",
+                    "Destinations/Cotedazur/9.jpg",
+                    "Destinations/Cotedazur/7.jpg",
+                    "Destinations/Cotedazur/8.jpg",
+                    "Destinations/Cotedazur/1.jpg",
+                    "Destinations/Cotedazur/5.jpg",
+                    "Destinations/Cotedazur/6.jpg"
+                ]
+            },
+            krakow: {
+                title: "Krakow - My Travel Blog",
+                country: "POLAND",
+                name: "KRAKOW",
+                image: "Destinations/Krakow/krakow.jpeg",
+                description: "Krakow is one of Poland's most charming and historic cities, known for its medieval architecture, vibrant culture, and rich heritage. The city’s Main Market Square, one of the largest in Europe, is surrounded by stunning buildings, including the famous St. Mary's Basilica and the Cloth Hall. Visitors can explore the UNESCO-listed Wawel Castle, wander through the historic Jewish Quarter of Kazimierz, and reflect on the city’s past with a visit to the Auschwitz-Birkenau Memorial. With its lively cafes, beautiful parks, and welcoming atmosphere, Krakow is a captivating destination.",
+                details: `
+                    <p> From the moment I arrived in Krakow, I was struck by its medieval charm and the peaceful atmosphere that surrounds the city. The historic Old Town, with its cobbled streets and stunning architecture, made me feel like I had stepped back in time. <\p>
+                    <p> An interesting fact about this trip is that it wasn’t even planned! I was only going to Warsaw, but one day I received an email from Ryanair saying my return flight had been canceled. I tried to reschedule for a different date, but there were no flights back to Porto for the rest of the month! So, my alternative was Krakow. I decided to take the opportunity to explore a new city. Sometimes, unexpected changes lead to the best adventures. </p>
+                `,
+                gallery: [
+                    "Destinations/Krakow/3.jpg",
+                    "Destinations/Krakow/9.jpg",
+                    "Destinations/Krakow/2.jpg",
+                    "Destinations/Krakow/8.jpg",
+                    "Destinations/Krakow/6.jpg",
+                    "Destinations/Krakow/4.jpg",
+                    "Destinations/Krakow/7.jpg",
+                    "Destinations/Krakow/1.jpg",
+                    "Destinations/Krakow/5.jpg"
+                ]
+            },
+            lagodicomo: {
+                title: "Lake Como - My Travel Blog",
+                country: "ITALY",
+                name: "LAKE COMO",
+                image: "Destinations/Lago di Como/lagodicomo.jpg",
+                description: "Lake Como, located in the Lombardy region of northern Italy, is renowned for its breathtaking beauty and serene atmosphere. Surrounded by lush mountains and charming towns, the lake offers a picturesque retreat. Visitors can explore the elegant villas, such as Villa del Balbianello, stroll through the cobblestone streets of Bellagio, and take a boat ride to admire the stunning lakeside views. Known for its peaceful ambiance and luxurious charm, Lake Como has long been a favorite getaway for celebrities and travelers seeking natural beauty and tranquility.",
+                details: `
+                    <p> Lake Como was one of the most peaceful and beautiful places I’ve ever visited. I was struck by the stunning views - the lush mountains surrounding the calm water created such a serene atmosphere. </p>  
+                    <p> One of my favorite moments was just sitting by the lake, taking in the scenery, and feeling like time slowed down. The entire area exudes a quiet elegance that makes you want to stay forever. </p>
+                    <p> If you’re looking for a relaxing getaway with breathtaking views, Lake Como is the place to be! It’s an experience that stays with you long after you leave. </p>
+                `,
+                gallery: [
+                    "Destinations/Lago di Como/6.jpg",
+                    "Destinations/Lago di Como/5.jpg",
+                    "Destinations/Lago di Como/9.jpg",
+                    "Destinations/Lago di Como/4.jpg",
+                    "Destinations/Lago di Como/7.jpg",
+                    "Destinations/Lago di Como/10.jpg",
+                    "Destinations/Lago di Como/8.jpg",
+                    "Destinations/Lago di Como/1.jpg",
+                    "Destinations/Lago di Como/2.jpg"
+                ]
+            },
+            london: {
+                title: "London - My Travel Blog",
+                country: "UNITED KINGDOM",
+                name: "LONDON",
+                image: "Destinations/London/london.jpg",
+                description: "London, the capital of the United Kingdom, is a vibrant, multicultural metropolis brimming with history, culture, and excitement. Famous landmarks such as the Buckingham Palace, the London Eye, and the iconic Big Ben attract visitors from around the world. The city also offers world-class museums, lively markets, and beautiful parks. With a mix of tradition and modernity, London’s diverse neighborhoods and dynamic atmosphere make it an unforgettable destination.",
+                details: `
+                    <p> I went to London with my family in 2014 when I was just 11 years old, and I was absolutely enchanted by the city. </p>
+                    <p> I was a huge One Direction fan at the time, which made everything feel even more special! I remember feeling so excited to be in a place I had always dreamed of visiting. </p> 
+                    <p> As an 11-year-old, I had absolutely no clue how to dress, so my outfit was definitely... well, let's just say, not the best. Also, I didn’t have a phone with a camera at that time, so all the photos I have are taken with my mom’s phone, and let’s just say the quality is, uh, less than ideal. But looking back, it’s funny to see how much has changed since then. Even though the photos aren’t great, the memories are priceless. London will always hold a special place in my heart! </p>
+                `,
+                gallery: [
+                    "Destinations/London/2.jpg",
+                    "Destinations/London/4.jpg",
+                    "Destinations/London/5.jpg",
+                    "Destinations/London/6.jpg",
+                    "Destinations/London/7.jpg",
+                    "Destinations/London/1.jpg",
+                    "Destinations/London/3.jpg"
+                ]
+            },
+            madrid: {
+                title: "Madrid - My Travel Blog",
+                country: "SPAIN",
+                name: "Madrid",
+                image: "Destinations/Madrid/madrid.jpg",
+                description: "Madrid is the capital of Spain, famous for its rich history, stunning architecture, and lively atmosphere. The city boasts iconic landmarks such as the Royal Palace, Prado Museum, and Puerta del Sol. Madrid’s vibrant culture comes to life in its bustling squares, tapas bars, and traditional flamenco shows. Whether you’re exploring the elegant Retiro Park or strolling down Gran Vía, Madrid offers an exciting blend of art, history, and modern charm.",
+                details: `
+                    <p> I went to Madrid with two of my cousins, and it was a really fun trip. It started as a casual conversation at our grandfather’s birthday party, and a week later, we had everything planned and were on our way! </p>  
+                    <p> We had a great time exploring the city, checking out the main sights, and enjoying some delicious food. The spontaneity of the trip made it even more memorable. </p>
+                    <p> However, the trip ended on a sad note that I’ll never forget. As we were heading to the airport to return home, I found out that Liam Payne, a singer who was a big part of my childhood as I was a huge One Direction fan, had passed away. It was such an unexpected and heartbreaking moment that overshadowed the end of what had been an incredible adventure.</p>
+                `,
+                gallery: [
+                    "Destinations/Madrid/7.jpg",
+                    "Destinations/Madrid/8.jpg",
+                    "Destinations/Madrid/9.jpg",
+                    "Destinations/Madrid/3.jpg",
+                    "Destinations/Madrid/4.jpg",
+                    "Destinations/Madrid/10.jpg",
+                    "Destinations/Madrid/2.jpg",
+                    "Destinations/Madrid/6.jpg",
+                    "Destinations/Madrid/1.jpg",
+                    "Destinations/Madrid/5.jpg"
+                ]
+            },
+            milan: {
+                title: "Milan - My Travel Blog",
+                country: "ITALY",
+                name: "MILAN",
+                image: "Destinations/Milan/milan.jpg",
+                description: "Milan is Italy's fashion capital, renowned for its stylish atmosphere and sophisticated vibe. The city is home to iconic landmarks like the magnificent Duomo, the historic Sforza Castle, and Leonardo da Vinci’s famous The Last Supper. Milan also offers world-class shopping, from luxury boutiques in the Galleria Vittorio Emanuele II to trendy districts like Brera. With its vibrant nightlife, rich cultural scene, and delicious cuisine, Milan is a dynamic city that blends modernity with tradition seamlessly.",
+                details: `
+                    <p> Milan... well, let's just say it wasn’t exactly my favorite destination. Honestly, unless you’re super into high-end shopping (and have the wallet to match!), there’s not much to do. I didn’t find the city to be particularly special, and I honestly don’t think I’d go back. I didn’t have many photos either because, well, there wasn’t much to capture! Milan just didn’t leave a big impression on me. </p>
+                `,
+                gallery: [
+                    "Destinations/Milan/1.jpg",
+                    "Destinations/Milan/2.jpg",
+                    "Destinations/Milan/3.jpg"
+                ]
+            },
+            stockholm: {
+                title: "Stockholm - My Travel Blog",
+                country: "SWEDEN",
+                name: "STOCKHOLM",
+                image: "Destinations/Stockholm/stockholm.png",
+                description: "Stockholm, the capital of Sweden, is a stunning city spread across 14 islands connected by over 50 bridges. Known for its clean, modern design and rich history, Stockholm offers a perfect blend of natural beauty and urban charm. Must-see attractions include the historic Gamla Stan (Old Town), the Royal Palace, and the Vasa Museum, which houses a 17th-century warship. With its stylish cafes, green spaces, and vibrant cultural scene, Stockholm is a city that seamlessly combines tradition with innovation.",
+                details: `
+                    <p> Stockholm was an incredible city to explore, but I have to admit, it was so cold! The winter chill really made me appreciate the cozy cafes and warm indoor spots. </p>
+                    <p> The cold didn’t stop me from enjoying the beauty of the city, though, and I ended up falling in love with its calm and peaceful atmosphere. Walking through Gamla Stan (the Old Town) felt like stepping into a fairy tale, with its cobbled streets and colorful buildings. One of the most amazing things I found in Stockholm was the art in the metro stations! The walls are decorated with colorful murals making every ride a unique visual experience. </p>
+                    <p> That said, I have to be honest - everything is so expensive! From food to transport, it definitely made me rethink my budget, but the experiences and beauty of the city were totally worth it. </p>
+                `,
+                gallery: [
+                    "Destinations/Stockholm/4.jpg",
+                    "Destinations/Stockholm/6.jpg",
+                    "Destinations/Stockholm/14.jpg",
+                    "Destinations/Stockholm/1.jpg",
+                    "Destinations/Stockholm/9.jpg",
+                    "Destinations/Stockholm/11.jpg",
+                    "Destinations/Stockholm/5.jpg",
+                    "Destinations/Stockholm/8.jpg",
+                    "Destinations/Stockholm/3.jpg",
+                    "Destinations/Stockholm/10.jpg",
+                    "Destinations/Stockholm/2.jpg",
+                    "Destinations/Stockholm/12.jpg",
+                    "Destinations/Stockholm/13.jpg",
+                    "Destinations/Stockholm/7.jpg"
+            ]
+            },
+            venice: {
+                title: "Venice - My Travel Blog",
+                country: "ITALY",
+                name: "VENICE",
+                image: "Destinations/Venice/venice.jpg",
+                description: "Venice is a unique and enchanting city in Italy, famous for its canals, historic architecture, and romantic atmosphere. The iconic Grand Canal is lined with beautiful palaces, and you can explore the city’s narrow, winding streets on foot or by gondola. Key sights include St. Mark's Square, the impressive Doge's Palace, and the Rialto Bridge. With its rich history, art, and stunning surroundings, Venice offers an unforgettable experience that feels like stepping into a living masterpiece.",
+                details: `
+                    <p> Venice is a beautiful city that certainly has its charm! Although it was a bit more crowded than I expected, the canals, stunning architecture, and unique atmosphere still made it a memorable experience. The city has a magical quality to it, especially when you wander through its narrow streets and over its romantic bridges. </p>
+                    <p> A fun fact: Venice was actually the place where I saw the most marriage proposals! It’s clear why - it’s such a romantic city, perfect for those special moments. </p>
+                    <p> Despite the busy streets, the magic of Venice is definitely worth experiencing! </p>
+                `,
+                gallery: [
+                    "Destinations/Venice/1.jpg",
+                    "Destinations/Venice/7.jpg",
+                    "Destinations/Venice/6.jpg",
+                    "Destinations/Venice/3.jpg",
+                    "Destinations/Venice/4.jpg",
+                    "Destinations/Venice/5.jpg",
+                    "Destinations/Venice/2.jpg",
+                    "Destinations/Venice/8.jpg"
+                ]
+            },
+            verona: {
+                title: "Verona - My Travel Blog",
+                country: "ITALY",
+                name: "VERONA",
+                image: "Destinations/Verona/verona.jpg",
+                description: "Verona, located in northern Italy, is a charming city known for its romantic ambiance and rich history. Famous as the setting for Shakespeare’s Romeo and Juliet, Verona features the iconic Juliet’s House and balcony. The city is also home to the well-preserved Roman Arena, which hosts opera performances in the summer. With its beautiful piazzas, medieval buildings, and scenic views of the Adige River, Verona offers a perfect mix of culture, romance, and tradition.",
+                details: `
+                    <p> Verona truly exceeded my expectations! I wasn’t expecting to fall so in love with this city, and it quickly became one of my favorites. The charming streets, the romantic vibe, and the historic sites all come together to create something truly special. </p>
+                    <p> A funny thing happened while I was there: I actually ran into Miguel Oliveira, the famous Portuguese MotoGP rider! My boyfriend and I had a quick chat with him and even took a photo together. It was such a fun and unexpected moment that made our visit even more memorable. </p>
+                    <p> Verona truly surprised me in so many ways, and if you have the chance to visit, I highly recommend it. </p>
+                `,
+                gallery: [
+                    "Destinations/Verona/4.jpg",
+                    "Destinations/Verona/10.jpg",
+                    "Destinations/Verona/8.jpg",
+                    "Destinations/Verona/7.jpg",
+                    "Destinations/Verona/15.jpg",
+                    "Destinations/Verona/5.jpg",
+                    "Destinations/Verona/3.jpg",
+                    "Destinations/Verona/12.jpg",
+                    "Destinations/Verona/6.jpg",
+                    "Destinations/Verona/17.jpg",
+                    "Destinations/Verona/1.jpg",
+                    "Destinations/Verona/9.jpg"
+                ]
+            },
+            warsaw: {
+                title: "Warsaw - My Travel Blog",
+                country: "POLAND",
+                name: "WARSAW",
+                image: "Destinations/Warsaw/warsaw.jpg",
+                description: "Warsaw, the capital of Poland, is a city that beautifully blends history with modernity. Known for its resilience, it has rebuilt itself after World War II, with a stunning Old Town, a UNESCO World Heritage site, and the Royal Castle. Visitors can explore the historic Wilanów Palace, stroll along the Vistula River, or visit the Warsaw Uprising Museum to learn about the city’s past. With a thriving arts scene, vibrant nightlife, and diverse architecture, Warsaw is a dynamic destination that offers something for every traveler.",
+                details: `
+                    <p> The contrast between the beautifully restored Old Town and the modern skyscrapers shows the strength and growth of this remarkable city. </p>
+                    <p> Warsaw is a city full of history, culture, and a youthful spirit, making it a place you can’t help but admire. </p>
+                    <p> Thos city left a deep impression on me, and I highly recommend experiencing its unique energy. If you get the chance, take the time to explore its rich history and modern-day vibrance—it’s a city full of surprises. </p>
+                `,
+                gallery: [
+                    "Destinations/Warsaw/1.jpg",
+                    "Destinations/Warsaw/3.jpg",
+                    "Destinations/Warsaw/6.jpg",
+                    "Destinations/Warsaw/2.jpg",
+                    "Destinations/Warsaw/7.jpg",
+                    "Destinations/Warsaw/5.jpg",
+                    "Destinations/Warsaw/8.jpg",
+                    "Destinations/Warsaw/4.jpg",
+                ]
+            }
+        };
+
+        function carregarDestino() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const destinoKey = urlParams.get("destination");
+
+            if (destinoKey in destinos) {
+                const destino = destinos[destinoKey];
+                document.title = destino.title;
+                document.getElementById("page-title").innerText = destino.title;
+                document.getElementById("destination-image").src = destino.image;
+                document.getElementById("country-name").innerText = destino.country;
+                document.getElementById("destination-name").innerText = destino.name;
+                document.getElementById("description").innerText = destino.description;
+                document.getElementById("details").innerHTML = destino.details;
+
+                const gallery = document.getElementById("gallery");
+                gallery.innerHTML = destino.gallery.map(img => `<img src="${img}">`).join("");
+            } else {
+                document.body.innerHTML = "<h1>Destination not found</h1>";
+            }
+        }
+        document.addEventListener("DOMContentLoaded", carregarDestino);
+
+        const leftArrow = document.querySelector('.scroll-arrow-left');
+        const rightArrow = document.querySelector('.scroll-arrow-right');
+        const gallery = document.querySelector('.image-gallery');
+
+        leftArrow.addEventListener('click', () => {
+            gallery.scrollBy({
+                left: -300, 
+                behavior: 'smooth', 
+            });
+        });
+
+        rightArrow.addEventListener('click', () => {
+            gallery.scrollBy({
+                left: 300,
+                behavior: 'smooth', 
+            });
+        });
+    </script>
+</body>
+</html>
