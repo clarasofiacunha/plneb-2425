@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+<title> {{title}} </title>
+{% endblock %}
+
+{% block body %}
+
+    <ul>
+        {% for designacao in designacoes %}
+            <li>
+                <a href="/conceitos/{{designacao}}" target="_blank"> {{designacao}} </a>
+            </li>
+        {% endfor %}
+
+    </ul>
+
+{% endblock %}
