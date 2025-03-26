@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+<title> {{title}} </title>
+{% endblock %}
+
+{% block body %}
+<table id="tabela_conceitos" class="table">
+    <thead class="table-dark">
+        <tr>
+            <th>Designação</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for designacao, descricao in db.items() %}    
+        <tr>
+            <td>
+                <a href="/conceitos/{{ designacao }}" class="text-decoration-none text-reset">  {{ designacao }}</a>
+            </td>
+            <td>
+                <a href="/conceitos/{{ designacao }}" class="text-decoration-none text-reset">{{ descricao }}</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}
