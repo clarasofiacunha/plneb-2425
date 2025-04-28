@@ -1,0 +1,5520 @@
+{
+    "micrograma": {
+        "descricao": "a milionésima parte de um grama"
+    },
+    "perioral": {
+        "descricao": "à volta da boca"
+    },
+    "periorbital": {
+        "descricao": "à volta da órbita"
+    },
+    "perivascular": {
+        "descricao": "à volta dos vasos sanguíneos"
+    },
+    "depressão": {
+        "descricao": "abaixamento, abatimento, prostração"
+    },
+    "abcesso": {
+        "descricao": "abcesso, tumor"
+    },
+    "empiema": {
+        "descricao": "abcesso; acumulação de pus"
+    },
+    "abdómen": {
+        "descricao": "barriga, ventre"
+    },
+    "abdominal": {
+        "descricao": "ventral"
+    },
+    "aberrante": {
+        "descricao": "anormal"
+    },
+    "perfuração": {
+        "descricao": "abertura; orifício"
+    },
+    "extracção": {
+        "descricao": "ablação"
+    },
+    "castração": {
+        "descricao": "ablação dos órgãos sexuais, capação, eviração, emasculação"
+    },
+    "anastomose": {
+        "descricao": [
+            "comunicação natural ou artificial entre dois vasos ou nervos",
+            "abocamento"
+        ]
+    },
+    "aborto": {
+        "descricao": "abortamento, desmancho"
+    },
+    "abrupto": {
+        "descricao": "repentino, brusco"
+    },
+    "absorção": {
+        "descricao": "absorvimento, absorvência"
+    },
+    "ressorção": {
+        "descricao": "absorção de água e de solutos por células vivas"
+    },
+    "abstinência": {
+        "descricao": "jejum"
+    },
+    "hipótese": {
+        "descricao": "abstracção, suposição"
+    },
+    "escabiose": {
+        "descricao": "acaríase sarcóptica, sarna"
+    },
+    "acatisia": {
+        "descricao": "incapacidade em permanecer sentado"
+    },
+    "catálise": {
+        "descricao": "acção de certos corpos sobre outros"
+    },
+    "oxidação": {
+        "descricao": "acção de enferrujar"
+    },
+    "aspiração": {
+        "descricao": "acção de inalar, extracção de líquidos ou gases"
+    },
+    "micção": {
+        "descricao": "acção de urinar, urinação"
+    },
+    "taquicardia": {
+        "descricao": "aceleração da frequência cardíaca"
+    },
+    "secundário": {
+        "descricao": "acessório, anexo, indesejável"
+    },
+    "acidez": {
+        "descricao": "acidade, azedume"
+    },
+    "acidental": {
+        "descricao": "por acaso, sem importância"
+    },
+    "aminoácido": {
+        "descricao": "ácido aninado"
+    },
+    "acidose": {
+        "descricao": "alteração do equilíbrio ácido básico do sangue e líquidos teciduais"
+    },
+    "acinesia": {
+        "descricao": "ausência de movimento, acinese"
+    },
+    "acne": {
+        "descricao": "espinha"
+    },
+    "acomodação": {
+        "descricao": "adaptação"
+    },
+    "adaptação": {
+        "descricao": "acomodação"
+    },
+    "concomitante": {
+        "descricao": "acompanhante"
+    },
+    "habitual": {
+        "descricao": "acostumado"
+    },
+    "reconstituição": {
+        "descricao": "acrescentar um solvente a um medicamento em pó; tipo de regeneração de uma superfície lesionada; retorno à forma líquida do soro ou plasma sanguíneo previamente dessecado"
+    },
+    "acrocianose": {
+        "descricao": "cor azulada das extremidades (mãos-pés)"
+    },
+    "ACTH": {
+        "descricao": "hormônio adreno-córticotrófico, corticotrofina"
+    },
+    "potenciação": {
+        "descricao": "activação de uma droga por outra"
+    },
+    "potencialização": {
+        "descricao": "activação de uma droga por outra"
+    },
+    "adrenérgico": {
+        "descricao": "activado por adrenalina"
+    },
+    "activar": {
+        "descricao": "estimular ou acelerar, reactivar"
+    },
+    "actividade": {
+        "descricao": "actividade"
+    },
+    "hipertiroidismo": {
+        "descricao": "actividade excessiva da tiróide"
+    },
+    "hipotiroidismo": {
+        "descricao": "actividade insuficiente da tiróide"
+    },
+    "activo": {
+        "descricao": "reactivo, eficaz"
+    },
+    "largo espectro": {
+        "descricao": "activo com vários grupos de germes"
+    },
+    "anamnésia": {
+        "descricao": "acto de relembrar os antecedentes do doente"
+    },
+    "protrombina": {
+        "descricao": "factor II da coagulação sanguínea; trombogénio"
+    },
+    "açúcar invertido": {
+        "descricao": "mistura de glicose e frutose"
+    },
+    "acuidade": {
+        "descricao": "agudez(a)"
+    },
+    "acumulação": {
+        "descricao": "acumulamento"
+    },
+    "uremia": {
+        "descricao": "acumulação de ureia no sangue; urinemia"
+    },
+    "esteatose": {
+        "descricao": "acumulação excessiva de glóbulos gordos nos tecidos"
+    },
+    "cumulativo": {
+        "descricao": "acumulativo"
+    },
+    "adenite": {
+        "descricao": "caroço inflamado, inflamação das glândulas"
+    },
+    "adenoma": {
+        "descricao": "tumor benigno"
+    },
+    "adequado": {
+        "descricao": "apropriado, próprio"
+    },
+    "aderência": {
+        "descricao": "adesão, união viciosa das superfícies orgânicas"
+    },
+    "adicional": {
+        "descricao": "complementar"
+    },
+    "aditivo": {
+        "descricao": "produto acrescentado"
+    },
+    "adjuvante": {
+        "descricao": "substância que contribui para a auxiliar"
+    },
+    "pré-medicação": {
+        "descricao": "administração de medicamentos como sedativos antes de uma anestesia geral"
+    },
+    "sensibilização": {
+        "descricao": "administração de um antigénio para induzir uma resposta imunitária"
+    },
+    "aplicação": {
+        "descricao": "administração de um medicamento ou emprego de uma medida física"
+    },
+    "instilação": {
+        "descricao": "administração gota-a-gota (solução oftálmica)"
+    },
+    "parenteral": {
+        "descricao": "administrado por via não oral"
+    },
+    "adolescente": {
+        "descricao": "jovem"
+    },
+    "adrenolítico": {
+        "descricao": "substância que inibe a resposta à adrenalina"
+    },
+    "adsorção": {
+        "descricao": "penetração pela pele ou pelas mucosas, consumo"
+    },
+    "adstringente": {
+        "descricao": "que aperta os tecidos, secura da pele"
+    },
+    "adulto": {
+        "descricao": "adulto"
+    },
+    "ventilação": {
+        "descricao": "aeragem, arejamento, aeração"
+    },
+    "aeróbio": {
+        "descricao": "que vive no ar"
+    },
+    "aerofagia": {
+        "descricao": "engolir ar"
+    },
+    "aerossol": {
+        "descricao": "solução de um produto destinado à inalação"
+    },
+    "afasia": {
+        "descricao": "perda da capacidade de comunicar"
+    },
+    "cirrose": {
+        "descricao": "afecção do fígado"
+    },
+    "regulação": {
+        "descricao": "afinação, ajustamento"
+    },
+    "afinidade": {
+        "descricao": "parentesco, analogia, semelhança"
+    },
+    "prolapso": {
+        "descricao": "afundamento ou queda (ex.: útero, recto, cordão umbilical)"
+    },
+    "agalactia": {
+        "descricao": "falta ou diminuição da secreção do leite"
+    },
+    "agamaglobulinémia": {
+        "descricao": "sem gamoglobinas"
+    },
+    "agente": {
+        "descricao": "substância activa"
+    },
+    "mediador": {
+        "descricao": [
+            "(agente) intermediário, substância química que transmite algo",
+            "agente intermediário, substância química que transmite algo"
+        ]
+    },
+    "mucolítico": {
+        "descricao": "agente que destrói ou dissolve a mucina"
+    },
+    "ceratolítico": {
+        "descricao": "agente que dissolve a parte córnea da pele"
+    },
+    "uricossúrico": {
+        "descricao": "agente que promove a secreção urinária do ácido úrico"
+    },
+    "relaxante": {
+        "descricao": "agente que reduz a tensão"
+    },
+    "agitação": {
+        "descricao": "desassossego, inquietação, excitação"
+    },
+    "agonista": {
+        "descricao": "músculo que participa com outro num movimento; medicamento que estimula células de maneira natural"
+    },
+    "agranulocitose": {
+        "descricao": "inexistência de glóbulos no sangue, doença de Pfeiffer"
+    },
+    "agravação": {
+        "descricao": "agravamento, pioramento, piora"
+    },
+    "agregação": {
+        "descricao": "agregado, associação"
+    },
+    "agressividade": {
+        "descricao": "agressividade"
+    },
+    "agudo": {
+        "descricao": "agudo"
+    },
+    "alastrar": {
+        "descricao": "dispsersão da infecção; alastramento"
+    },
+    "albumina": {
+        "descricao": "proteína principal no sangue"
+    },
+    "alcalina": {
+        "descricao": "medicamento que contém um álcali"
+    },
+    "alcalóide": {
+        "descricao": "substância orgânica azotada com propriedades alcalinas"
+    },
+    "alcalose": {
+        "descricao": "alteração da relação ácido-base no sangue"
+    },
+    "alcilação": {
+        "descricao": "substância radical alquil por um átomo de H num composto cíclico"
+    },
+    "alcoolismo": {
+        "descricao": "alcoolismo"
+    },
+    "alérgeno": {
+        "descricao": "causa alergia"
+    },
+    "alergia": {
+        "descricao": "hipersensibilidade"
+    },
+    "alergia cruzada": {
+        "descricao": "alergia a substâncias similares"
+    },
+    "idiossincrasia": {
+        "descricao": "alergia a uma substância específica"
+    },
+    "alérgico": {
+        "descricao": "alérgico"
+    },
+    "atópico": {
+        "descricao": "alérgico"
+    },
+    "alerta": {
+        "descricao": "vigilante"
+    },
+    "demência": {
+        "descricao": "alienação mental, desarranjo mental, loucura"
+    },
+    "alimentar": {
+        "descricao": "alimentício"
+    },
+    "nutriente": {
+        "descricao": "alimentar, alimentício, nutritivo, nutrício, substancial"
+    },
+    "alopecia": {
+        "descricao": "careca, calvície, calva"
+    },
+    "lipodistrofia": {
+        "descricao": "alteração do metabolismo dos lípidos (obesidade das mulheres na região glútea e nas pernas)"
+    },
+    "disgeusia": {
+        "descricao": "alteração do paladar"
+    },
+    "lesão": {
+        "descricao": "alteração mórbida na função ou estrutura de um órgão"
+    },
+    "modificar": {
+        "descricao": "alterar"
+    },
+    "alternar": {
+        "descricao": "sucessão de duas ou mais acções ou administrações de medicamentos"
+    },
+    "alternativo": {
+        "descricao": "alternativo"
+    },
+    "alucinação": {
+        "descricao": "alucinação"
+    },
+    "alveolite": {
+        "descricao": "lesão dos alvéolos pulmonares"
+    },
+    "cavidade": {
+        "descricao": "alvéolo, recesso, buraco"
+    },
+    "ambiente": {
+        "descricao": ""
+    },
+    "ambliopia": {
+        "descricao": "enfraquecimento da vista"
+    },
+    "ambulante": {
+        "descricao": "ambulatório"
+    },
+    "amenorreia": {
+        "descricao": "ausência de períodos menstruais"
+    },
+    "amina": {
+        "descricao": "composto químico relacionado com o amoníaco"
+    },
+    "amnésia": {
+        "descricao": "esquecimento, perda de memória"
+    },
+    "âmnio": {
+        "descricao": "bolsa membranosa que contém o líquido amniótico onde flutua o bebé"
+    },
+    "osteomalacia": {
+        "descricao": "amolecimento dos ossos"
+    },
+    "ampola": {
+        "descricao": "bolha, pequeno tumor"
+    },
+    "anabólico": {
+        "descricao": "que activa o desenvolvimento fisiológico"
+    },
+    "anaeróbio": {
+        "descricao": "que vive sem ar"
+    },
+    "anafiláctico": {
+        "descricao": "que aumenta a sensibilidade do organismo para um veneno"
+    },
+    "anal": {
+        "descricao": "relativo ao ânus"
+    },
+    "convalescença": {
+        "descricao": "analepsia; restabelecimento das forças (depois de uma doença)"
+    },
+    "analéptico": {
+        "descricao": "droga estimulante do sistema nervoso"
+    },
+    "analgésico": {
+        "descricao": "que alivia a dor"
+    },
+    "análise": {
+        "descricao": "decomposição"
+    },
+    "análogo": {
+        "descricao": "com função semelhante mas diferente origem (diz-se de estruturas anatómicas)"
+    },
+    "idêntico": {
+        "descricao": "análogo"
+    },
+    "escarlatina": {
+        "descricao": "anasarca, febre petequial, elefância"
+    },
+    "anatómico": {
+        "descricao": "anatómico"
+    },
+    "sonambulismo": {
+        "descricao": "andar dormindo, em sonhos"
+    },
+    "androgénico": {
+        "descricao": "relativo à geração do homem"
+    },
+    "anemia": {
+        "descricao": "falta de sangue"
+    },
+    "anemia aplástica": {
+        "descricao": "formação insuficiente das células do sangue"
+    },
+    "anergia": {
+        "descricao": "falta de acção, inactividade"
+    },
+    "anestesia": {
+        "descricao": "insensibilidade à dor"
+    },
+    "anestésico": {
+        "descricao": "que tira a sensibilidade"
+    },
+    "aneurisma": {
+        "descricao": "protuberância num ponto fraco de uma artéria"
+    },
+    "anexite": {
+        "descricao": "inflamações dos ovários e da trompa"
+    },
+    "angiite": {
+        "descricao": "flebite, inflamação de uma veia"
+    },
+    "tonsilite": {
+        "descricao": "angina (tonsilar), amigdalite, esquinência, antiadite, inflamação das amígdalas"
+    },
+    "angina de peito": {
+        "descricao": "angina de peito, esternalgia"
+    },
+    "anginoso": {
+        "descricao": "relativo a angina"
+    },
+    "angioedema": {
+        "descricao": "inchaço sem inflamação"
+    },
+    "linfangite": {
+        "descricao": "angioleucite, inflamação dos vasos linfáticos"
+    },
+    "angioneurótico": {
+        "descricao": "indivíduo com eretismo do aparelho vascular e vasomotor, de origem nervosa"
+    },
+    "ansiedade": {
+        "descricao": "angústia"
+    },
+    "anidro": {
+        "descricao": "que não tem água"
+    },
+    "aniónico": {
+        "descricao": "com carga negativa"
+    },
+    "enurese": {
+        "descricao": "aniscuria, incontinência de urina"
+    },
+    "anisocoria": {
+        "descricao": "desigualdade do diâmetro das pupilas"
+    },
+    "anogenital": {
+        "descricao": "pertencente à região do anus e dos órgãos genitais"
+    },
+    "anomalia": {
+        "descricao": "irregularidade"
+    },
+    "anorectal": {
+        "descricao": "relativo ao anus e ao intestino grosso"
+    },
+    "anorexia": {
+        "descricao": "inapetência, falta de apetite"
+    },
+    "anormal": {
+        "descricao": "anormal"
+    },
+    "anosmia": {
+        "descricao": "falta de cheiro"
+    },
+    "anovulatório": {
+        "descricao": "ciclo sem óvulo"
+    },
+    "anoxia": {
+        "descricao": "falta de oxigénio no organismo por respiração deficiente"
+    },
+    "antagonista": {
+        "descricao": "músculo que produz movimento contrário ao de outro músculo; substância que anula a acção de outra"
+    },
+    "antecedente": {
+        "descricao": "passado do paciente"
+    },
+    "anterógrado": {
+        "descricao": "dirigido para a frente"
+    },
+    "pré-natal": {
+        "descricao": "antes do nascimento, durante a evolução da gravidez"
+    },
+    "anti-helmíntico": {
+        "descricao": "contra as lombrigas, contra as bichas"
+    },
+    "anti-hipertensivo": {
+        "descricao": "substância que diminui a pressão sanguínea"
+    },
+    "anti-histamina": {
+        "descricao": "substância que combate a acção da histamina"
+    },
+    "anti-infeccioso": {
+        "descricao": "que combate a infecção"
+    },
+    "anti-inflamatório": {
+        "descricao": "que impede a inflamação"
+    },
+    "anti-séptico": {
+        "descricao": "desinfectante, que mata os micróbios ou fungos"
+    },
+    "anticorpo": {
+        "descricao": "anti-soma, anti-substância, corpo imune, antítropo"
+    },
+    "antiácido": {
+        "descricao": "fármaco com o excesso de acidez do estômago"
+    },
+    "antialérgico": {
+        "descricao": "antialérgico"
+    },
+    "antianginoso": {
+        "descricao": "combate as anginas"
+    },
+    "antiarrítmico": {
+        "descricao": "medicamento para tratamento da irregularidade da pulsação cardíaca"
+    },
+    "antiasmático": {
+        "descricao": "remédio contra a asma"
+    },
+    "antibacteriano": {
+        "descricao": "que destrói as bactérias"
+    },
+    "antibiograma": {
+        "descricao": "estudo da sensibilidade de um micróbio a vários antibióticos"
+    },
+    "antibioterapia": {
+        "descricao": "tratamento com antibióticos"
+    },
+    "antibiótico": {
+        "descricao": "fármaco para tratar infecções"
+    },
+    "antineoplástico": {
+        "descricao": "anticanceroso"
+    },
+    "anticoagulante": {
+        "descricao": "fármaco que impede a coagulação do sangue"
+    },
+    "anticolinérgico": {
+        "descricao": "substância que bloqueia os nervos parassimpáticos"
+    },
+    "anticonvulsivante": {
+        "descricao": "substância que evita as convulsões"
+    },
+    "antidepressivo": {
+        "descricao": "substância que alivia a depressão"
+    },
+    "antidiabético": {
+        "descricao": "substância que reduz a concentração de açúcar no sangue"
+    },
+    "antidiurético": {
+        "descricao": "que não faz urinar"
+    },
+    "antidopaminérgico": {
+        "descricao": ""
+    },
+    "antídoto": {
+        "descricao": "contraveneno"
+    },
+    "antiemético": {
+        "descricao": "contra os vómitos"
+    },
+    "antiepiléptico": {
+        "descricao": "medicamento contra a epilepsia"
+    },
+    "antiestrogénico": {
+        "descricao": "que impede ou contraria o efeito das hormonas estrogénicas"
+    },
+    "antiexudativo": {
+        "descricao": "que impede a exsudação, a transpiração"
+    },
+    "antifibrinolítico": {
+        "descricao": ""
+    },
+    "antiflogístico": {
+        "descricao": "que combate a inflamação, anti-inflamatório"
+    },
+    "antifúngico": {
+        "descricao": "medicamento com os cogumelos ou leveduras parasitas no homem"
+    },
+    "antígeno": {
+        "descricao": "substância considerada estranha pelo organismo"
+    },
+    "revulsivo": {
+        "descricao": "antiléptico, contra-irritante, que provoca uma irritação destinada a aliviar outra"
+    },
+    "antimicótico": {
+        "descricao": "que impede a reprodução dos fungos"
+    },
+    "antimicrobiano": {
+        "descricao": "que impede o desenvolvimento de micróbios"
+    },
+    "antimitótico": {
+        "descricao": "que trava a divisão e crescimento das células"
+    },
+    "antioxidante": {
+        "descricao": "evita a deterioração de um produto por oxidação"
+    },
+    "antipirético": {
+        "descricao": "que reduz a febre, antitérmico, febrífugo, antifebril"
+    },
+    "antiproliferativo": {
+        "descricao": "que não deixa as células multiplicarem-se"
+    },
+    "antipruriginoso": {
+        "descricao": "antiprurítico, antipruritoso"
+    },
+    "antipsicótico": {
+        "descricao": "tranquilizante"
+    },
+    "antispasmódico": {
+        "descricao": "substância que combate as contraturas, cãibras e convulsões"
+    },
+    "antitoxina": {
+        "descricao": "combate as toxinas bacterianas"
+    },
+    "antitrombótico": {
+        "descricao": "que impede a formação de coágulos no sangue e dissolve-os"
+    },
+    "antitumor": {
+        "descricao": "que combate a formação de tumores"
+    },
+    "antitússico": {
+        "descricao": "que suprime ou combate a tosse"
+    },
+    "antiviral": {
+        "descricao": "que destrói ou impede o desenvolvimento de vírus"
+    },
+    "antraz": {
+        "descricao": "pústula maligna, baceira, mal-do-baço, mal-do-sangue"
+    },
+    "anúria": {
+        "descricao": "anurese, que não urina"
+    },
+    "ânus": {
+        "descricao": "orifício de saída do intestino, cu"
+    },
+    "anxiolítico": {
+        "descricao": "que combate a ansiedade, tranquilizante"
+    },
+    "furunculose": {
+        "descricao": "aparecimento de furúnculos"
+    },
+    "leucoplasia": {
+        "descricao": "aparecimento de uma mancha branca que pode preceder o aparecimento de um cancro nesse órgão"
+    },
+    "apatia": {
+        "descricao": "indiferença, aversão"
+    },
+    "aplasia": {
+        "descricao": "desenvolvimento defeituoso"
+    },
+    "apneia": {
+        "descricao": "apneustia; ausência de respiração"
+    },
+    "indicar": {
+        "descricao": "apontar"
+    },
+    "pós-parto": {
+        "descricao": "após o parto"
+    },
+    "pós-prandial": {
+        "descricao": "após uma refeição"
+    },
+    "apresentação": {
+        "descricao": "apresentação do feto em relação ao colo uterino"
+    },
+    "aproximado": {
+        "descricao": "aproximado"
+    },
+    "predisposição": {
+        "descricao": "aptidão do organismo para contrair certas doenças; vocação"
+    },
+    "aquoso": {
+        "descricao": "semelhante à água"
+    },
+    "aromático": {
+        "descricao": "cheiroso"
+    },
+    "opistótono": {
+        "descricao": "arqueamento posterior da cabeça e membros inferiores"
+    },
+    "arritmia": {
+        "descricao": "falata de ritmo regular, pulsação irregular"
+    },
+    "arritmogénico": {
+        "descricao": "que causa arritmia, pulsão irregular"
+    },
+    "eructação": {
+        "descricao": "arroto"
+    },
+    "arterial": {
+        "descricao": "relativo às artérias"
+    },
+    "artério-venoso": {
+        "descricao": "relativo a uma artéria e a uma veia"
+    },
+    "arteriografia": {
+        "descricao": "radiografia das artérias"
+    },
+    "arteriolar": {
+        "descricao": "relativo às pequenas artérias"
+    },
+    "arteriosclerose": {
+        "descricao": "esclerose das artérias"
+    },
+    "articular": {
+        "descricao": "relativo às articulações"
+    },
+    "artificial": {
+        "descricao": "não natural"
+    },
+    "artralgia": {
+        "descricao": "dor nas articulações"
+    },
+    "artrite": {
+        "descricao": "inflamação das articulações"
+    },
+    "artropatia": {
+        "descricao": "doença das articulações"
+    },
+    "artrose": {
+        "descricao": "destruição das articulações"
+    },
+    "ascite": {
+        "descricao": "barriga de água, hidropisia da cavidade abdominal, hidroperitoneu"
+    },
+    "inalação": {
+        "descricao": "aspiração de gases e vapores"
+    },
+    "assepsia": {
+        "descricao": "esterilização, ausência de micróbios"
+    },
+    "asséptico": {
+        "descricao": "esterilizado, sem germes"
+    },
+    "identificação": {
+        "descricao": "assimilação inconsciente com outra pessoa"
+    },
+    "assintomático": {
+        "descricao": "sem sintomas"
+    },
+    "assistir": {
+        "descricao": "auxiliar, presenciar, ajudar"
+    },
+    "assistolia": {
+        "descricao": "paragem cardíaco"
+    },
+    "associação": {
+        "descricao": "união, acoplamento, coordenação"
+    },
+    "astenia": {
+        "descricao": "fraqueza, cansaço físico intenso"
+    },
+    "insulto": {
+        "descricao": "ataque"
+    },
+    "ataxia": {
+        "descricao": "perca da coordenação muscular"
+    },
+    "inibição": {
+        "descricao": "atenuação, supressão ou bloqueamento de uma função ou reacção"
+    },
+    "ateromatose": {
+        "descricao": "depósito de gorduras nas artérias"
+    },
+    "atetose": {
+        "descricao": "movimentos descontrolados, atesia, doença de Hammond"
+    },
+    "atípico": {
+        "descricao": "irregular, anormal"
+    },
+    "pulverizador": {
+        "descricao": "atomizador, vaporizador, aparelho de pulverizar"
+    },
+    "atonia": {
+        "descricao": "ausência o deficiência da tensão de um tecido ou órgão"
+    },
+    "atóxico": {
+        "descricao": "não tóxico, não venenoso, não nocivo"
+    },
+    "atraso": {
+        "descricao": "desenvolvimento atrasado"
+    },
+    "hipotrofia": {
+        "descricao": "atraso de desenvolvimento"
+    },
+    "peroral": {
+        "descricao": "através da boca (ingestão de remédios, por exemplo)"
+    },
+    "percutâneo": {
+        "descricao": "através da pele"
+    },
+    "transcutâneo": {
+        "descricao": "através da pele intacta"
+    },
+    "atrial": {
+        "descricao": "relativo a uma câmara superior do coração"
+    },
+    "átrio": {
+        "descricao": "aurículo"
+    },
+    "atrioventricular": {
+        "descricao": "relativo a uma câmara superior e a um ventrículo do coração"
+    },
+    "atrofia": {
+        "descricao": "que não desenvolveu"
+    },
+    "auditivo": {
+        "descricao": "relativo ao ouvido e à audição"
+    },
+    "pico do débito": {
+        "descricao": "auge ou pico do fluxo, do débito"
+    },
+    "diabetes": {
+        "descricao": "aumento anormal da diurese; doença caracterizada pela presença de açúcar na origina)"
+    },
+    "fibrose": {
+        "descricao": "aumento anormal do tecido conjuntivo"
+    },
+    "hiperceratose": {
+        "descricao": "aumento da espessura da capa córnea da pele"
+    },
+    "hipertricose": {
+        "descricao": "aumento da espessura do pêlo do corpo"
+    },
+    "hiperbárico": {
+        "descricao": "aumento da pressão de O2 no sangue"
+    },
+    "hiperestesia": {
+        "descricao": "aumento da sensibilidade nervosa"
+    },
+    "hipertermia": {
+        "descricao": "aumento da temperatura, acaloramento"
+    },
+    "hipertensão": {
+        "descricao": "aumento da tensão"
+    },
+    "hipertonia": {
+        "descricao": "aumento da tensão no olho"
+    },
+    "eosinofilia": {
+        "descricao": "aumento das células eosinófilas no sangue"
+    },
+    "hiperlipidemia": {
+        "descricao": "aumento de lípidos no sangue"
+    },
+    "hipercapnia": {
+        "descricao": "aumento de O2 no sangue"
+    },
+    "hiperuricemia": {
+        "descricao": [
+            "excesso de ácido úrico no sangue",
+            "aumento do ácido úrico"
+        ]
+    },
+    "hiperplasia": {
+        "descricao": "aumento do desenvolvimento"
+    },
+    "hepatomegalia": {
+        "descricao": "aumento do fígado"
+    },
+    "leucocitose": {
+        "descricao": "aumento do número de glóbulos brancos em circulação"
+    },
+    "cardiomegália": {
+        "descricao": "aumento do tamanho do coração"
+    },
+    "hipervolemia": {
+        "descricao": "aumento dos fluidos no organismo"
+    },
+    "ginecomastia": {
+        "descricao": "aumento dos peitos"
+    },
+    "trombocitose": {
+        "descricao": "aumento exagerado do número de plaquetas no sangue"
+    },
+    "aura": {
+        "descricao": "sensação no início de um acesso de doença"
+    },
+    "aural": {
+        "descricao": "relativo à aura, percebido pelo ouvido"
+    },
+    "auricular": {
+        "descricao": "relativo à orelha; relativo a uma das câmaras superiores do coração"
+    },
+    "auscultação": {
+        "descricao": "auscultar (os ruídos produzidos no interior de um organismo) com o estetoscópio"
+    },
+    "ausência": {
+        "descricao": "perda momentânea do conhecimento"
+    },
+    "auto-imune": {
+        "descricao": "reacção anormal do organismo contra um dos seus próprios tecidos"
+    },
+    "replicação": {
+        "descricao": "autoduplicação, réplica"
+    },
+    "automatismo": {
+        "descricao": "automatismo"
+    },
+    "autónomo": {
+        "descricao": "independente, fora do controlo consciente"
+    },
+    "avaliação": {
+        "descricao": "avaliação"
+    },
+    "pirose": {
+        "descricao": "azia, sensação de calor no estômago"
+    },
+    "azospermia": {
+        "descricao": "que não tem espermatóides"
+    },
+    "azotemia": {
+        "descricao": "retenção no sangue de produtos azotados"
+    },
+    "bacilo": {
+        "descricao": "organismo microscópico em forma de filamento recto ou curvo"
+    },
+    "bactericida": {
+        "descricao": "que mata as bactérias"
+    },
+    "bacteriemia": {
+        "descricao": "presença de bactérias no sangue"
+    },
+    "bacteriológico": {
+        "descricao": "relativo ao estudo das bactérias"
+    },
+    "bacteriostático": {
+        "descricao": "que impede o desenvolvimento das bactérias"
+    },
+    "bacteróide": {
+        "descricao": ""
+    },
+    "hipotermia": {
+        "descricao": "baixa de temperatura"
+    },
+    "balanite": {
+        "descricao": "inflamação da glande do pénis"
+    },
+    "jacto": {
+        "descricao": "banho por duche"
+    },
+    "barreira": {
+        "descricao": "obstrução"
+    },
+    "basal": {
+        "descricao": "situado junto de uma base, normal"
+    },
+    "base": {
+        "descricao": "substância que forma sal combinada com um ácido; veículo neutro de um medicamento; superfície ou parte inferior de um órgão"
+    },
+    "substrato": {
+        "descricao": "base, substância básica"
+    },
+    "experimental": {
+        "descricao": "baseado em ensaios"
+    },
+    "empírico": {
+        "descricao": "baseado na experiência"
+    },
+    "pulsação": {
+        "descricao": "batimento cardíaco ou o fluxo do sangue nas artérias"
+    },
+    "recipiente": {
+        "descricao": "beneficiário"
+    },
+    "benigno": {
+        "descricao": "de pouca gravidade"
+    },
+    "betablocante": {
+        "descricao": ""
+    },
+    "betamimético": {
+        "descricao": "substância que imita a acção dos receptores adrenérgicos B"
+    },
+    "varíola bovina": {
+        "descricao": "bexigas da vaca"
+    },
+    "bifásico": {
+        "descricao": "que tem duas fases"
+    },
+    "bilateral": {
+        "descricao": "com dois lados, relativo a dois lados"
+    },
+    "biliar": {
+        "descricao": "relativo à vesícula biliar e ao fígado"
+    },
+    "bio-disponibilidade": {
+        "descricao": "medida de actividade de um medicamento ingerido"
+    },
+    "bio-equivalente": {
+        "descricao": "fármaco com potência e efeito similares a outra"
+    },
+    "biodegração": {
+        "descricao": "procedimento que transforma sistemas vivos em substâncias químicas nocivas"
+    },
+    "biológico": {
+        "descricao": "biológico"
+    },
+    "biopsia": {
+        "descricao": "diagnóstico através da remoção de uma porção do tecido vivo para exame"
+    },
+    "bioquímico": {
+        "descricao": "relativo à química dos processos vitais e organismos vivos"
+    },
+    "biossíntese": {
+        "descricao": "elaboração de um produto por um organismo vivo"
+    },
+    "biotransformação": {
+        "descricao": "transformação química de um composto no organismo"
+    },
+    "blefarite": {
+        "descricao": "inflamação das pálpebras"
+    },
+    "blister": {
+        "descricao": "frasco de X comprimidos recobertos de plástico"
+    },
+    "bloqueio": {
+        "descricao": "bloqueio"
+    },
+    "borborigmo": {
+        "descricao": "ruído no ventre pela deslocação de gases"
+    },
+    "bradicardia": {
+        "descricao": "ritmo cardíaco lento"
+    },
+    "bradicinesia": {
+        "descricao": "lentidão dos movimentos"
+    },
+    "bradipneia": {
+        "descricao": "ritmo respiratório lento"
+    },
+    "esclerótica": {
+        "descricao": "branco do olho"
+    },
+    "bronco-espasmo": {
+        "descricao": "espasmo dos brônquios, asma"
+    },
+    "broncoconstricção": {
+        "descricao": "contracção dos brônquios"
+    },
+    "broncodilatação": {
+        "descricao": "dilação dos brônquios"
+    },
+    "broncopneumonia": {
+        "descricao": "pneumonia dos brônquios"
+    },
+    "broncopulmonar": {
+        "descricao": "relativo aos brônquios e pulmões"
+    },
+    "bronquectasia": {
+        "descricao": "dilatação patológica dos brônquios"
+    },
+    "bronquial": {
+        "descricao": "brônquico, dos brônquios"
+    },
+    "brônquio": {
+        "descricao": "brônquio"
+    },
+    "bronquite": {
+        "descricao": "inflamação dos brônquios"
+    },
+    "bucal": {
+        "descricao": "relativo à boca, oral"
+    },
+    "bucofaríngeo": {
+        "descricao": "relativo à boca e à garganta"
+    },
+    "bulbar": {
+        "descricao": "relativo ao bolbo (raquidiano)"
+    },
+    "buloso": {
+        "descricao": "com bolhas ou ampolas"
+    },
+    "bursite": {
+        "descricao": "inflamação de uma bolsa"
+    },
+    "hidrocefalia": {
+        "descricao": "cabeça de água"
+    },
+    "taquiarritmia": {
+        "descricao": "cadência rápida do ritmo do coração; arritmia rápida"
+    },
+    "calcemia": {
+        "descricao": "nível de cálcio no sangue"
+    },
+    "calcificação": {
+        "descricao": "degenerescência calcária, infiltração calcária"
+    },
+    "calciúria": {
+        "descricao": "cálcio nas urinas"
+    },
+    "cálculo": {
+        "descricao": [
+            "pedra",
+            "depósito calcário (nos dentes)"
+        ]
+    },
+    "nefrólito": {
+        "descricao": "cálculo renal, cálculo do rim"
+    },
+    "neuroléptico": {
+        "descricao": "calmante do sistema nervoso"
+    },
+    "sedativo": {
+        "descricao": "calmante, anódino, paregórico"
+    },
+    "camada superficial": {
+        "descricao": ""
+    },
+    "canal": {
+        "descricao": "conduto"
+    },
+    "neoplástico": {
+        "descricao": "canceroso, neoplásico"
+    },
+    "mielomatose": {
+        "descricao": "cancro da medula do osso, doença de Kahler"
+    },
+    "candidíase": {
+        "descricao": "infecção por fungo do género Candida"
+    },
+    "cânula": {
+        "descricao": "tubo utilizado em cirurgia"
+    },
+    "endotélio": {
+        "descricao": "capa interna que reveste as cavidades cardíacas e os vasos sanguíneos e linfáticos"
+    },
+    "capacidade": {
+        "descricao": "lotação, potência"
+    },
+    "contractibilidade": {
+        "descricao": "capacidade de contracção"
+    },
+    "tolerância": {
+        "descricao": "capacidade de suportar doses elevadas de uma droga tóxica"
+    },
+    "variabilidade": {
+        "descricao": "capacidade de variação"
+    },
+    "reactividade": {
+        "descricao": "capacidade para apresentar reacções"
+    },
+    "capacidade vital": {
+        "descricao": "volume de gás que pode expulsar-se dos pulmões"
+    },
+    "capilar": {
+        "descricao": "pertencente ao cabelo, filiforme"
+    },
+    "caquexia": {
+        "descricao": "perda do peso e enfraquecimento físico"
+    },
+    "específico": {
+        "descricao": "característico de uma espécie ou de uma doença"
+    },
+    "nodoso": {
+        "descricao": "caracterizado por pequenos nós sólidos"
+    },
+    "carboidrato": {
+        "descricao": "hidrato de carbono"
+    },
+    "carcinogénico": {
+        "descricao": "que provoca o cancro, cancerígeno"
+    },
+    "carcinoma": {
+        "descricao": "tumor maligno, cancro, câncer"
+    },
+    "cardíaco": {
+        "descricao": "relativo ao coração"
+    },
+    "cardiogénico": {
+        "descricao": "que é consequência de uma deficiência do coração"
+    },
+    "cardiológico": {
+        "descricao": "cardiológico"
+    },
+    "cardiomiopatia": {
+        "descricao": "transtorno crónico que afecta o músculo cardíaco"
+    },
+    "cardiopatia": {
+        "descricao": "doença do coração, enfermidade do coração"
+    },
+    "cardiopulmonar": {
+        "descricao": "relativo ao coração e pulmões"
+    },
+    "cardiorespiratório": {
+        "descricao": "relativo ao coração e à respiração"
+    },
+    "cardiosselectivo": {
+        "descricao": "que age só no coração"
+    },
+    "cardiotónico": {
+        "descricao": "que estimula o coração"
+    },
+    "cardiotóxico": {
+        "descricao": "tóxico para o coração"
+    },
+    "cardiovascular": {
+        "descricao": "relativo ao coração e vasos sanguíneos"
+    },
+    "deficiência": {
+        "descricao": "carência"
+    },
+    "cárie": {
+        "descricao": "deterioração dentária"
+    },
+    "gânglio": {
+        "descricao": "caroço"
+    },
+    "catabolismo": {
+        "descricao": "degradação das substâncias alimentares no organismo"
+    },
+    "catarata": {
+        "descricao": "opacidade do cristalino do olho"
+    },
+    "catarro": {
+        "descricao": "inflamação da membrana mucosa do nariz"
+    },
+    "gastrite": {
+        "descricao": "catarro gástrico"
+    },
+    "enterite": {
+        "descricao": "catarro intestinal, colite"
+    },
+    "cateter": {
+        "descricao": "sonda, algália"
+    },
+    "cateterismo": {
+        "descricao": "introdução de uma sonda numa cavidade"
+    },
+    "caudal": {
+        "descricao": "relativo ou em direcção da cauda"
+    },
+    "factor": {
+        "descricao": "causa, agente, meio; número"
+    },
+    "causal": {
+        "descricao": "causal"
+    },
+    "cáustico": {
+        "descricao": "corrosivo"
+    },
+    "lúmen": {
+        "descricao": "cavidade ou canal dentro de um órgão em forma de tubo"
+    },
+    "cefalalgia": {
+        "descricao": "cefaleia, dor de cabeça"
+    },
+    "cefaleia": {
+        "descricao": "dor de cabeça, enxaqueca"
+    },
+    "hemeralopia": {
+        "descricao": "cegueira diurna"
+    },
+    "químio-receptor": {
+        "descricao": "célula capaz de receber substâncias químicas"
+    },
+    "recombinante": {
+        "descricao": "célula com nova combinação genética, não herdada dos pais"
+    },
+    "mastócito": {
+        "descricao": "célula de Mast"
+    },
+    "celulite": {
+        "descricao": "inflamação crónica do tecido celular"
+    },
+    "cerúmen": {
+        "descricao": "cera dos ouvidos"
+    },
+    "ceratite": {
+        "descricao": "inflamação da córnea"
+    },
+    "ceratoconjuntivite": {
+        "descricao": "inflamação da córnea e da conjuntiva do olho"
+    },
+    "cerebelar": {
+        "descricao": "relativo ao cerebelo"
+    },
+    "cerebral": {
+        "descricao": "relativo ao cérebro"
+    },
+    "cerebrospinal": {
+        "descricao": "relativo ao cérebro e à medula espinal, cefalorraquídeo"
+    },
+    "cerebrovascular": {
+        "descricao": "que afecta os vasos cerebrais"
+    },
+    "cervical": {
+        "descricao": "que afecta o colo ou o colo de um órgão"
+    },
+    "menopausa": {
+        "descricao": "cessação da menstruação na mulher"
+    },
+    "ceto-acidose": {
+        "descricao": "excesso de ácidos e corpos cetónicos no sangue"
+    },
+    "úlcera": {
+        "descricao": "chaga, ferida"
+    },
+    "odor": {
+        "descricao": "cheiro"
+    },
+    "choque": {
+        "descricao": "comoção, abalo, golpe"
+    },
+    "cianose": {
+        "descricao": "coloração azulada da pele e das mucosas"
+    },
+    "ciática": {
+        "descricao": "nevralgia ciática"
+    },
+    "quelóide": {
+        "descricao": "cicatriz defeituosa"
+    },
+    "cicatrização": {
+        "descricao": "cicatrização"
+    },
+    "cíclico": {
+        "descricao": "relativo a um ciclo, que passa por etapas sucessivas"
+    },
+    "periódico": {
+        "descricao": "cíclico, regular"
+    },
+    "ciclo": {
+        "descricao": "período"
+    },
+    "cicloderma": {
+        "descricao": "cicloderma"
+    },
+    "cicloplegia": {
+        "descricao": "paralisia da pupila do globo ocular"
+    },
+    "farmacocinética": {
+        "descricao": "ciência que se ocupa do efeito exercido pelo organismo sobre o medicamento"
+    },
+    "cinético": {
+        "descricao": "pertencente a ou que produz o movimento"
+    },
+    "circulação": {
+        "descricao": "circulação"
+    },
+    "indicação": {
+        "descricao": "circunstância que indica a utilização de uma terapia"
+    },
+    "cirúrgico": {
+        "descricao": "cirúrgico, relativo a uma operação"
+    },
+    "cistite": {
+        "descricao": "inflamação da bexiga"
+    },
+    "cistoscopia": {
+        "descricao": "exame do interior da bexiga com o cistoscópio"
+    },
+    "citocrómio": {
+        "descricao": "grupo de opostos aparentados com a hemoglobina do sangue"
+    },
+    "citoplasma": {
+        "descricao": "parte da célula não ocupada pelo núcleo"
+    },
+    "citostático": {
+        "descricao": "que pára a multiplicação das células"
+    },
+    "citotóxico": {
+        "descricao": "que é tóxico para as células; detém o crescimento dos tecidos"
+    },
+    "clássico": {
+        "descricao": "típico, característico"
+    },
+    "classificação": {
+        "descricao": "classificação"
+    },
+    "claudicação": {
+        "descricao": "coxeadura"
+    },
+    "clínico": {
+        "descricao": "relativo à clínica; baseado na observação e no tratamento"
+    },
+    "enema": {
+        "descricao": "clister, irrigação"
+    },
+    "clitórico": {
+        "descricao": "relativo ao clítoris"
+    },
+    "cloaca": {
+        "descricao": "saco terminal do tubo digestivo (aves e répteis)"
+    },
+    "cloasma": {
+        "descricao": "manchas irregulares que aparecem geralmente na cara"
+    },
+    "clónico": {
+        "descricao": ""
+    },
+    "co-enzima": {
+        "descricao": "coenzima, co-factor"
+    },
+    "coagulação": {
+        "descricao": "formação de coágulos no sangue"
+    },
+    "trombose": {
+        "descricao": "coagulação do sangue numa artéria ou veia, com bloqueio da circulação"
+    },
+    "trombo": {
+        "descricao": "coágulo de sangue num vaso sanguíneo"
+    },
+    "coclear": {
+        "descricao": "pertencente ao caracol ósseo do ouvido interno"
+    },
+    "cognitivo": {
+        "descricao": "relativo ao conhecimento; intelectivo"
+    },
+    "coito": {
+        "descricao": "cópula, acto sexual"
+    },
+    "dispareunia": {
+        "descricao": "coito doloroso"
+    },
+    "colagénio": {
+        "descricao": "proteína que constitui o principal componente do tecido conjuntivo"
+    },
+    "colangiografia": {
+        "descricao": "radiografia de contraste das condutas biliares"
+    },
+    "colangite": {
+        "descricao": "inflamação das vias biliares"
+    },
+    "colapso": {
+        "descricao": "queda rápida da tensão arterial; enfraquecimento de um órgão"
+    },
+    "colecistite": {
+        "descricao": "inflamação da vesícula biliar"
+    },
+    "colelitíase": {
+        "descricao": "presença de pedras nas condutas biliares, litíase biliar"
+    },
+    "colerético": {
+        "descricao": "substância que favorece a produção de fel"
+    },
+    "colestase": {
+        "descricao": "retenção de fel nas condutas"
+    },
+    "colesterol": {
+        "descricao": "substância lipóide que se encontra na maior parte dos tecidos"
+    },
+    "colinérgico": {
+        "descricao": "que actua por intermédio da acetilcolina"
+    },
+    "colírio": {
+        "descricao": "medicamento para cuidar dos olhos"
+    },
+    "colite": {
+        "descricao": "inflamação do intestino grosso, catarro intestinal, enterite"
+    },
+    "colo do útero": {
+        "descricao": "colo do útero"
+    },
+    "coloidal": {
+        "descricao": "da natureza da cola de gelatina"
+    },
+    "coloníquia": {
+        "descricao": "unha em forma de colher"
+    },
+    "colopatia": {
+        "descricao": "doença do cólon"
+    },
+    "melanose": {
+        "descricao": "coloração obscura superficial da pele ou das mucosas"
+    },
+    "colorectal": {
+        "descricao": "referente ao intestino grosso e à sua parte final"
+    },
+    "escamoso": {
+        "descricao": "com escamas"
+    },
+    "tubular": {
+        "descricao": "com forma de tubo; tubuloso"
+    },
+    "hipotenso": {
+        "descricao": "com tensão ou pressão baixa"
+    },
+    "normotenso": {
+        "descricao": "com tensão ou pressão normal"
+    },
+    "comatoso": {
+        "descricao": "em coma, que se acompanha de coma"
+    },
+    "combinação": {
+        "descricao": "combinação"
+    },
+    "lipoproteína": {
+        "descricao": "combinação de uma gordura e uma proteína"
+    },
+    "síntese": {
+        "descricao": "combinação; formação de substâncias in vitro por meios artificiais"
+    },
+    "comedão": {
+        "descricao": "variedade de acne"
+    },
+    "comensal": {
+        "descricao": "ser vivo que convive com outro organismo hóspede"
+    },
+    "prurido": {
+        "descricao": "comichão"
+    },
+    "comoção": {
+        "descricao": "sacudidela violenta, golpe violento, pressão violenta"
+    },
+    "compatível": {
+        "descricao": "que pode ser administrado juntamente com outro medicamento"
+    },
+    "compensação": {
+        "descricao": "compensação"
+    },
+    "competitivo": {
+        "descricao": "competitivo"
+    },
+    "complacente": {
+        "descricao": "que se compadece com os males ou desventuras de outrem; simpático"
+    },
+    "complementar": {
+        "descricao": "suplementar, adicional, auxiliar"
+    },
+    "complemento": {
+        "descricao": "complemento"
+    },
+    "complexo": {
+        "descricao": "composto, grupo"
+    },
+    "síndroma": {
+        "descricao": "complexo mórbido, conjunto de sintomas"
+    },
+    "complexo QRS": {
+        "descricao": "onda rápida, ondas iniciais do complexo ventricular"
+    },
+    "complicação": {
+        "descricao": "complicação, agravamento"
+    },
+    "sequela": {
+        "descricao": "complicação mais ou menos tardia de uma doença, doença consecutiva"
+    },
+    "componente": {
+        "descricao": "ingrediente"
+    },
+    "fístula": {
+        "descricao": "comunicação anormal entre dois órgãos entre si ou com o exterior"
+    },
+    "concentração": {
+        "descricao": "grau, riqueza"
+    },
+    "osmolalidade": {
+        "descricao": "concentração de partículas osmoticamente activas em solução"
+    },
+    "osmolaridade": {
+        "descricao": "concentração de partículas osmoticamente activas em solução"
+    },
+    "concepção": {
+        "descricao": "fecundação"
+    },
+    "concreto": {
+        "descricao": "concreto"
+    },
+    "condição": {
+        "descricao": "estado geral, capacidade física de um indivíduo"
+    },
+    "estado": {
+        "descricao": "condição, situação; crise ou ponto culminante"
+    },
+    "condiloma": {
+        "descricao": "excrescência similar à verruga"
+    },
+    "condução": {
+        "descricao": "transmissão"
+    },
+    "electrólito": {
+        "descricao": "condutor de segunda classe, ácido para acumuladores"
+    },
+    "confusão": {
+        "descricao": "confusão"
+    },
+    "congénito": {
+        "descricao": "presente desde a nascença, mas não necessariamente hereditário"
+    },
+    "congestão": {
+        "descricao": "excesso de sangue numa parte do organismo"
+    },
+    "enfarte": {
+        "descricao": "congestão e bloqueamento de um vaso sanguíneo; infarto, infartação"
+    },
+    "conjugação": {
+        "descricao": "conjugação"
+    },
+    "conjugado": {
+        "descricao": "simultâneo"
+    },
+    "conjuntivite": {
+        "descricao": "inflamação da conjuntiva"
+    },
+    "flora intestinal": {
+        "descricao": "conjunto de bactérias no intestino grosso"
+    },
+    "metabolismo": {
+        "descricao": "conjunto de reacções bioquímicas dentro do organismo"
+    },
+    "tirotoxicose": {
+        "descricao": "conjunto de sintomas devido a um excesso de hormonas tiróides"
+    },
+    "herpes simplex": {
+        "descricao": "conjunto de vesículas inflamadas à volta da boca"
+    },
+    "conselho": {
+        "descricao": "conselho, aviso"
+    },
+    "conserva": {
+        "descricao": "conserva"
+    },
+    "integridade": {
+        "descricao": "conservação inalterada"
+    },
+    "retenção": {
+        "descricao": "conservação, dentro do corpo, de materiais ou líquidos que se excretam normalmente"
+    },
+    "conservador": {
+        "descricao": "sem intervenção cirúrgica"
+    },
+    "maculopapular": {
+        "descricao": "consistente em manchas e pápulas, borbulhas"
+    },
+    "constitucional": {
+        "descricao": "próprio à constituição de um indivíduo"
+    },
+    "tricíclico": {
+        "descricao": "constituído por três anéis entrelaçados"
+    },
+    "deplecção": {
+        "descricao": "consumo anormal de substâncias pelo próprio corpo"
+    },
+    "contacto": {
+        "descricao": "toque; indivíduo que esteve em relação com pessoa portadora de doença contagiosa"
+    },
+    "infecção cruzada": {
+        "descricao": "contágio mútuo entre duas pessoas por doenças infecciosas diferentes"
+    },
+    "contaminação": {
+        "descricao": "inquinamento, poluição"
+    },
+    "séptico": {
+        "descricao": "contaminado por germes, podre"
+    },
+    "simultâneo": {
+        "descricao": "contemporâneo"
+    },
+    "progressivo": {
+        "descricao": "continuado, que avança lentamente"
+    },
+    "contínuo": {
+        "descricao": "persistente"
+    },
+    "contra-indicação": {
+        "descricao": "contra-indicação"
+    },
+    "contracção": {
+        "descricao": "contracção"
+    },
+    "fasciculação": {
+        "descricao": "contracção de grupos de músculos"
+    },
+    "retracção": {
+        "descricao": [
+            "retirada, supressão",
+            "contracção, retraimento, encolhimento de um órgão ou tecido"
+        ]
+    },
+    "fibrilação": {
+        "descricao": "contracções desordenadas e ineficientes do coração"
+    },
+    "convulsão": {
+        "descricao": "contracções involuntárias desordenadas de músculos"
+    },
+    "contracepção": {
+        "descricao": "contraconcepção, anticoncepção"
+    },
+    "contraceptivo": {
+        "descricao": "que impede a gravidez"
+    },
+    "espasticidade": {
+        "descricao": "contractura muscular"
+    },
+    "paradoxal": {
+        "descricao": "contraditório, inabitual"
+    },
+    "contratura": {
+        "descricao": "espasmo, contracção persistente e involuntária de um ou mais"
+    },
+    "vigilância": {
+        "descricao": [
+            "estado de alerta ou observação",
+            "controlo ou supervisão com ajuda de um monitor"
+        ]
+    },
+    "contusão": {
+        "descricao": "ferida; lesão interna por golpe, compressão ou choque"
+    },
+    "convencional": {
+        "descricao": "convencional"
+    },
+    "conversão": {
+        "descricao": "transformação; transformação das emoções em manifestações corporais"
+    },
+    "eclampsia": {
+        "descricao": "convulsões e queda da tensão nas mulheres grávidas"
+    },
+    "coordenação": {
+        "descricao": "coordenação"
+    },
+    "livedo": {
+        "descricao": "cor avermelhada da pele"
+    },
+    "cor pulmonar": {
+        "descricao": "doença do coração causada por perturbações pulmonares"
+    },
+    "coreia": {
+        "descricao": "movimentos bruscos incontrolados nas crianças"
+    },
+    "córnea": {
+        "descricao": "parte anterior transparente do olho"
+    },
+    "coronário": {
+        "descricao": "relativo a artérias e veias do coração"
+    },
+    "imobilização": {
+        "descricao": "corpo em repouso, ou alguma das suas partes"
+    },
+    "corpo lúteo": {
+        "descricao": "corpo que se forma no ovário após a ovulação"
+    },
+    "físico": {
+        "descricao": "corporal, que se percebe pelos sentidos"
+    },
+    "partícula": {
+        "descricao": "corpúsculo, parte elementar"
+    },
+    "correcção": {
+        "descricao": "substância que corrige a acção ou o sabor de um medicamento; compensação, rectificação"
+    },
+    "correlação": {
+        "descricao": "relação recíproca ou mútua"
+    },
+    "corresponder": {
+        "descricao": "que equivale"
+    },
+    "corrimento": {
+        "descricao": "flúor branco"
+    },
+    "lóquios": {
+        "descricao": "corrimento após o parto"
+    },
+    "leucorreia": {
+        "descricao": "corrimento mucoso de cor branca oriundo da vagina; flores-brancas"
+    },
+    "rinorreia": {
+        "descricao": "corrimento nasal"
+    },
+    "incisão": {
+        "descricao": "corte"
+    },
+    "osteotomia": {
+        "descricao": "corte cirúrgico do osso"
+    },
+    "episiotomia": {
+        "descricao": "corte vaginal para facilitar o parto"
+    },
+    "ressecção": {
+        "descricao": "corte, extirpação cirúrgica parcial ou total de um órgão"
+    },
+    "rágade": {
+        "descricao": "corte, fissura"
+    },
+    "córtice": {
+        "descricao": "córtex, cortiça; camada exterior distinta de um órgão"
+    },
+    "cortical": {
+        "descricao": "relativo ao córtex"
+    },
+    "corticosteróide": {
+        "descricao": "corticóide; hormonas essenciais à vida formada no córtex das glândulas supra-renais"
+    },
+    "cosmético": {
+        "descricao": "preparado para a higiene e beleza"
+    },
+    "coxalgia": {
+        "descricao": "dor na articulação da coxa"
+    },
+    "craniano": {
+        "descricao": "relativo ao crânio"
+    },
+    "creatinemia": {
+        "descricao": "presença de creatina no sangue"
+    },
+    "estabilização": {
+        "descricao": "criação de um estado estável"
+    },
+    "crise": {
+        "descricao": "pioramento repentino, ataque"
+    },
+    "epilepsia": {
+        "descricao": "crises convulsivas"
+    },
+    "vítreo": {
+        "descricao": "cristalino"
+    },
+    "cristalização": {
+        "descricao": "formação de cristais"
+    },
+    "cristalúria": {
+        "descricao": "formação de cristais na urina"
+    },
+    "critério": {
+        "descricao": "regra"
+    },
+    "cromossómico": {
+        "descricao": "relativo ao cromossoma"
+    },
+    "crónico": {
+        "descricao": "de desenvolvimento lento, de longa duração"
+    },
+    "cronotrópico": {
+        "descricao": "diz respeito à regularidade e frequência de um ritmo cardíaco"
+    },
+    "curarizar": {
+        "descricao": "submeter o curativo a cura; substância que afecta os músculos"
+    },
+    "curativo": {
+        "descricao": "que cura, terapêutico"
+    },
+    "curetagem": {
+        "descricao": "raspagem"
+    },
+    "curva": {
+        "descricao": "diagrama"
+    },
+    "esputo": {
+        "descricao": "cuspo, cuspe, saliva, escarro"
+    },
+    "cutâneo": {
+        "descricao": "da pele"
+    },
+    "homogéneo": {
+        "descricao": "da mesma categoria, da mesma espécie, de estrutura igual; que tem as mesmas funções"
+    },
+    "dador": {
+        "descricao": "pessoa que oferece um órgão, sangue, etc"
+    },
+    "lacrimal": {
+        "descricao": "das lágrimas"
+    },
+    "idiopático": {
+        "descricao": "de causa desconhecida, primário, espontâneo"
+    },
+    "equivalente": {
+        "descricao": "de igual valor"
+    },
+    "nocturno": {
+        "descricao": "de noite, da noite"
+    },
+    "repetitivo": {
+        "descricao": "de repetição"
+    },
+    "exócrino": {
+        "descricao": "de secreção externa"
+    },
+    "monocomponente": {
+        "descricao": "de um só componente"
+    },
+    "unilateral": {
+        "descricao": "de um só lado"
+    },
+    "veia varicosa": {
+        "descricao": "de varicose, isto é, inflamação provocada por varizes; varicosidade"
+    },
+    "ocasional": {
+        "descricao": "de vez em quando"
+    },
+    "de(s)compensação": {
+        "descricao": "desengano (do doente da gravidade do seu mal)"
+    },
+    "de(s)polarização": {
+        "descricao": "despolarização"
+    },
+    "decoro": {
+        "descricao": "decência; pundonor; coisa preventiva"
+    },
+    "decúbito": {
+        "descricao": "deitado de costas; formação de necroses na pele ou nas mucosas por permanência prolongada na cama"
+    },
+    "defecação": {
+        "descricao": "evacuação dos excrementos"
+    },
+    "ictiose": {
+        "descricao": "defeito hereditário da pele; pele de peixe"
+    },
+    "fibrose cística": {
+        "descricao": "defeito hereditário de muitas glândulas"
+    },
+    "défice": {
+        "descricao": "deficiência, falta"
+    },
+    "leucopenia": {
+        "descricao": "deficiência de glóbulos brancos no sangue"
+    },
+    "malformação": {
+        "descricao": "deformação"
+    },
+    "osteodistrofia": {
+        "descricao": "deformação, distrofia, dos ossos"
+    },
+    "degenerativo": {
+        "descricao": "que produz degeneração"
+    },
+    "ingestão": {
+        "descricao": "deglutição de alimentos ou outras substâncias para o interior do tubo digestivo"
+    },
+    "degradação": {
+        "descricao": "degradação"
+    },
+    "involução": {
+        "descricao": "degradação e perda funcional dos órgãos com a idade; regressão das dimensões do útero e das estruturas envolventes após o parto"
+    },
+    "supino": {
+        "descricao": "deitado de costas"
+    },
+    "delírio": {
+        "descricao": "perturbação mental por traumatismo, febre, envenenamento, etc. com confusão mental"
+    },
+    "mania": {
+        "descricao": "delírio maníaco, delírio furioso"
+    },
+    "paranóia": {
+        "descricao": "delírio, loucura raciocinante, monomania"
+    },
+    "excessivo": {
+        "descricao": "demasiado"
+    },
+    "demulcente": {
+        "descricao": "que alivia as zonas inflamadas; suavizante"
+    },
+    "dendrítico": {
+        "descricao": "ramificado, relativo às dendrites (fibras nervosas)"
+    },
+    "dentição": {
+        "descricao": "rompimento dos dentes"
+    },
+    "intraindividual": {
+        "descricao": "dentro do indivíduo"
+    },
+    "dependência": {
+        "descricao": "dependência de drogas"
+    },
+    "dependente": {
+        "descricao": "dependente"
+    },
+    "pós-operativo": {
+        "descricao": "depois de uma operação"
+    },
+    "pós-natal": {
+        "descricao": "depois do nascimento"
+    },
+    "sedimentação": {
+        "descricao": "depósito de partículas sólidas de uma solução no fundo de um recipiente"
+    },
+    "tofo": {
+        "descricao": "depósito nos tecidos, principalmente de ácido úrico e seus sais, característico da gota"
+    },
+    "sedimento": {
+        "descricao": "depósito, assento, lia, pé, borra(s)"
+    },
+    "reservatório": {
+        "descricao": "depósito, cavidade que serve de armazém"
+    },
+    "depuração": {
+        "descricao": "eliminação de certas substâncias do sangue"
+    },
+    "derivado": {
+        "descricao": "derivado"
+    },
+    "microssómico": {
+        "descricao": "derivado dos microssomas"
+    },
+    "dermatite": {
+        "descricao": "inflamação da pele"
+    },
+    "eczema": {
+        "descricao": "dermatite; inflamação da pele"
+    },
+    "dermatofitia": {
+        "descricao": "doença da pele causada pelos fungos do grupo dos dermatófitos"
+    },
+    "dermatológico": {
+        "descricao": "relativo à pele"
+    },
+    "dermatomicose": {
+        "descricao": "doença da pele causada pelos fungos"
+    },
+    "dermatose": {
+        "descricao": "doença da pele"
+    },
+    "dermografia": {
+        "descricao": "reacção local da pele a uma irritação mecânica ou efeito de pressão"
+    },
+    "efusão": {
+        "descricao": "derrame"
+    },
+    "extravasação": {
+        "descricao": "derrame do fluido de um vaso para os tecidos circundantes devido a uma lesão"
+    },
+    "equimose": {
+        "descricao": "derrame sanguíneo na pele traumatizada; contusão"
+    },
+    "pitiríase": {
+        "descricao": "descamação da pele"
+    },
+    "esfoliação": {
+        "descricao": [
+            "(d)escamação",
+            "descamação, escamação",
+            "escamação, descamação"
+        ]
+    },
+    "detecção": {
+        "descricao": "descoberta, revelação"
+    },
+    "disforia": {
+        "descricao": "desconforto psíquico, mal-estar, indisposição"
+    },
+    "descongestionante": {
+        "descricao": "substância que alivia a congestão nasal"
+    },
+    "dissociação": {
+        "descricao": "desdobramento; descomposição de uma célula"
+    },
+    "tenesmo": {
+        "descricao": "desejo doloroso e ineficaz de urinar ou defecar"
+    },
+    "líbido": {
+        "descricao": "desejo sexual"
+    },
+    "evolução": {
+        "descricao": "desenvolvimento"
+    },
+    "hirsutismo": {
+        "descricao": "desenvolvimento exagerado do sistema piloso"
+    },
+    "displasia": {
+        "descricao": "desenvolvimento histológico anormal"
+    },
+    "prejudicial": {
+        "descricao": "desfavorável, adverso"
+    },
+    "desfibrilhação": {
+        "descricao": "restabelecimento da pulsação cardíaca"
+    },
+    "esfoladela": {
+        "descricao": "desgaste, raspagem, erosão de origem químico-física"
+    },
+    "erosão": {
+        "descricao": "desgaste; destruição ou ulceração de um tecido"
+    },
+    "desidratação": {
+        "descricao": "falta de água no corpo"
+    },
+    "desinfectante": {
+        "descricao": "que desinfecta"
+    },
+    "desintoxicação": {
+        "descricao": "diminuição das propriedades nocivas de um veneno"
+    },
+    "deslocação": {
+        "descricao": "deslocação (de um osso, por exemplo)"
+    },
+    "luxação": {
+        "descricao": "deslocação dos ossos de uma articulação"
+    },
+    "protrusão": {
+        "descricao": "deslocação para a frente de um órgão"
+    },
+    "desorientação": {
+        "descricao": "desorientação"
+    },
+    "despersonalização": {
+        "descricao": "perda da própria personalidade"
+    },
+    "despigmentação": {
+        "descricao": "escassez ou carência total de pigmentação da pele"
+    },
+    "ovulação": {
+        "descricao": "desprendimento natural do óvulo"
+    },
+    "dessensibilização": {
+        "descricao": "terapia destinada a reduzir uma alergia"
+    },
+    "destilar": {
+        "descricao": "destilar, separar (por destilação)"
+    },
+    "fungicida": {
+        "descricao": "destruição de fungos"
+    },
+    "osteólise": {
+        "descricao": "destruição dos ossos"
+    },
+    "estrabismo": {
+        "descricao": "desvio de um olho da sua direcção normal"
+    },
+    "perversão": {
+        "descricao": "desvio sexual"
+    },
+    "detergente": {
+        "descricao": "detergente"
+    },
+    "diaforese": {
+        "descricao": [
+            "transpiração, (secreção de) suor",
+            "secreção de suor"
+        ]
+    },
+    "diagnóstico": {
+        "descricao": "identificação ou reconhecimento das doenças"
+    },
+    "diálise": {
+        "descricao": "difusão selectiva mediante uma membrana que serve como filtro molecular"
+    },
+    "diâmetro": {
+        "descricao": "diâmetro"
+    },
+    "diarreia": {
+        "descricao": "emissão frequente de fezes líquidas"
+    },
+    "diastólico": {
+        "descricao": "relativo à disástole (fase de relaxamento do músculo cardíaco)"
+    },
+    "diatermia": {
+        "descricao": "produção de calor num tecido por correntes eléctricas de alta frequência"
+    },
+    "diátese": {
+        "descricao": "tendência para um determinado tipo de doença"
+    },
+    "didralcoólico": {
+        "descricao": "preparado com alcool diluído"
+    },
+    "diferenciação": {
+        "descricao": "variação; desenvolvimento de células e tecidos em diversos sentidos"
+    },
+    "hemofilia": {
+        "descricao": "dificuldade de coagulação do sangue"
+    },
+    "obstipação": {
+        "descricao": "dificuldade de expelir os excrementos, prisão de ventre"
+    },
+    "dispneia": {
+        "descricao": "dificuldade de respirar"
+    },
+    "disúria": {
+        "descricao": "dificuldade em urinar"
+    },
+    "disfagia": {
+        "descricao": "dificuldade na deglutição"
+    },
+    "discinesia": {
+        "descricao": "dificuldade nos movimentos voluntários"
+    },
+    "difteria": {
+        "descricao": "garrotilho"
+    },
+    "difusão": {
+        "descricao": "movimento de moléculas num fluido de uma zona de alta concentração para outra de baixa concentração; dispersão"
+    },
+    "difuso": {
+        "descricao": "disperso"
+    },
+    "digestivo": {
+        "descricao": "relativo à digestão"
+    },
+    "digitalização": {
+        "descricao": "tratamento de uma doença com digital"
+    },
+    "dilatação": {
+        "descricao": "expansão de um órgão; alargamento"
+    },
+    "dilatação pupilar": {
+        "descricao": "dilatação das pupilas"
+    },
+    "telangiectasia": {
+        "descricao": "dilatação de vasos terminais, sobretudo na cara"
+    },
+    "vasodilatação": {
+        "descricao": "dilatação dos vasos sanguíneos"
+    },
+    "surdez": {
+        "descricao": [
+            "surdez",
+            "diminuição da audição"
+        ]
+    },
+    "oliguria": {
+        "descricao": "diminuição da produção de urina"
+    },
+    "hipoxemie": {
+        "descricao": "diminuição de O2 no sangue"
+    },
+    "hipoxia": {
+        "descricao": "diminuição de O2 no sangue"
+    },
+    "hipocalemia": {
+        "descricao": "diminuição de potássio no sangue"
+    },
+    "isquemia": {
+        "descricao": "diminuição de suprimento arterial a um órgão ou região a níveis condicionantes de lesão tecidular ainda reversível"
+    },
+    "pacitopenia": {
+        "descricao": "diminuição de todos os glóbulos brancos"
+    },
+    "oligomenorreia": {
+        "descricao": "diminuição do fluxo menstrual"
+    },
+    "hipoglicemia": {
+        "descricao": "diminuição do nível de glicose no sangue"
+    },
+    "trombocitopenia": {
+        "descricao": "diminuição do número de plaquetas no sangue"
+    },
+    "hipovolemia": {
+        "descricao": "diminuição do sangue circulante"
+    },
+    "hiperventilação": {
+        "descricao": [
+            "respiração difícil, rápida e profunda; aumento do volume de ar que entra nos pulmões",
+            "diminuição do volume de ar que entra nos pulmões; respiração lenta e superficial"
+        ]
+    },
+    "granulopenia": {
+        "descricao": "diminuição dos glóbulos brancos"
+    },
+    "remissão": {
+        "descricao": "diminuição temporal dos sintomas de uma doença"
+    },
+    "diplopia": {
+        "descricao": "visão dupla"
+    },
+    "directo": {
+        "descricao": "directo"
+    },
+    "disartria": {
+        "descricao": "gaguez"
+    },
+    "discóide": {
+        "descricao": "em forma de disco"
+    },
+    "discrasia": {
+        "descricao": "equilíbrio defeituoso dos quatro humores; composição alterada do líquido corporal"
+    },
+    "disenteria": {
+        "descricao": "doença intestinal que causa a diarreia"
+    },
+    "disfunção": {
+        "descricao": "perturbação do funcionamento de um órgão; alteração de função"
+    },
+    "disgenesia": {
+        "descricao": "disgenese: desenvolvimento embrionário defeituoso"
+    },
+    "dismenorreia": {
+        "descricao": "transtorno da menstruação"
+    },
+    "dispepsia": {
+        "descricao": "má digestão"
+    },
+    "disposição": {
+        "descricao": "disposição"
+    },
+    "solvente": {
+        "descricao": [
+            "(líquido) dissolvente",
+            "dissolvente"
+        ]
+    },
+    "emulsionar": {
+        "descricao": "dissolver uma substância noutra"
+    },
+    "distal": {
+        "descricao": "periférico, distante do tronco"
+    },
+    "distensão": {
+        "descricao": "estiramento excessivo de um músculo"
+    },
+    "proptose": {
+        "descricao": "distensão excessiva de qualquer parte do corpo; deslocamento de um órgão para a frente; proptoma"
+    },
+    "distonia": {
+        "descricao": "tonicidade anormal dos tecidos"
+    },
+    "distorção": {
+        "descricao": "imagem deformada, torção"
+    },
+    "distribuição": {
+        "descricao": "distribuição"
+    },
+    "distrofia": {
+        "descricao": "perturbação da nutrição de vários tecidos do organismo"
+    },
+    "diurese": {
+        "descricao": "formação e excreção de urina"
+    },
+    "diurético": {
+        "descricao": "que ajuda a aumentar o fluxo de urina"
+    },
+    "diurno": {
+        "descricao": "que se produz durante o dia"
+    },
+    "diverticulite": {
+        "descricao": "presença de pequenas saliências ou bolsas em pontos fracos do intestino grosso, diverticulose"
+    },
+    "mitose": {
+        "descricao": "divisão cinética, cariocinese, divisão celular indirecta"
+    },
+    "oportunista": {
+        "descricao": "diz-se do microrganismo que produz doenças unicamente em determinadas circunstâncias"
+    },
+    "documento": {
+        "descricao": "documento"
+    },
+    "pênfigo": {
+        "descricao": "doença bulhosa da pele"
+    },
+    "micose": {
+        "descricao": "doença causada por fungos"
+    },
+    "psoríase": {
+        "descricao": "doença da pele caracterizada por descamação"
+    },
+    "neurodermatite": {
+        "descricao": "doença da pele derivada de causas emocionais"
+    },
+    "eritrasma": {
+        "descricao": "doença da pele que aparece sobretudo na face interna das coxas, virilhas e axilas"
+    },
+    "raquitismo": {
+        "descricao": "doença de Glisson, nodosidade das articulações"
+    },
+    "doença de Parkinson": {
+        "descricao": "paralisia agitante"
+    },
+    "doença de Raynaud": {
+        "descricao": "gangrena simétrica das extremidades"
+    },
+    "púrpura": {
+        "descricao": "doença de Werlhof, caracterizada por manchas de cor vermelha devidas à ocorrência de hemorragias subcutâneas"
+    },
+    "otosclerose": {
+        "descricao": "doença do labirinto ósseo do ouvido"
+    },
+    "hemopatia": {
+        "descricao": "doença do sangue"
+    },
+    "pneumopatia": {
+        "descricao": "doença dos pulmões"
+    },
+    "toxoplasmose": {
+        "descricao": "doença infecciosa causada por Toxoplasma gondi"
+    },
+    "tracoma": {
+        "descricao": "doença infecciosa da conjuntiva e da córnea do olho"
+    },
+    "iatorgénico": {
+        "descricao": "doença provocada pelos médicos ou pelo tratamento"
+    },
+    "encefalopatia": {
+        "descricao": "doença que afecta o funcionamento do cérebro"
+    },
+    "leucemia": {
+        "descricao": "doença que afecta os órgãos formadores do sangue, caracterizada pelo aumento dos glóbulos brancos em circulação"
+    },
+    "nefropatia": {
+        "descricao": "doença renal"
+    },
+    "glumerolonefrite": {
+        "descricao": "doença renal com inflamação dos glomérulos"
+    },
+    "varicela": {
+        "descricao": "doença viral; bexigas loucas"
+    },
+    "paciente": {
+        "descricao": "doente"
+    },
+    "dominância": {
+        "descricao": "predomínio de um gene ou de um carácter"
+    },
+    "gastralgia": {
+        "descricao": "dor do estômago, gastrodinia, cardialgia"
+    },
+    "epigastralgia": {
+        "descricao": "dor na boca do estômago"
+    },
+    "glossodinia": {
+        "descricao": "dor na língua"
+    },
+    "lumbago": {
+        "descricao": "dor na parte inferior da coluna vertebral"
+    },
+    "mastodinia": {
+        "descricao": "dor nos peitos"
+    },
+    "dorsal": {
+        "descricao": "relativo ao dorso, às costas"
+    },
+    "dosagem": {
+        "descricao": "dose, doseamento, dosificação"
+    },
+    "overdosagem": {
+        "descricao": "dosagem excessiva"
+    },
+    "dose": {
+        "descricao": "dose"
+    },
+    "dose de ataque": {
+        "descricao": "dose inicial"
+    },
+    "overdose": {
+        "descricao": "dose excessiva"
+    },
+    "dose única": {
+        "descricao": "dose única"
+    },
+    "dose-padrão": {
+        "descricao": "dose-padrão"
+    },
+    "drenagem": {
+        "descricao": "escoamento, despejo"
+    },
+    "droga": {
+        "descricao": "dooping"
+    },
+    "midriático": {
+        "descricao": "droga que dilata a pupila"
+    },
+    "duodeno": {
+        "descricao": "parte inicial do intestino delgado"
+    },
+    "duplamente cego": {
+        "descricao": "prova dita duplamente cego"
+    },
+    "dura-máter": {
+        "descricao": "membrana que envolve o sistema nervoso central"
+    },
+    "ecografia": {
+        "descricao": "ecografia"
+    },
+    "ectópico": {
+        "descricao": "que se encontra ou produz fora do lugar habitual"
+    },
+    "edema": {
+        "descricao": "excesso de líquido nos tecidos sob a pele; inchaço"
+    },
+    "efectivo": {
+        "descricao": "eficaz, eficiente"
+    },
+    "efeito": {
+        "descricao": "resultado"
+    },
+    "efeito colateral": {
+        "descricao": "efeito secundário indesejado de uma medida terapêutica ou medicamento"
+    },
+    "efeito de ressonância": {
+        "descricao": "efeito de ressonância"
+    },
+    "taquifilaxia": {
+        "descricao": "efeito decrescente de um medicamento"
+    },
+    "toxicidade": {
+        "descricao": "efeito nocivo de uma substância química"
+    },
+    "tremulação": {
+        "descricao": "efeito ondulatório, flutuação"
+    },
+    "eficaz": {
+        "descricao": "eficiente"
+    },
+    "ejaculação": {
+        "descricao": "ejaculação"
+    },
+    "elástico": {
+        "descricao": "elástico"
+    },
+    "electivo": {
+        "descricao": "selectivo"
+    },
+    "electrocardiografia": {
+        "descricao": "exame e inscrição em registo dos movimentos cardíacos"
+    },
+    "electroencefalografia": {
+        "descricao": "registo das ondas cerebrais (para detecção de tumores)"
+    },
+    "electrofisiológico": {
+        "descricao": "relativo à electrofisiologia (estudo das reacções produzidas nos seres vivos por excitações eléctricas)"
+    },
+    "polipeptídeo": {
+        "descricao": "elemento de uma proteína; composto de dois ou mais aminoácidos unidos por ligações peptídicas"
+    },
+    "eliminação": {
+        "descricao": "eliminação; remoção"
+    },
+    "poliúria": {
+        "descricao": "eliminação de grandes quantidades de urina por dia"
+    },
+    "galactorreia": {
+        "descricao": "eliminação espontânea do leite"
+    },
+    "excreção": {
+        "descricao": "eliminação prlo próprio organismo; eliminação de um medicamento sem substituição"
+    },
+    "papilar": {
+        "descricao": "em forma de papila ou verruga"
+    },
+    "sigmóide": {
+        "descricao": "em forma de sigma, da letra S"
+    },
+    "vesicular": {
+        "descricao": "em forma de vesícula, vesiculado"
+    },
+    "in vitro": {
+        "descricao": "em laboratório"
+    },
+    "quiescente": {
+        "descricao": "em repouso"
+    },
+    "inactivo": {
+        "descricao": "em repouso, anérgico"
+    },
+    "perianal": {
+        "descricao": "em volta do ânus"
+    },
+    "embolismo": {
+        "descricao": "embolia"
+    },
+    "letargia": {
+        "descricao": "embriaguez, sonolência"
+    },
+    "embrião": {
+        "descricao": "feto"
+    },
+    "emésis": {
+        "descricao": "vómito"
+    },
+    "emético": {
+        "descricao": "substância que provoca vómitos"
+    },
+    "emocional": {
+        "descricao": "emocional"
+    },
+    "emoliente": {
+        "descricao": "que amolece a pele"
+    },
+    "maceração": {
+        "descricao": "empolamento por contacto com líquidos, extracção de drogas por humedecimento, extracção a frio"
+    },
+    "emulsão": {
+        "descricao": "emulsão"
+    },
+    "enantema": {
+        "descricao": "erupção nas mucosas"
+    },
+    "encefalite": {
+        "descricao": "inflamação do cérebro"
+    },
+    "endémico": {
+        "descricao": "próprio a uma região ou população específica"
+    },
+    "endocardite": {
+        "descricao": "inflamação da membrana de revestimento interno do coração"
+    },
+    "endócrino": {
+        "descricao": "que secreta hormonas"
+    },
+    "endógeno": {
+        "descricao": "que se desenvolve ou surge num organismo"
+    },
+    "endometriose": {
+        "descricao": "proliferação da mucosa uterina fora do seu lugar habitual"
+    },
+    "endoscopia": {
+        "descricao": "exame interno por via directa com o endoscópio"
+    },
+    "endotóxico": {
+        "descricao": "relativo às endotoxinas"
+    },
+    "induração": {
+        "descricao": "endurecimento anormal de um tecido"
+    },
+    "liquenificação": {
+        "descricao": "endurecimento da pele"
+    },
+    "esclerose": {
+        "descricao": "endurecimento ou dureza"
+    },
+    "energético": {
+        "descricao": "relativo à energia"
+    },
+    "enfisema": {
+        "descricao": "presença excessiva de ar nos pulmões ou tecidos corporais"
+    },
+    "ensaio": {
+        "descricao": "experiência, análise"
+    },
+    "prova": {
+        "descricao": "ensaio, experiência, análise"
+    },
+    "inteligência": {
+        "descricao": "entendimento, intelecto, mente"
+    },
+    "entero-hepático": {
+        "descricao": "referente ao intestino e ao fígado"
+    },
+    "enterocolite": {
+        "descricao": "inflamação dos intestinos delgado e grosso"
+    },
+    "glote": {
+        "descricao": "entrada da faringe para a via aérea principal"
+    },
+    "intercostal": {
+        "descricao": "entre as costelas"
+    },
+    "intervertebral": {
+        "descricao": "entre as vértebras"
+    },
+    "intersticial": {
+        "descricao": "entre duas partes, isto é, no tecido conjuntivo"
+    },
+    "interindividual": {
+        "descricao": "entre indivíduos"
+    },
+    "obstrução": {
+        "descricao": "entupimento"
+    },
+    "intoxicação": {
+        "descricao": "envenenamento"
+    },
+    "enzima": {
+        "descricao": "enzima"
+    },
+    "renina": {
+        "descricao": "enzima (hormona) produzida pelos rins"
+    },
+    "penicilinase": {
+        "descricao": "enzima encontrada nos organismos penicilino-resistentes"
+    },
+    "protéase": {
+        "descricao": "enzima proteolítica, enzina que destrói as proteínas"
+    },
+    "transaminase": {
+        "descricao": "enzimas hepáticas (do fígado)"
+    },
+    "epicondilite": {
+        "descricao": "inflamação do epicôndilo (tuberosidade exterior do útero)"
+    },
+    "epidemia": {
+        "descricao": "epidemia"
+    },
+    "epidemiológico": {
+        "descricao": "relativo ao estudo da propagação das doenças"
+    },
+    "epidérmico": {
+        "descricao": "relativo à pele"
+    },
+    "epidural": {
+        "descricao": "sobre ou por fora da dura-mater"
+    },
+    "epifisário": {
+        "descricao": "relativo à cabeça de um osso largo"
+    },
+    "epigástrico": {
+        "descricao": "na boca do estômago"
+    },
+    "grande mal": {
+        "descricao": "epilepsia generalizada"
+    },
+    "episódio": {
+        "descricao": "episódio"
+    },
+    "epistaxe": {
+        "descricao": "hemorragia nasal"
+    },
+    "epitélio": {
+        "descricao": "tecido de cobertura ou de revestimento interior; pele ou mucosas"
+    },
+    "epitelioma": {
+        "descricao": "tumor da pele ou da mucosa"
+    },
+    "erecção": {
+        "descricao": [
+            "tesão; entumescimento do pénis",
+            "'tesão'; entumescimento do pénis"
+        ]
+    },
+    "priapismo": {
+        "descricao": "erecção anormal e persistente"
+    },
+    "ergotismo": {
+        "descricao": "intoxicação crónica pelo uso alimentar do centeio atacado de cravagem"
+    },
+    "erisipela": {
+        "descricao": "infecção grave e contagiosa da pele por estreptococos"
+    },
+    "eritema": {
+        "descricao": "ruborização, inflamação da pele"
+    },
+    "eritropoiese": {
+        "descricao": "formação de glóbulos vermelhos"
+    },
+    "erupção": {
+        "descricao": "evacuação súbita de sangue, pus, etc."
+    },
+    "urticária": {
+        "descricao": "erupção cutânea caracterizada pelo aparecimento de manchas vermelhas e prurido intenso"
+    },
+    "exantema": {
+        "descricao": "erupção vermelha da pele"
+    },
+    "hemoptise": {
+        "descricao": "escarros de sangue, hemorragia pulmonar"
+    },
+    "numular": {
+        "descricao": "escarros em forma de moeda nas tuberculoses pulmonares"
+    },
+    "oculto": {
+        "descricao": "escondido, secrecto"
+    },
+    "escotoma": {
+        "descricao": "perda da faculdade visual em zonas bem circunscritas do campo visual; escotomia"
+    },
+    "estruma(s)": {
+        "descricao": "escrófula(s), bócio, engrossamento dos tiróides"
+    },
+    "esfíncter": {
+        "descricao": "músculo constritor, que aperta"
+    },
+    "pertosse": {
+        "descricao": "esgana, coqueluche, tosse convuls(iv)a"
+    },
+    "esofagite": {
+        "descricao": "inflamação do esófago"
+    },
+    "espasmo": {
+        "descricao": "espasmo"
+    },
+    "trismo": {
+        "descricao": "espasmo dos músculos mandibulares; tétano"
+    },
+    "espasmódico": {
+        "descricao": "espástico, convulsivo"
+    },
+    "espástico": {
+        "descricao": "espasmódico, convulsivo"
+    },
+    "espasmolítico": {
+        "descricao": "medicamento que serve para resolver os espasmos"
+    },
+    "espécie": {
+        "descricao": "espécie; preparação terapêutica, mistura de ervas"
+    },
+    "espectro": {
+        "descricao": "zona de actividade de um antibiótico"
+    },
+    "espermatogénese": {
+        "descricao": "processo de formação dos espermatozóides"
+    },
+    "espermicida": {
+        "descricao": "que mata os espermatozóides"
+    },
+    "espinal": {
+        "descricao": "relativo à coluna vertebral"
+    },
+    "esplenomegalia": {
+        "descricao": "hipertrofia do baço, aumento de tamanho ou volume do baço"
+    },
+    "espondilite": {
+        "descricao": "inflamação das vértebras"
+    },
+    "esporádico": {
+        "descricao": "não epidérmico ou não amplamente difundido; ocasional"
+    },
+    "esquelético": {
+        "descricao": "relativo ao esqueleto, magro"
+    },
+    "esquizofrenia": {
+        "descricao": "psicose, doença mental em que o doente se alheia do mundo que o rodeia e se refugia em si mesmo"
+    },
+    "estabilidade": {
+        "descricao": "estabilidade"
+    },
+    "preeclampsia": {
+        "descricao": "estado antenatal que precede as convulsões eclâmpticas"
+    },
+    "tetania": {
+        "descricao": "estado caracterizado por cãibras e convulsões musculares"
+    },
+    "estado de equilíbrio": {
+        "descricao": "situação em que uma variável se mantém imutável"
+    },
+    "homeostase": {
+        "descricao": "estado de equilíbrio orgânico"
+    },
+    "imaturidade": {
+        "descricao": "estado de quem não alcançou o seu pleno desenvolvimento"
+    },
+    "pirexia": {
+        "descricao": "estado febril"
+    },
+    "hemostasia": {
+        "descricao": "estancamento do sangue"
+    },
+    "estase": {
+        "descricao": "estancamento do sangue ou de qualquer outro líquido orgânico"
+    },
+    "normalização": {
+        "descricao": "estandardização, padronização, unificação"
+    },
+    "estandardizar": {
+        "descricao": "normalizar, unificar, padronizar"
+    },
+    "hermético": {
+        "descricao": "estanque (ao ar), impermeável (ao ar)"
+    },
+    "estatístico": {
+        "descricao": "estatístico"
+    },
+    "esteatorreia": {
+        "descricao": "excesso de gordura nas fezes; estearreia, seborreia"
+    },
+    "estenose": {
+        "descricao": "estreitamento de um conduto, aperto, constrição"
+    },
+    "esterilidade": {
+        "descricao": "incapacidade de fecundar ou conceber"
+    },
+    "esterilização": {
+        "descricao": "procedimento que torna um indivíduo incapaz de reproduzir"
+    },
+    "esteróide": {
+        "descricao": "tipo de composto químico"
+    },
+    "hiperestimulação": {
+        "descricao": "estimulação excessiva"
+    },
+    "estimulante": {
+        "descricao": "excitante"
+    },
+    "irritação": {
+        "descricao": "estímulo, estimulação, excitação"
+    },
+    "estomatite": {
+        "descricao": "inflamação da mucosa da boca"
+    },
+    "estomatológico": {
+        "descricao": "parte da medicina que estuda a boca e suas doenças"
+    },
+    "vasoconstrição": {
+        "descricao": "estreitamento dos vasos sanguíneos; angiostenose"
+    },
+    "estria": {
+        "descricao": "lista, raia; fibras nervosas cerebrais"
+    },
+    "estrogénio": {
+        "descricao": "tipo de hormona sexual feminina"
+    },
+    "estrutural": {
+        "descricao": "estrutural"
+    },
+    "etiologia": {
+        "descricao": "estudo da origem de uma doença"
+    },
+    "otorrinolaringologia": {
+        "descricao": "estudo das doenças do ouvido, nariz e garganta"
+    },
+    "observação": {
+        "descricao": "estudo de um fenómeno"
+    },
+    "farmacodinâmica": {
+        "descricao": "estudo do efeito de um medicamento sobre o organismo"
+    },
+    "estupor": {
+        "descricao": "perda parcial ou quase total da consciência; obnubilação, torpor"
+    },
+    "paracentese": {
+        "descricao": "esvaziamento por punção"
+    },
+    "euforia": {
+        "descricao": "sensação anormal de bem-estar"
+    },
+    "evacuação": {
+        "descricao": "evacuação"
+    },
+    "passagem": {
+        "descricao": "evacuação intestinal"
+    },
+    "exacerbação": {
+        "descricao": "pioramento, gravamento"
+    },
+    "gonioscopia": {
+        "descricao": "exame do ângulo da câmara interna do olho"
+    },
+    "exceptuado": {
+        "descricao": "não compreendido, sem contar"
+    },
+    "hipercenesia": {
+        "descricao": "excesso de actividade motriz"
+    },
+    "menorragia": {
+        "descricao": "excesso de fluxo de sangue na menstruação"
+    },
+    "hiperglicemia": {
+        "descricao": "excesso de glicose no sangue"
+    },
+    "papiloedema": {
+        "descricao": "excesso de líquido nos tecidos (edema) do disco óptico, da papila"
+    },
+    "obesidade": {
+        "descricao": "excesso de peso corporal por acumulação de gordura"
+    },
+    "hipercalemia": {
+        "descricao": "excesso de potássio no sangue"
+    },
+    "hiperemia": {
+        "descricao": "excesso de sangue nos vasos de órgão"
+    },
+    "hipervitaminose": {
+        "descricao": "excesso de vitaminas no organismo"
+    },
+    "excipiente": {
+        "descricao": "substância inerte num preparado farmacológico"
+    },
+    "excitação": {
+        "descricao": "irritação, estímulo, estimulação"
+    },
+    "natriurese": {
+        "descricao": "excreção de quantidades anormais de sódio na urina"
+    },
+    "seborreia": {
+        "descricao": "excreção excessiva de substâncias gordas"
+    },
+    "potencial": {
+        "descricao": "existente mas não activo"
+    },
+    "exoftalmia": {
+        "descricao": "olhos salientes"
+    },
+    "exógeno": {
+        "descricao": "por causas externas; introduzido no corpo do exterior"
+    },
+    "expansor plasmático": {
+        "descricao": "substância que se injecta para aumentar o volume sanguíneo"
+    },
+    "expectorante": {
+        "descricao": "remédio para desprender o muco dos pulmões e facilitar a tosse"
+    },
+    "expiração": {
+        "descricao": "expiração"
+    },
+    "mímica": {
+        "descricao": "expressão de ideias ou pensamentos por meio de gestos"
+    },
+    "hiperidrose": {
+        "descricao": "exsudação excessiva"
+    },
+    "exsudado": {
+        "descricao": "líquido que aparece numa superfície inflamada"
+    },
+    "extensão": {
+        "descricao": "movimento de endireitar uma articulação"
+    },
+    "manifestação": {
+        "descricao": "exteriorização de uma doença"
+    },
+    "externo": {
+        "descricao": "externo, estranho"
+    },
+    "extra-renal": {
+        "descricao": "situado fora dos rins"
+    },
+    "extra-sístole": {
+        "descricao": "pulsação fora do tempo"
+    },
+    "extracelular": {
+        "descricao": "fora das células"
+    },
+    "extracorporal": {
+        "descricao": "fora do corpo"
+    },
+    "extracto": {
+        "descricao": "preparação concentrada de uma droga"
+    },
+    "extrapiramidal": {
+        "descricao": "situado fora da via piramidal"
+    },
+    "extravascular": {
+        "descricao": "situado fora de um vaso"
+    },
+    "microscópico": {
+        "descricao": "extremamente pequeno"
+    },
+    "extremidade": {
+        "descricao": "membros superior e inferior"
+    },
+    "extremo": {
+        "descricao": "que está afastado"
+    },
+    "produção": {
+        "descricao": "fabricação, geração"
+    },
+    "facial": {
+        "descricao": "relativo à cara"
+    },
+    "factor de risco": {
+        "descricao": "factor de risco"
+    },
+    "motilidade": {
+        "descricao": "faculdade de se mover espontaneamente"
+    },
+    "fagocitose": {
+        "descricao": "incorporação e digestão de partículas no interior de uma célula"
+    },
+    "fálico": {
+        "descricao": "relativo ao membro viril"
+    },
+    "pseudo-tumor": {
+        "descricao": "falso tumor"
+    },
+    "instabilidade": {
+        "descricao": "falta de equilíbrio"
+    },
+    "miastenia": {
+        "descricao": "falta de força, fraqueza muscular"
+    },
+    "insónia": {
+        "descricao": "falta de sono, insonolência"
+    },
+    "privação": {
+        "descricao": "falta ou carência"
+    },
+    "faringite": {
+        "descricao": "inflamação da garganta"
+    },
+    "farmacêutico": {
+        "descricao": "relativo à farmácia"
+    },
+    "fármaco": {
+        "descricao": "medicamento"
+    },
+    "psicoléptico": {
+        "descricao": "fármaco com efeito sedente"
+    },
+    "farmacológico": {
+        "descricao": "relativo à ciência que investiga os medicamentos"
+    },
+    "fase": {
+        "descricao": "período dentro de uma evolução constante"
+    },
+    "reconvalescença": {
+        "descricao": "fase de recuperação"
+    },
+    "fatal": {
+        "descricao": "letal, letífero, mortífero"
+    },
+    "hiperpirexia": {
+        "descricao": "febre elevada"
+    },
+    "febril": {
+        "descricao": "que tem febre, pirético"
+    },
+    "fecal": {
+        "descricao": "relativo às fezes"
+    },
+    "impregnação": {
+        "descricao": "fecundação do óvulo;"
+    },
+    "ligamento": {
+        "descricao": "feixe fibroso entre dos ossos numa articulação"
+    },
+    "femoral": {
+        "descricao": "pertencente ao osso da coxa"
+    },
+    "fissura": {
+        "descricao": "fenda"
+    },
+    "fenómeno": {
+        "descricao": "manifestação, sinal, sintoma"
+    },
+    "laceração": {
+        "descricao": "ferida irregular"
+    },
+    "fermentação": {
+        "descricao": "transformação de substâncias orgânicas noutras substâncias orgânicas"
+    },
+    "ferropénico": {
+        "descricao": "que tem falta de ferro"
+    },
+    "fertilidade": {
+        "descricao": "fertilidade"
+    },
+    "fetal": {
+        "descricao": "relativo ao feto"
+    },
+    "fetoplacentário": {
+        "descricao": "relativo ao intercâmbio entre o feto e placenta"
+    },
+    "fetotóxico": {
+        "descricao": "tóxico para o feto/embrião"
+    },
+    "fezes": {
+        "descricao": "matérias fecais, excrementos"
+    },
+    "melena": {
+        "descricao": "fezes negras pela presença de sangue"
+    },
+    "validez": {
+        "descricao": "fiabilidade de um processo de prova"
+    },
+    "fibrina": {
+        "descricao": "fibrina"
+    },
+    "fibrinolítico": {
+        "descricao": "que dissolve a fibrina"
+    },
+    "filtração": {
+        "descricao": "filtragem, filtramento"
+    },
+    "hemodiálise": {
+        "descricao": "filtragem da circulação do sangue"
+    },
+    "terminal": {
+        "descricao": "final, último"
+    },
+    "físico-químico": {
+        "descricao": "relativo à física e à química"
+    },
+    "fisiológico": {
+        "descricao": "normal, não devido a uma doença; relativo ao estudo das funções dos organismos vivos"
+    },
+    "fixação": {
+        "descricao": "fixação; detenção do desenvolvimento da personalidade numa determinada etapa; apego a outra pessoa"
+    },
+    "flácido": {
+        "descricao": "frouxo, mole, languido"
+    },
+    "flatulência": {
+        "descricao": "gases no estômago ou no intestino, ventosidade, aerenterectasia"
+    },
+    "flebite": {
+        "descricao": "inflamação das paredes de uma veia"
+    },
+    "flebografia": {
+        "descricao": "radiografia das veias"
+    },
+    "fleimão": {
+        "descricao": "inflamação difusa"
+    },
+    "flexão": {
+        "descricao": "flexão"
+    },
+    "humor": {
+        "descricao": "fluido corporal"
+    },
+    "variação": {
+        "descricao": "flutuação, oscilação; alteração, mudança, modificação das propriedades"
+    },
+    "refluxo": {
+        "descricao": "fluxo de retorno"
+    },
+    "microcirculação": {
+        "descricao": "fluxo de sangue em todo o sistema de vasos minúsculos"
+    },
+    "fobia": {
+        "descricao": "medo despropositado persistente"
+    },
+    "focalização": {
+        "descricao": "restrição a uma área determinada"
+    },
+    "foliculite": {
+        "descricao": "inflamação de um ou mais folículos pilosos"
+    },
+    "fontanela": {
+        "descricao": "molarinha do recém-nascido"
+    },
+    "periférico": {
+        "descricao": "fora do centro, fora do sistema nervoso central"
+    },
+    "microvilosidade": {
+        "descricao": "forma de velosidade à superfície de uma célula"
+    },
+    "lactação": {
+        "descricao": "formação de leite"
+    },
+    "supuração": {
+        "descricao": "formação de pus"
+    },
+    "ossificação": {
+        "descricao": "formação do osso ou de substância óssea"
+    },
+    "(d)escamação": {
+        "descricao": "formação excessiva de escamas na pele"
+    },
+    "fotofobia": {
+        "descricao": "que foge da luz (que tem aversão à luz)"
+    },
+    "micrografia": {
+        "descricao": "fotografia como através do microscópio; análise com o microscópio"
+    },
+    "fotossensibilidade": {
+        "descricao": "sensibilidade à luz, resposta normal da pele à luz"
+    },
+    "fotossensibilização": {
+        "descricao": "sensibilização à luz, reacção normal da pele à luz"
+    },
+    "fracção": {
+        "descricao": "número fraccionário (número) quebrado; porção, parte"
+    },
+    "fracção de ejecção": {
+        "descricao": "fracção de ejecção"
+    },
+    "fractura": {
+        "descricao": "fractura, rotura, quebra"
+    },
+    "sequestro": {
+        "descricao": "fragmento de tecido morto separado do tecido são"
+    },
+    "lassitude": {
+        "descricao": "fraqueza, cansaço"
+    },
+    "'blister'": {
+        "descricao": "frasco de X comprimidos recobertos de plástico"
+    },
+    "frequência": {
+        "descricao": "número de períodos"
+    },
+    "frigidez": {
+        "descricao": "insensibilidade sexual, anafrodisia"
+    },
+    "pediculose": {
+        "descricao": "ftiríase, doença pedicular, infestação por piolhos"
+    },
+    "função": {
+        "descricao": "função"
+    },
+    "insuficiência": {
+        "descricao": "função inadequada de um órgão ou sistema"
+    },
+    "fundamental": {
+        "descricao": "fundamental"
+    },
+    "fungistático": {
+        "descricao": "impede a multiplicação de fungos"
+    },
+    "fungo": {
+        "descricao": "fungo, tumor em forma de fungo"
+    },
+    "galénico": {
+        "descricao": "preparado a partir de drogas vegetais em vez de substâncias químicas"
+    },
+    "gangrena": {
+        "descricao": "grangrena, esfacelo"
+    },
+    "gastrenterite": {
+        "descricao": "inflamação do estômago e do intestino delgado"
+    },
+    "gastrintestinal": {
+        "descricao": "relativo ao estômago e aos intestinos"
+    },
+    "gastro-esofágico": {
+        "descricao": "relativo ao estômago e ao esófago"
+    },
+    "gastroduodenal": {
+        "descricao": "relativo ao estômago e ao intestino delgado"
+    },
+    "microspório": {
+        "descricao": "género de fungos ascomicetes, parasitas no homem"
+    },
+    "genético": {
+        "descricao": "relativo aos genes"
+    },
+    "gengivite": {
+        "descricao": "inflamação superficial da gengivas"
+    },
+    "genital": {
+        "descricao": "relativo aos órgãos sexuais"
+    },
+    "geniturinário": {
+        "descricao": "relativo aos órgãos genitais e urinários"
+    },
+    "procriação": {
+        "descricao": "geração, reprodução, propagação"
+    },
+    "geriátrico": {
+        "descricao": "relativo à medicina que trata as doenças dos velhos"
+    },
+    "germicida": {
+        "descricao": "substância que destrói os germes"
+    },
+    "gestação": {
+        "descricao": "gravidez"
+    },
+    "ginecológico": {
+        "descricao": "ginecológico"
+    },
+    "glaucoma": {
+        "descricao": "pressão anormal no globo ocular"
+    },
+    "glicose": {
+        "descricao": "glicose"
+    },
+    "glicósido": {
+        "descricao": "glicósido"
+    },
+    "glicosúria": {
+        "descricao": "presença de glicose nas urinas"
+    },
+    "leucócito": {
+        "descricao": "glóbulo branco"
+    },
+    "glomerular": {
+        "descricao": "relativo à parte filtrante dos rins"
+    },
+    "glossite": {
+        "descricao": "inflamação da língua"
+    },
+    "glúten": {
+        "descricao": "proteína de diversos cereais"
+    },
+    "gonádico": {
+        "descricao": "relativo às glândulas sexuais"
+    },
+    "gonadotrópico": {
+        "descricao": "que estimula as glândulas sexuais"
+    },
+    "gonorreia": {
+        "descricao": "infecção bacteriana pelo gonococo que invade as mucosas da uretra e do útero; esquentamento"
+    },
+    "lípido": {
+        "descricao": "gordura ou substância idêntica"
+    },
+    "gradual": {
+        "descricao": "gradual"
+    },
+    "Gram-negativo": {
+        "descricao": "que não toma o corante de Gram"
+    },
+    "Gram-positivo": {
+        "descricao": "que toma o corante de Gram"
+    },
+    "hiperalgesia": {
+        "descricao": "grande sensibilidade à dor"
+    },
+    "maciço": {
+        "descricao": "grande, amplo"
+    },
+    "grânulos": {
+        "descricao": "preparação farmacológica em forma de grânulos"
+    },
+    "viscosidade": {
+        "descricao": "grau de fluidez das substâncias em estado líquido ou gasoso"
+    },
+    "intensidade": {
+        "descricao": "grau de força ou tensão"
+    },
+    "gravidez": {
+        "descricao": "gravidez"
+    },
+    "influenza": {
+        "descricao": "gripe violenta e epidémica"
+    },
+    "hematémese": {
+        "descricao": "vómitos de sangue"
+    },
+    "hemólise": {
+        "descricao": "hematólise, globulólise, desintegração das células sanguíneas"
+    },
+    "hematológico": {
+        "descricao": "relativo à hematologia (estudo do sangue e das suas afecções)"
+    },
+    "hematoma": {
+        "descricao": "hemorragia para dentro dos tecidos"
+    },
+    "hematúria": {
+        "descricao": "sangue nas urinas, emissão de sangue pelas vias urinárias"
+    },
+    "hemiplegia": {
+        "descricao": "paralisia de um lado do corpo"
+    },
+    "hemoperfusão": {
+        "descricao": "perfusão no sangue"
+    },
+    "hemopoiético": {
+        "descricao": "relativo ao fabrico de glóbulos vermelhos"
+    },
+    "hemorragia": {
+        "descricao": "perda de sangue"
+    },
+    "metrorragia": {
+        "descricao": "hemorragia sanguínea uterina não menstrual"
+    },
+    "hemorróides": {
+        "descricao": "veias distendidas na junção do recto e do canal anal; almorróidas, almorródias"
+    },
+    "hepático": {
+        "descricao": "relativo ao fígado"
+    },
+    "hepatite": {
+        "descricao": "inflamação do fígado"
+    },
+    "hepatobiliar": {
+        "descricao": "relativo ao fígado e às condutas biliares"
+    },
+    "hepatocelular": {
+        "descricao": "relativo às células do fígado"
+    },
+    "hepatotóxico": {
+        "descricao": "tóxico para o fígado"
+    },
+    "hereditariedade": {
+        "descricao": "hereditariedade"
+    },
+    "hérnia": {
+        "descricao": "tumor mole com abertura de membrana"
+    },
+    "herpes zóster": {
+        "descricao": "vírus instalado à volta das células sensitivas"
+    },
+    "hidratação": {
+        "descricao": "hidratação"
+    },
+    "hidrófilo": {
+        "descricao": "que absorve a água, é atraído pela água"
+    },
+    "hidrófobo": {
+        "descricao": "que tem horror à água ou foge dela"
+    },
+    "hidrólise": {
+        "descricao": "reacção de desdobramento de uma molécula por acção da água"
+    },
+    "hidroxilação": {
+        "descricao": "hidroxilação"
+    },
+    "higiénico": {
+        "descricao": "higiénico"
+    },
+    "hiper-reflexia": {
+        "descricao": "reflexos aumentados"
+    },
+    "hiperaldosteronismo": {
+        "descricao": "produção excessiva de aldoresterona pela glândula supra-renal"
+    },
+    "hiperémese": {
+        "descricao": "vómitos excessivos"
+    },
+    "hiperostose": {
+        "descricao": "hipertrofia de um osso"
+    },
+    "hipersecreção": {
+        "descricao": "secreção excessiva de uma glândula"
+    },
+    "hipersensibilidade": {
+        "descricao": "sensibilidade excessiva, alergia"
+    },
+    "hipertrofia": {
+        "descricao": "maior crescimento de um tecido por aumento, sem multiplicação, das suas células"
+    },
+    "prostatismo": {
+        "descricao": "hipertrofia e obstrução da próstata"
+    },
+    "hipnótico": {
+        "descricao": "sonífero"
+    },
+    "hipocondria": {
+        "descricao": "preocupação indevida de uma pessoa pela sua saúde"
+    },
+    "hipodérmico": {
+        "descricao": "subcutâneo"
+    },
+    "hipofisário": {
+        "descricao": "relativo à hipófice"
+    },
+    "hipogonadismo": {
+        "descricao": "sub-desenvolvimento dos órgãos sexuais"
+    },
+    "hipomania": {
+        "descricao": "mania ligeira"
+    },
+    "miopia": {
+        "descricao": "hipometropia, visão curta, vista-curta"
+    },
+    "hipoplasia": {
+        "descricao": "pouco desenvolvido"
+    },
+    "hipotalámico": {
+        "descricao": "situado na metade inferior do cérebro; relativo ao hipotálamo"
+    },
+    "hipotensão": {
+        "descricao": "pressão sanguínea anormalmente baixa"
+    },
+    "hipotonia": {
+        "descricao": "moleza"
+    },
+    "hipovitaminose": {
+        "descricao": "necessidade de uma ou várias vitaminas essenciais"
+    },
+    "histerectomia": {
+        "descricao": "operação cirúrgica do útero"
+    },
+    "histológico": {
+        "descricao": "relativo à histologia (parte da anatomia que trata dos tecidos orgânicos)"
+    },
+    "homólogo": {
+        "descricao": "igual"
+    },
+    "hormonal": {
+        "descricao": "relativo às hormonas"
+    },
+    "mineralocorticóide": {
+        "descricao": "hormonas mineralocorticosteróides"
+    },
+    "somatrotopina": {
+        "descricao": [
+            "hormona do crescimento",
+            "hormônio do crescimento"
+        ]
+    },
+    "progestogeno": {
+        "descricao": [
+            "hormona que prepara o útero para a recepção e desenvolvimento do óvulo fecundado",
+            "hormônio que prepara o útero para a recepção e desenvolvimento do óvulo fecundado"
+        ]
+    },
+    "hospitalização": {
+        "descricao": "internar num hospital"
+    },
+    "humoral": {
+        "descricao": "relativo aos fluidos corporais"
+    },
+    "icterícia": {
+        "descricao": "icterícia"
+    },
+    "obsessão": {
+        "descricao": "ideia fixa"
+    },
+    "ileite": {
+        "descricao": "inflamação do íleo (última parte do intestino delgado), doença de Crohen"
+    },
+    "íleo": {
+        "descricao": "oclusão intestinal"
+    },
+    "impetigo": {
+        "descricao": "infecção das camadas exteriores da pele; impetigem"
+    },
+    "implantação": {
+        "descricao": "nidação do embrião na mucosa do útero da mãe, cerca de seis dias após a concepção"
+    },
+    "nidação": {
+        "descricao": "implantação do óvulo na cavidade uterina"
+    },
+    "inserção": {
+        "descricao": "implantação; ponto de união entre um músculo e um osso"
+    },
+    "implicação": {
+        "descricao": "implicação"
+    },
+    "relevante": {
+        "descricao": "importante"
+    },
+    "impotência": {
+        "descricao": "incapacidade de realização do coito; falta de virilidade; anandria, assinodia"
+    },
+    "imune": {
+        "descricao": "relativo ao sistema imunitário; insensível"
+    },
+    "imunidade": {
+        "descricao": "resistência natural às infecções"
+    },
+    "imunização": {
+        "descricao": "obtenção da imunidade pelo organismo"
+    },
+    "imunogénico": {
+        "descricao": "que causa imunidade"
+    },
+    "imunológico": {
+        "descricao": "relativo aos sistema imunitário"
+    },
+    "imunossupressor": {
+        "descricao": "que diminui a defesa do organismo"
+    },
+    "in situ": {
+        "descricao": "no seu lugar"
+    },
+    "in vivo": {
+        "descricao": "que está situado ou ocorre num corpo vivo"
+    },
+    "inércia": {
+        "descricao": "inactividade, incapacidade de se mover espontaneamente"
+    },
+    "inadequado": {
+        "descricao": "não apropriado"
+    },
+    "inorgânico": {
+        "descricao": "inanimado, sem vida"
+    },
+    "inerente": {
+        "descricao": "inato, implantado naturalmente"
+    },
+    "incompetência": {
+        "descricao": "incapacidade"
+    },
+    "intolerância": {
+        "descricao": "incapacidade de suportar um medicamento"
+    },
+    "incarceração": {
+        "descricao": "incarceração"
+    },
+    "incidência": {
+        "descricao": "incidência"
+    },
+    "incidental": {
+        "descricao": "incidental"
+    },
+    "incisivo": {
+        "descricao": "penetrante"
+    },
+    "tendência": {
+        "descricao": "inclinação, propensão"
+    },
+    "inclusivo": {
+        "descricao": "incluso"
+    },
+    "incompatível": {
+        "descricao": "não adequado para administração simultânea"
+    },
+    "incontinência": {
+        "descricao": "não segura as fezes ou as urinas"
+    },
+    "nictúria": {
+        "descricao": "incontinência das urinas durante a noite"
+    },
+    "incorporação": {
+        "descricao": "união de uma substância no interior do organismo"
+    },
+    "mineralização": {
+        "descricao": "incorporação de substâncias minerais por meio de tecidos do organismo"
+    },
+    "incubação": {
+        "descricao": "período entre o contágio e a manifestação da doença; choco"
+    },
+    "investigação": {
+        "descricao": "indagação, pesquisa"
+    },
+    "instrução": {
+        "descricao": "indicações"
+    },
+    "indicativo": {
+        "descricao": "indicativo"
+    },
+    "indirecto": {
+        "descricao": "que actua através de um agente intermédio"
+    },
+    "indisposição": {
+        "descricao": "mal-estar"
+    },
+    "individual": {
+        "descricao": "individual"
+    },
+    "indução": {
+        "descricao": "método de aplicação de uma anestesia geral; provocação de um processo"
+    },
+    "teratogénico": {
+        "descricao": "indutor de malformações fetais"
+    },
+    "inervação": {
+        "descricao": "suprimento nervoso ou a condução de impulsos nervosos de um local para outro"
+    },
+    "inespecífico": {
+        "descricao": "não específico, não característico"
+    },
+    "infantil": {
+        "descricao": "relativo à infância"
+    },
+    "infecção": {
+        "descricao": "infecção"
+    },
+    "pioderma": {
+        "descricao": "infecção da pele"
+    },
+    "iridociclite": {
+        "descricao": "infecção de um dos anexos da vista"
+    },
+    "osteomielite": {
+        "descricao": "infecção dos ossos"
+    },
+    "intertrigo": {
+        "descricao": "infecção na pele das dobras"
+    },
+    "piogénico": {
+        "descricao": "infeccioso, que produz pus"
+    },
+    "infiltração": {
+        "descricao": "infiltração"
+    },
+    "invalidar": {
+        "descricao": "infirmar"
+    },
+    "inflamação": {
+        "descricao": "inflamação"
+    },
+    "pielonefrite": {
+        "descricao": "inflamação conjunta do rim e da pélvis renal"
+    },
+    "mastoidite": {
+        "descricao": "inflamação da apófise mastóide no ouvido"
+    },
+    "peritonite": {
+        "descricao": "inflamação da envoltura do abdominal"
+    },
+    "pericardite": {
+        "descricao": "inflamação da envoltura do coração"
+    },
+    "parotidite": {
+        "descricao": "inflamação da glândula salivar; papeira"
+    },
+    "paniculite": {
+        "descricao": "inflamação da gordura abdominal"
+    },
+    "irite": {
+        "descricao": "inflamação da íris"
+    },
+    "laringite": {
+        "descricao": "inflamação da laringe"
+    },
+    "pielite": {
+        "descricao": "inflamação da pélvis renal"
+    },
+    "prostatite": {
+        "descricao": "inflamação da próstata"
+    },
+    "traqueíte": {
+        "descricao": "inflamação da traqueia"
+    },
+    "salpingite": {
+        "descricao": "inflamação da trompa uterina, da trompa auditiva"
+    },
+    "uretrite": {
+        "descricao": "inflamação da uretra"
+    },
+    "uveíte": {
+        "descricao": "inflamação da úvea"
+    },
+    "meningite": {
+        "descricao": "inflamação das meninges"
+    },
+    "tendinite": {
+        "descricao": "inflamação de um tendão"
+    },
+    "tenossinovite": {
+        "descricao": "inflamação de um tendão e da sua veia; tecite"
+    },
+    "orquite": {
+        "descricao": "inflamação de um testículo"
+    },
+    "sinusite": {
+        "descricao": "inflamação de uma bolsa ou cavidade, especialmente dos ossos do crânio"
+    },
+    "sinovite": {
+        "descricao": "inflamação de uma membrana sinovial"
+    },
+    "tromboflebite": {
+        "descricao": "inflamação de uma veia com obstrução por um coágulo sanguíneo"
+    },
+    "paroníquia": {
+        "descricao": "inflamação do dedo perto da unha; panarício"
+    },
+    "miocardite": {
+        "descricao": "inflamação do miocárdio"
+    },
+    "rinite": {
+        "descricao": "inflamação do nariz, nasite, defluxo, constipação (nasal), catarro nasal"
+    },
+    "pancreatite": {
+        "descricao": "inflamação do pâncreas"
+    },
+    "proctite": {
+        "descricao": "inflamação do recto"
+    },
+    "nefrite": {
+        "descricao": "inflamação do rim"
+    },
+    "vulvovaginite": {
+        "descricao": "inflamação dos órgãos genitais externos femininos, incluindo a vagina"
+    },
+    "vasculite": {
+        "descricao": "inflamação dos pequenos vasos sanguíneos"
+    },
+    "periartrite": {
+        "descricao": "inflamação dos tecidos que rodeiam uma articulação"
+    },
+    "otite": {
+        "descricao": "inflamação no ouvido"
+    },
+    "poliartrite": {
+        "descricao": "inflamação simultânea de várias articulações"
+    },
+    "inotrópico": {
+        "descricao": "influencia a actividade do coração"
+    },
+    "infundir": {
+        "descricao": "infundir"
+    },
+    "infusão": {
+        "descricao": "infusão"
+    },
+    "inguinal": {
+        "descricao": "pertencente à virilha"
+    },
+    "mielossupressão": {
+        "descricao": "inibição da actividade da medula"
+    },
+    "pacemaker": {
+        "descricao": "iniciador do ritmo do coração; regulador cardíaco"
+    },
+    "inicial": {
+        "descricao": "inicial"
+    },
+    "injecção": {
+        "descricao": "injecção"
+    },
+    "injecção bolus": {
+        "descricao": "injecção rápida"
+    },
+    "inoperável": {
+        "descricao": "que não se pode curar com operação cirúrgica"
+    },
+    "inspiração": {
+        "descricao": "inspiração"
+    },
+    "lábil": {
+        "descricao": "instável, facilmente alterável"
+    },
+    "pessário": {
+        "descricao": "instrumento que se coloca na vagina como dispositivo contraceptivo; supositório vaginal"
+    },
+    "neutropenia": {
+        "descricao": "insuficiência de glóbulos brancos"
+    },
+    "intacto": {
+        "descricao": "intacto"
+    },
+    "integumentário": {
+        "descricao": "que serve de cobertura, como a pele; integumental"
+    },
+    "interacção": {
+        "descricao": "relação entre dois elementos"
+    },
+    "interferência": {
+        "descricao": "perturbação"
+    },
+    "interno": {
+        "descricao": "interior"
+    },
+    "intermediário": {
+        "descricao": "intermediário"
+    },
+    "intermitente": {
+        "descricao": "que ocorre em intervalos"
+    },
+    "interpretação": {
+        "descricao": "interpretação"
+    },
+    "intervalo": {
+        "descricao": "interstício, espaço; entremeio"
+    },
+    "intervalo QT": {
+        "descricao": "representa a duração total da sístole eléctrica ventricular"
+    },
+    "intervenção": {
+        "descricao": "operação"
+    },
+    "intestinal": {
+        "descricao": "relativo ao intestino"
+    },
+    "intrínseco": {
+        "descricao": "intimamente relacionado com uma porção"
+    },
+    "salicismo": {
+        "descricao": "intoxicação com aspirina"
+    },
+    "septicémia": {
+        "descricao": "intoxicação do sangue por microrganismos"
+    },
+    "toxemia": {
+        "descricao": "intoxicação do sangue; toxinemia"
+    },
+    "intramuscular": {
+        "descricao": "no interior do músculo"
+    },
+    "intraocular": {
+        "descricao": "no interior do globo ocular"
+    },
+    "intratecal": {
+        "descricao": "pertencente ao lúmen de uma bainha ou canal"
+    },
+    "intravascular": {
+        "descricao": "no interior de um vaso sanguíneo"
+    },
+    "intravenoso": {
+        "descricao": "situado dentro de uma veia"
+    },
+    "intubação": {
+        "descricao": "introdução de um tubo num órgão oco"
+    },
+    "invasivo": {
+        "descricao": "que penatra, que invade"
+    },
+    "ionização": {
+        "descricao": "processo pelo qual são produzidos iões numa substância"
+    },
+    "ionograma": {
+        "descricao": "ionograma"
+    },
+    "irreversível": {
+        "descricao": "sem retorno"
+    },
+    "irrigação": {
+        "descricao": "lavagem com eliminação do líquido utilizado"
+    },
+    "isolar": {
+        "descricao": "isolar"
+    },
+    "isotónico": {
+        "descricao": "que tem a mesma tensão ou concentração"
+    },
+    "jejuno": {
+        "descricao": "parte do intestino delgado desde o duodeno até ao íleo"
+    },
+    "juvenil": {
+        "descricao": "relativo ao jovem"
+    },
+    "lateral": {
+        "descricao": "lateral"
+    },
+    "laxativo": {
+        "descricao": "medicamento purgante"
+    },
+    "lenticular": {
+        "descricao": "relacionado com o cristalino"
+    },
+    "retinopatia": {
+        "descricao": "lesão patológica que afecta a retina"
+    },
+    "letal": {
+        "descricao": "que provoca a morte"
+    },
+    "licor": {
+        "descricao": "solução, soluto"
+    },
+    "límbico": {
+        "descricao": "relativo a uma borda ou margem"
+    },
+    "linear": {
+        "descricao": "linear"
+    },
+    "linfadenopatia": {
+        "descricao": "tumefacção de um ou mais gânglios linfáticos"
+    },
+    "linfocítico": {
+        "descricao": "relativo aos linfócitos, células com núcleo redondo"
+    },
+    "linfoma": {
+        "descricao": "tumor maligno gerado no tecido linfóide"
+    },
+    "lipofílico": {
+        "descricao": "que dissolve as gorduras; que pode tornar-se obeso"
+    },
+    "liposoma": {
+        "descricao": "liposoma"
+    },
+    "lítico": {
+        "descricao": "relativo à pedra, que rompe, que influi na destruição da célula"
+    },
+    "lobo": {
+        "descricao": "lóbulo"
+    },
+    "local": {
+        "descricao": "restricto, não geral"
+    },
+    "tópico": {
+        "descricao": "local"
+    },
+    "loco-regional": {
+        "descricao": "local e regional"
+    },
+    "locomotor": {
+        "descricao": "locomotor"
+    },
+    "lombar": {
+        "descricao": "relacionado com a parte inferior da coluna vertebral"
+    },
+    "luético": {
+        "descricao": "sifilítico"
+    },
+    "mácula": {
+        "descricao": "sinal, mancha, cicatriz, estigma"
+    },
+    "mal-absorção": {
+        "descricao": "transtorno da absorção intestinal de nutrientes"
+    },
+    "maligno": {
+        "descricao": "ruim; de evolução fatal"
+    },
+    "mamário": {
+        "descricao": "relativo à mama"
+    },
+    "mastite": {
+        "descricao": "mamite, inflamação dos peitos"
+    },
+    "maníaco": {
+        "descricao": "relativo a uma mania"
+    },
+    "manifesto": {
+        "descricao": "visível"
+    },
+    "mecanismo": {
+        "descricao": "maquinismo, órgão, artifício, dispositivo"
+    },
+    "virilização": {
+        "descricao": "masculinização"
+    },
+    "tálamo": {
+        "descricao": "massa importante de núcleos cinzentos"
+    },
+    "massagem": {
+        "descricao": "massagem"
+    },
+    "mastigatório": {
+        "descricao": "que afecta os músculos da mastigação; que deve mastigar-se"
+    },
+    "substância": {
+        "descricao": "matéria"
+    },
+    "pigmentação": {
+        "descricao": "matéria orgânica corante da pele"
+    },
+    "útero": {
+        "descricao": "matriz"
+    },
+    "pernicioso": {
+        "descricao": "mau, grave, maligno"
+    },
+    "maxilar": {
+        "descricao": "relativo aos ossos da cara onde se encontram fixados os dentes"
+    },
+    "máximo (adj)": {
+        "descricao": "máximo"
+    },
+    "máximo (subst)": {
+        "descricao": "máximo, limite superior"
+    },
+    "mecela": {
+        "descricao": "pequenos fragmentos presentes em dispersão coloidal"
+    },
+    "mediano": {
+        "descricao": "médio"
+    },
+    "mediar": {
+        "descricao": "mediar, interpor"
+    },
+    "medicação": {
+        "descricao": "medicamentação; aplicação de medicamentos"
+    },
+    "médico": {
+        "descricao": "medical, medicinal"
+    },
+    "medicinal": {
+        "descricao": "medical, médico; que tem qualidades curativas"
+    },
+    "medicamento": {
+        "descricao": "remédio, medicina"
+    },
+    "placebo": {
+        "descricao": "medicamento destinado mais a agradar do que a beneficiar o"
+    },
+    "quimioterápico": {
+        "descricao": "medicamento que ataca os micróbios parasitas ou as células de um cancro"
+    },
+    "opiato": {
+        "descricao": "medicamento que contém ópio (droga)"
+    },
+    "tuberculostático": {
+        "descricao": "medicamento que inibe o crescimento do bacilo da tuberculose"
+    },
+    "tranquilizante": {
+        "descricao": "medicamento que serve para tranquilizar; calmante"
+    },
+    "profilaxia": {
+        "descricao": "medicina preventiva"
+    },
+    "prevenção": {
+        "descricao": "medidas destinadas a evitar doenças ou acidentes"
+    },
+    "medular": {
+        "descricao": "relativo à medula de qualquer tipo"
+    },
+    "megacolo": {
+        "descricao": "megalócon, cólon anormalmente dilatado, doença de Hirschsprung"
+    },
+    "megaloblástico": {
+        "descricao": "megaloblástico"
+    },
+    "meio de contraste": {
+        "descricao": "meio para visualização radiográfica"
+    },
+    "melanona": {
+        "descricao": "tumor pigmentado, geralmente maligno, da pele ou das mucosas"
+    },
+    "membrana": {
+        "descricao": "membrana"
+    },
+    "membrana celular": {
+        "descricao": "membrana de uma célula"
+    },
+    "tímpano": {
+        "descricao": "membrana ou cavidade do ouvido médio"
+    },
+    "pénis": {
+        "descricao": "membro viril, falo, pene, verga"
+    },
+    "menarca": {
+        "descricao": "primeira menstruação"
+    },
+    "menstruação": {
+        "descricao": "regras"
+    },
+    "mental": {
+        "descricao": "psíquico"
+    },
+    "psíquico": {
+        "descricao": "mental"
+    },
+    "mesentérico": {
+        "descricao": "relativo ao mesentério, membrana que contém os vasos sanguíneos mesentéricos"
+    },
+    "metabolito": {
+        "descricao": "substância derivada de um medicamento dentro do organismo"
+    },
+    "metabolização": {
+        "descricao": "transformação de uma substância noutra durante o metabolismo"
+    },
+    "metaplasia": {
+        "descricao": "processo de transformação de células ou tecidos noutros distintos"
+    },
+    "metastase": {
+        "descricao": "migração de doença, aparecimento de um cancro à distância"
+    },
+    "metemoglobinemia": {
+        "descricao": "presença de metemoglobina no sangue de que resulta a cianose"
+    },
+    "meteorismo": {
+        "descricao": "timpanismo, timpanite, dilatação do ventre (devido a gases)"
+    },
+    "procedimento": {
+        "descricao": "método, processo"
+    },
+    "mialgia": {
+        "descricao": "miodinia, dor muscular"
+    },
+    "micobactéria": {
+        "descricao": "micobactéria"
+    },
+    "micológico": {
+        "descricao": "relativo à micologia (estudo dos cogumelos)"
+    },
+    "micótico": {
+        "descricao": "produzido por fungos"
+    },
+    "microrganismo": {
+        "descricao": "micróbio"
+    },
+    "microbiológico": {
+        "descricao": "relativo à ciência dos microrganismos (organismos minúsculos)"
+    },
+    "micronizar": {
+        "descricao": "reduzir a pó fino"
+    },
+    "saprófito": {
+        "descricao": "microrganismo que vive a expensas de matérias orgânicas em decomposição; parasita que não causa doenças"
+    },
+    "mieloma": {
+        "descricao": "tumor maligno das células da medula do osso; cancro do sangue"
+    },
+    "mielotóxico": {
+        "descricao": "nocivo para a medula do osso"
+    },
+    "miosite": {
+        "descricao": "miíte, inflamação de um músculo voluntário"
+    },
+    "minimizar": {
+        "descricao": "reduzir (ao mínimo), limitar"
+    },
+    "mínimo (adj)": {
+        "descricao": "mínimo, ínfimo"
+    },
+    "mínimo (subst)": {
+        "descricao": "mínimo, limite inferior"
+    },
+    "miopatia": {
+        "descricao": "qualquer doença muscular"
+    },
+    "miorrelaxante": {
+        "descricao": "que distende os músculos"
+    },
+    "miótico": {
+        "descricao": "relativo à divisão dos cromossomas e replicação das células"
+    },
+    "miscível": {
+        "descricao": "que se pode misturar"
+    },
+    "mobilidade": {
+        "descricao": "possibilidade de realizar movimentos activos, por ex., uma articulação"
+    },
+    "mobilização": {
+        "descricao": "processo de tornar móvel uma parte fixa ou uma substância presa"
+    },
+    "modulador": {
+        "descricao": "substância reguladora"
+    },
+    "molecular": {
+        "descricao": "relativo às moléculas ou composto por elas"
+    },
+    "mononucleose": {
+        "descricao": "mononucleose"
+    },
+    "monoterapia": {
+        "descricao": "terapia com um medicamento de cada vez"
+    },
+    "morbidez(a)": {
+        "descricao": "taxa de doentes numa população"
+    },
+    "patológico": {
+        "descricao": "mórbido, relacionado com uma doença determinada"
+    },
+    "morfinomimético": {
+        "descricao": "produtos com efeito idêntico ao da morfina"
+    },
+    "mortalidade": {
+        "descricao": "taxa de falecimentos de uma população"
+    },
+    "necrose": {
+        "descricao": "morte celular, esfacelo, gangrena"
+    },
+    "motor": {
+        "descricao": "que move, motriz"
+    },
+    "propulsivo": {
+        "descricao": "motor"
+    },
+    "peristaltismo": {
+        "descricao": "movimento automático do intestino"
+    },
+    "tique": {
+        "descricao": "movimento involuntário que se produz repetidamente"
+    },
+    "nistagmo": {
+        "descricao": "movimento reflexo do globo ocular (dos olhos)"
+    },
+    "muco": {
+        "descricao": "mucosidade; pituíta, monco, ranho"
+    },
+    "mucociliar": {
+        "descricao": "mucociliar"
+    },
+    "mucocutâneo": {
+        "descricao": "relativo às mucosas e à pele ou que as afecta"
+    },
+    "mucopurulento": {
+        "descricao": "que contém muco e pus"
+    },
+    "mucosa": {
+        "descricao": [
+            "mucosa",
+            "(membrana) mucosa"
+        ]
+    },
+    "transformação": {
+        "descricao": "mudança de forma ou estrutura, alteração"
+    },
+    "seroconversão": {
+        "descricao": "mudança de um prova serológica de negativa para positiva"
+    },
+    "mutação": {
+        "descricao": "mudança do material genético"
+    },
+    "mutismo": {
+        "descricao": "mudez"
+    },
+    "selectivo": {
+        "descricao": "muito exigente quanto à indicação"
+    },
+    "nulípara": {
+        "descricao": [
+            "[mulher] que nunca deu à luz",
+            "mulher que nunca deu à luz"
+        ]
+    },
+    "multidose": {
+        "descricao": "que encerra muitas doses"
+    },
+    "multípara": {
+        "descricao": "que teve vários filhos"
+    },
+    "múltiplo": {
+        "descricao": "variado"
+    },
+    "muscular": {
+        "descricao": "relativo ao músculo; com musculatura bem desenvolvida"
+    },
+    "musculatura": {
+        "descricao": "sistema muscular do corpo ou das suas partes"
+    },
+    "mutagénico": {
+        "descricao": "que induz mutações genéticas"
+    },
+    "nadir": {
+        "descricao": "o ponto mais baixo"
+    },
+    "passivo": {
+        "descricao": "não activo"
+    },
+    "narcótico": {
+        "descricao": "sonífero; agente que produz insensibilidade, estupor ou anestesia"
+    },
+    "nasal": {
+        "descricao": "relativo ao nariz"
+    },
+    "rinofaringite": {
+        "descricao": "nasofaringite, retrofaringite, angina retronasal"
+    },
+    "nasolacrimal": {
+        "descricao": "relativo ao nariz e ao aparelho lacrimal"
+    },
+    "náusea": {
+        "descricao": "vontade de vomitar; enjoo; repugnância, sentimento de repulsão"
+    },
+    "necrólise": {
+        "descricao": "separação e esfoliação do tecido por morte celular"
+    },
+    "nefrótico": {
+        "descricao": "relativo a uma doença dos rins ou causado por ela"
+    },
+    "nefrotóxico": {
+        "descricao": "tóxico para os rins"
+    },
+    "negativo": {
+        "descricao": "sem resultado, não positivo, abaixo da linha zero"
+    },
+    "neonatal": {
+        "descricao": "relativo ao primeiro mês de vida"
+    },
+    "nervosidade": {
+        "descricao": "nervosismo"
+    },
+    "neural": {
+        "descricao": "relativo aos nervos; situado na região da coluna vertebral"
+    },
+    "neuralgia": {
+        "descricao": "nevralgia, dor viva que se sente no trajecto dos nervos"
+    },
+    "neurite": {
+        "descricao": "nevrite, inflamação de um nervo"
+    },
+    "polinevrite": {
+        "descricao": "neurite múltipla; inflamação de muitos nervos um por cada vez"
+    },
+    "neuroleptanalgesia": {
+        "descricao": "técnica de preparação dos doentes para operações cirúrgicas"
+    },
+    "neurológico": {
+        "descricao": "relativo ao sistema nervoso ou à neurologia"
+    },
+    "neuromuscular": {
+        "descricao": "relativo à correlação entre os nervos e os músculos"
+    },
+    "neuronal": {
+        "descricao": "relativo às neuronas"
+    },
+    "papilite": {
+        "descricao": "neuropapilite, inflamação de uma papila"
+    },
+    "neuropatia": {
+        "descricao": "nevropatia, doença nervosa"
+    },
+    "neurótico": {
+        "descricao": "nevrótico, neuropático, nevropático"
+    },
+    "neurotóxico": {
+        "descricao": "tóxico para os nervos"
+    },
+    "neurotransmissor": {
+        "descricao": "substância que transmite impulsos nervosos por via química"
+    },
+    "neurovegetativo": {
+        "descricao": "que pertence ou é relativo ao sistema nervoso vegetativo"
+    },
+    "neutralização": {
+        "descricao": "processo pelo qual uma coisa perde eficácia"
+    },
+    "neutrófilo": {
+        "descricao": "que tem afinidade com corantes neutros"
+    },
+    "niilidade": {
+        "descricao": "niilismo, isto é, sensação de falta de esperança por parte do homem; nada"
+    },
+    "nosocomial": {
+        "descricao": "relativo ao hospital e às doenças que ali se tratam, hospitalar"
+    },
+    "reinfecção": {
+        "descricao": "nova infecção num mesmo agente, depois de ter curado a primeira"
+    },
+    "superinfecção": {
+        "descricao": "nova infecção que surge como complicação de outra já existente"
+    },
+    "trófico": {
+        "descricao": "nutritivo"
+    },
+    "objectivo": {
+        "descricao": "perceptível aos sentidos externos; meta"
+    },
+    "oclusão": {
+        "descricao": "obliteração, fecho, de um canal ou de uma abertura natural"
+    },
+    "obstetrício": {
+        "descricao": "parte da medicina que se ocupa da gravidez, parto e puerpério; obstétrico, tocológico"
+    },
+    "prisão de ventre": {
+        "descricao": "obstipação"
+    },
+    "tromboembolismo": {
+        "descricao": "obstrução de um vaso sanguíneo com material trombótico"
+    },
+    "ocitócico": {
+        "descricao": "ocitócito, agente que faz acelerar parto estimulando o útero"
+    },
+    "ocular": {
+        "descricao": "relativo ao olho ou à vista"
+    },
+    "oculogiro": {
+        "descricao": "que faz girar os olhos"
+    },
+    "oculomucocutâneo": {
+        "descricao": "oculomucocutâneo"
+    },
+    "oftálmico": {
+        "descricao": "referente ou pertencente ao olho ou à vista"
+    },
+    "oftalmológico": {
+        "descricao": "relativo à parte da medicina que estuda os olhos"
+    },
+    "oligoelemento": {
+        "descricao": "substância mineral em quantidades mínimas da dieta alimentar"
+    },
+    "oncolítico": {
+        "descricao": "que destrói as células cancerosas"
+    },
+    "oncótico": {
+        "descricao": "relativo ao cancro"
+    },
+    "ooforectomia": {
+        "descricao": "remoção cirúrgica de um ovário"
+    },
+    "opalescente": {
+        "descricao": "parecido com o ópalo ou que tem cores como ele"
+    },
+    "óptico": {
+        "descricao": "relativo à vista ou ao nervo ótptico"
+    },
+    "óptimo": {
+        "descricao": "o mais propício ou favorável"
+    },
+    "oral": {
+        "descricao": "relativo à boca, pela boca"
+    },
+    "orbital": {
+        "descricao": "relativo à cavidade óssea que contém o globo ocular; orbitário"
+    },
+    "organismo": {
+        "descricao": "qualquer coisa viva individual"
+    },
+    "protozoário": {
+        "descricao": "organismos unicelulares"
+    },
+    "orgasmo": {
+        "descricao": "ponto mais elevado da excitação sexual"
+    },
+    "orientação": {
+        "descricao": "orientação"
+    },
+    "orofacial": {
+        "descricao": "orofacial"
+    },
+    "ortopédico": {
+        "descricao": "ortopédico"
+    },
+    "ortostático": {
+        "descricao": "relativo à posição do pé ou causado por ele"
+    },
+    "osmótico": {
+        "descricao": "relativo à difusão de um líquido através de uma membrana"
+    },
+    "ossículo": {
+        "descricao": "pequeno osso; ossinho"
+    },
+    "osteoartrite": {
+        "descricao": "osteoartrose; inflamação articular que atinge também o osso"
+    },
+    "osteoporose": {
+        "descricao": "rarefacção dos minerais nos ossos; desmineralização esquelética"
+    },
+    "otorreia": {
+        "descricao": "supuração, corrimento do ouvido"
+    },
+    "ototóxico": {
+        "descricao": "tóxico para o órgão auditivo"
+    },
+    "ovárico": {
+        "descricao": "relativo ao ovário"
+    },
+    "óvulo": {
+        "descricao": "pequeno ovo"
+    },
+    "oxigenação": {
+        "descricao": "transporte e saturação de oxigénio"
+    },
+    "paciente de risco": {
+        "descricao": "paciente de risco"
+    },
+    "paliativo": {
+        "descricao": "que alivia as dores mas não cura"
+    },
+    "palpebral": {
+        "descricao": "relativo à pálpebra"
+    },
+    "palpitação": {
+        "descricao": "sensação de batimentos cardíacos rápidos e irregulares"
+    },
+    "pápula": {
+        "descricao": "pequena elevação sólida e circunscrita da pele"
+    },
+    "punção": {
+        "descricao": "paracentese, puntura"
+    },
+    "paralelo": {
+        "descricao": "paralelo"
+    },
+    "paralisia": {
+        "descricao": "privação ou diminuição considerável do movimento voluntário e da sensibilidade"
+    },
+    "paraplegia": {
+        "descricao": "paralisia das pernas e parte inferior do corpo"
+    },
+    "paresia": {
+        "descricao": "paralisia incompleta, parcial"
+    },
+    "poliomielite": {
+        "descricao": "paralisia infantil"
+    },
+    "parâmetro": {
+        "descricao": "parâmetro, critério"
+    },
+    "parasítico": {
+        "descricao": "parasitário; referente aos organismos que vivem à custa de outros organismos"
+    },
+    "parassimpaticomimétrico": {
+        "descricao": "substância que estimula directamente o sistema colinérgico ou parassimpático"
+    },
+    "paratiróide": {
+        "descricao": "relativo à glândula paratiróide"
+    },
+    "paravenoso": {
+        "descricao": "próximo de uma veia"
+    },
+    "parênquima": {
+        "descricao": "parte funcional de um órgão"
+    },
+    "parestesia": {
+        "descricao": "sensação de formigueiro, picadelas"
+    },
+    "parietal": {
+        "descricao": "relativo à parede de uma cavidade; relativo ao osso frontal"
+    },
+    "paroxísmico": {
+        "descricao": "paroxístico, agudo"
+    },
+    "segmento": {
+        "descricao": "parte de um organismo ou órgão"
+    },
+    "região": {
+        "descricao": "parte do corpo"
+    },
+    "suspensão": {
+        "descricao": "partículas existentes na água que não foram por ela dissolvidas"
+    },
+    "parto": {
+        "descricao": "parto"
+    },
+    "transitório": {
+        "descricao": "passageiro"
+    },
+    "trânsito": {
+        "descricao": "passagem"
+    },
+    "transferência": {
+        "descricao": "passagem de um sintoma ou doença para outro(a)"
+    },
+    "patógeno": {
+        "descricao": "patogénico, que causa doença"
+    },
+    "pediátrico": {
+        "descricao": "relativo à parte da medicina que trata das crianças"
+    },
+    "película líquida": {
+        "descricao": "película líquida"
+    },
+    "piloerecção": {
+        "descricao": "pelos ou cabelos em pé, erecção do pelo ou cabelo"
+    },
+    "pélvico": {
+        "descricao": "relativo à parte inferior do tronco do corpo"
+    },
+    "penetração": {
+        "descricao": "penetração, perfuração"
+    },
+    "reflexivo": {
+        "descricao": "pensativo, reflexivo"
+    },
+    "péptico": {
+        "descricao": "relativo à digestão; úlcera gástrica"
+    },
+    "vial": {
+        "descricao": "pequena ampola, frasco"
+    },
+    "petéquias": {
+        "descricao": "pequenas manchas avermelhado-rouxas na pele"
+    },
+    "Petit mal; epilepsia menor": {
+        "descricao": "pequeno mal, epilepsia com ataques pouco intensos"
+    },
+    "percepção": {
+        "descricao": "percepção"
+    },
+    "spotting": {
+        "descricao": "perda de sangue pela vagina"
+    },
+    "síncope": {
+        "descricao": "perda súbita da consciência por descida da pressão sanguínea no cérebro; desmaio"
+    },
+    "perene": {
+        "descricao": "perpétuo"
+    },
+    "perfusão": {
+        "descricao": "perfusão; transfusão"
+    },
+    "peridual": {
+        "descricao": "situado em torno da envoltura do sistema nervoso central"
+    },
+    "perinatal": {
+        "descricao": "pouco antes ou depois do nascimento"
+    },
+    "perineal": {
+        "descricao": "relativo à região limitada pelo escroto-ânus, no homem, e pela vulva-ânus, na mulher"
+    },
+    "perioperativo": {
+        "descricao": "período de hospitalização aquando de uma operação"
+    },
+    "período de latência": {
+        "descricao": "tempo de espera"
+    },
+    "puberdade": {
+        "descricao": "período de maturidade sexual"
+    },
+    "puerpério": {
+        "descricao": "período de restabelecimento após o parto"
+    },
+    "permanente": {
+        "descricao": "permanente"
+    },
+    "permeabilidade": {
+        "descricao": "propriedade de uma membrana deixar passar as substâncias"
+    },
+    "pernas sem repouso": {
+        "descricao": "sensação de formigueiro profundo em ambas as pernas"
+    },
+    "persistente": {
+        "descricao": "perseverante"
+    },
+    "sintomático": {
+        "descricao": "pertencente aos sintomas"
+    },
+    "pH": {
+        "descricao": "pH"
+    },
+    "piloro": {
+        "descricao": "saída do estômago"
+    },
+    "pirogénico": {
+        "descricao": "que causa febre"
+    },
+    "placa dentária": {
+        "descricao": "tártaro"
+    },
+    "placenta": {
+        "descricao": "placenta"
+    },
+    "plasminogénio": {
+        "descricao": "precursor inactivo da plasmina"
+    },
+    "pleurisia": {
+        "descricao": "pleurite, inflamação da membrana que reveste os pulmões e a cavidade torácica"
+    },
+    "plexo": {
+        "descricao": "rede de vasos linfáticos, nervos ou veias"
+    },
+    "polivalente": {
+        "descricao": "plurivalente, multivalente"
+    },
+    "pneumonia": {
+        "descricao": "pulmonia, inflamação dos pulmões e brônquios respiratórios"
+    },
+    "potência": {
+        "descricao": "poder; capacidade sexual; poder de um medicamento produzir efeitos"
+    },
+    "polidipsia": {
+        "descricao": "sede excessiva persistente; sintoma de diabetes mellitus descompensada"
+    },
+    "polimorfo": {
+        "descricao": "que apresenta diversas formas"
+    },
+    "politerapia": {
+        "descricao": "terapia múltipla"
+    },
+    "população": {
+        "descricao": "população"
+    },
+    "sublingual": {
+        "descricao": "por baixo da língua, hipoglosso"
+    },
+    "supraventricular": {
+        "descricao": "por cima de uma pequena cavidade"
+    },
+    "rotineiramente": {
+        "descricao": "por rotina, por hábito"
+    },
+    "retrobulbar": {
+        "descricao": "por trás do bolbo raquiano, por trás do globo ocular"
+    },
+    "retroesternal": {
+        "descricao": "por trás do esterno"
+    },
+    "porfíria": {
+        "descricao": "transtorno do metabolismo das porfirinas"
+    },
+    "pós-carga": {
+        "descricao": ""
+    },
+    "pós-menopáusico": {
+        "descricao": "que ocorre após a menopausa"
+    },
+    "pós-traumático": {
+        "descricao": "que ocorre depois de um traumatismo"
+    },
+    "positivo": {
+        "descricao": "que indica a presença de um transtorno"
+    },
+    "posologia": {
+        "descricao": "regime de administração do medicamento"
+    },
+    "posterior": {
+        "descricao": "traseiro"
+    },
+    "postural": {
+        "descricao": "relacionado com a postura ou a posição"
+    },
+    "subagudo": {
+        "descricao": "pouco agudo"
+    },
+    "pré-carga": {
+        "descricao": "pré-carga"
+    },
+    "pré-clínico": {
+        "descricao": "que ocorre antes da doença ser clinicamente reconhecível"
+    },
+    "pré-menstrual": {
+        "descricao": "que ocorre antes da menstruação"
+    },
+    "pré-operatório": {
+        "descricao": "que precede uma operação"
+    },
+    "pré-sinático": {
+        "descricao": "que se encontra adiante da zona de contacto entre dois neuronas"
+    },
+    "precipitação": {
+        "descricao": "precipitado, depósito"
+    },
+    "precordial": {
+        "descricao": "situado diante do coração"
+    },
+    "precursor": {
+        "descricao": "que precede, dianteiro"
+    },
+    "vagotonia": {
+        "descricao": "predominância do vago"
+    },
+    "prepúcio": {
+        "descricao": "prega de pele que recobre a glande do pénis ou o clítoris"
+    },
+    "válvula": {
+        "descricao": "prega existente num canal permitindo o fluxo num único sentido"
+    },
+    "preliminar": {
+        "descricao": "que antecede o principal ou que o prepara"
+    },
+    "prematuro": {
+        "descricao": "que acontece antes do tempo (normal)"
+    },
+    "preparação": {
+        "descricao": "preparado, confecção, solução, fabricação"
+    },
+    "solução": {
+        "descricao": "preparado líquido que contém várias substâncias químicas solúveis; soluto, licor; meio"
+    },
+    "prescrição": {
+        "descricao": "receita"
+    },
+    "tensão": {
+        "descricao": "pressão"
+    },
+    "primário": {
+        "descricao": "primeiro, principal, originário"
+    },
+    "primeira passagem": {
+        "descricao": "primeiro passo"
+    },
+    "primeira vacinação": {
+        "descricao": "primeira vacina"
+    },
+    "ulceração": {
+        "descricao": "processo de formação de uma úlcera; helcose"
+    },
+    "produtivo": {
+        "descricao": "que produz tecido novo (diz-se de uma inflamação); que produz escarros e muco (diz-se da tosse)"
+    },
+    "produto liofilizado": {
+        "descricao": "produto preparado mediante congelação e desidratação"
+    },
+    "semi-sintético": {
+        "descricao": "produzido por manipulação química de substâncias naturais"
+    },
+    "prognose": {
+        "descricao": "prognóstico"
+    },
+    "proliferação": {
+        "descricao": "reprodução, multiplicação"
+    },
+    "transmissão": {
+        "descricao": "propagação"
+    },
+    "reprodução": {
+        "descricao": "propagação, multiplicação; cópia"
+    },
+    "proporcional": {
+        "descricao": "proporcional"
+    },
+    "prostaglandina(s)": {
+        "descricao": "substâncias derivadas de ácidos gordos"
+    },
+    "protectivo": {
+        "descricao": "que protege, protector"
+    },
+    "proteína": {
+        "descricao": "prótido"
+    },
+    "proteína plasmática": {
+        "descricao": "proteína do plasma"
+    },
+    "proteolítico": {
+        "descricao": "que digere ou hidrolisa as proteínas"
+    },
+    "prótese": {
+        "descricao": "substituição artificial de um órgão; anaplerose"
+    },
+    "próximo": {
+        "descricao": "situado mais perto do centro do tronco"
+    },
+    "prurítico": {
+        "descricao": "pruriginoso, que faz comichão"
+    },
+    "pseudomembranoso": {
+        "descricao": "pseudomenbranoso"
+    },
+    "psicogénico": {
+        "descricao": "que tem origem emocional ou psicológica"
+    },
+    "psicológico": {
+        "descricao": "psicológico"
+    },
+    "psicomotor": {
+        "descricao": "relativo aos efeitos motores da actividade cerebral ou psíquica"
+    },
+    "psicose": {
+        "descricao": "psicopatia, alienação (mental), doença mental"
+    },
+    "psicossomático": {
+        "descricao": "que tem sintomas corporais de origem psíquica, emocional e mental"
+    },
+    "psicotrópico": {
+        "descricao": "que afecta o estado mental"
+    },
+    "psiquiátrico": {
+        "descricao": "relativo à psiquiatria"
+    },
+    "ptose": {
+        "descricao": "queda de um órgão"
+    },
+    "pulmonar": {
+        "descricao": "relativo aos pulmões"
+    },
+    "purgativo": {
+        "descricao": "purgante, que produz evacuação do intestino"
+    },
+    "purulento": {
+        "descricao": "que contém ou produz pus"
+    },
+    "pustuloso": {
+        "descricao": "pustulento, com formação de pústulas"
+    },
+    "qualitativo": {
+        "descricao": "relativo à qualidade"
+    },
+    "quantitativo": {
+        "descricao": "relativo à quantidade"
+    },
+    "quaternário": {
+        "descricao": "que contém quatro elementos"
+    },
+    "subclínico": {
+        "descricao": "que acontece sem manifestação de sintomas"
+    },
+    "vasomotor": {
+        "descricao": "que afecta o calibre dos vasos"
+    },
+    "sistémico": {
+        "descricao": "que afecta o corpo de forma total; geral, generalizado"
+    },
+    "sinergético": {
+        "descricao": "que age simultaneamente com outra coisa"
+    },
+    "vasoactivo": {
+        "descricao": "que age sobre os vasos sanguíneos"
+    },
+    "transruretal": {
+        "descricao": "que conduz através da uretra ou a atravessa"
+    },
+    "vasopressor": {
+        "descricao": "que contrai os vasos sanguíneos"
+    },
+    "retrógrado": {
+        "descricao": "que degenera, retrógrado, regressivo, retrocedente"
+    },
+    "trombolítico": {
+        "descricao": "que dissolve ou desintegra um trombo"
+    },
+    "tensioactivo": {
+        "descricao": "que exerce efeito sobre a tensão superficial"
+    },
+    "ulcerogénico": {
+        "descricao": "que gera úlceras"
+    },
+    "salúrico": {
+        "descricao": "que induz a eliminação de sal pela urina"
+    },
+    "vagolítico": {
+        "descricao": "que inibe o nervo vago"
+    },
+    "resistente": {
+        "descricao": "que não reage a determinados medicamentos"
+    },
+    "transdérmico": {
+        "descricao": "que passa através da pele"
+    },
+    "reversível": {
+        "descricao": "que pode desaparecer totalmente com a supressão da causa"
+    },
+    "tónico": {
+        "descricao": "que produz e restabelece o tom normal; que se caracteriza por tensão contínua"
+    },
+    "soporífico": {
+        "descricao": "que produz sono, soporífero"
+    },
+    "sedentário": {
+        "descricao": "que se senta habitualmente; de hábitos inactivos"
+    },
+    "trivalente": {
+        "descricao": "que se une com três átomos de hidrogénio ou os substitui"
+    },
+    "sistemático": {
+        "descricao": "que segue um sistema, um método"
+    },
+    "terapêutico": {
+        "descricao": "que serve para curar"
+    },
+    "recorrente": {
+        "descricao": "que volta à sua origem"
+    },
+    "quelação": {
+        "descricao": "quelante"
+    },
+    "químico": {
+        "descricao": "químico"
+    },
+    "quimioterapia": {
+        "descricao": "tratamento do cancro com substâncias químicas"
+    },
+    "quisto": {
+        "descricao": "tumefacção anormal com conteúdo líquido; ciste"
+    },
+    "radioactividade": {
+        "descricao": "radioactividade"
+    },
+    "radiografia": {
+        "descricao": "radiografia"
+    },
+    "urografia": {
+        "descricao": "radiografia de uma parte do aparelho urinário"
+    },
+    "tomografia": {
+        "descricao": "radiografia de uma secção do corpo ou de um órgão"
+    },
+    "radiológico": {
+        "descricao": "radiológico"
+    },
+    "radioterapia": {
+        "descricao": "tratamento por radiações; curieterapia"
+    },
+    "reabsorção": {
+        "descricao": "reabsorção cutânea, dental"
+    },
+    "reacção": {
+        "descricao": "reacção"
+    },
+    "resposta": {
+        "descricao": "reacção a um estímulo"
+    },
+    "reactivação": {
+        "descricao": "restauração da actividade num corpo inactivo"
+    },
+    "reagente": {
+        "descricao": "reactivo, substância utilizada para produzir uma reacção química"
+    },
+    "ressuscitação": {
+        "descricao": "reanimação de doentes que pareciam mortos, como após afogamento, etc."
+    },
+    "reavaliação": {
+        "descricao": "reavaliação"
+    },
+    "refractário": {
+        "descricao": "rebelde, que não cede facilmente com o tratamento"
+    },
+    "receptor": {
+        "descricao": "receptor"
+    },
+    "recidivista": {
+        "descricao": "reincidente, pessoa que repete os actos delinquentes depois de receber tratamento"
+    },
+    "rectal": {
+        "descricao": "relativo ao recto, ânos"
+    },
+    "recuperação": {
+        "descricao": "recuperação, aproveitamento"
+    },
+    "redução": {
+        "descricao": "retorno à forma inicial ou normal"
+    },
+    "referência": {
+        "descricao": "referência"
+    },
+    "urogenital": {
+        "descricao": "referente aos órgãos urinários e genitais; geniturinário"
+    },
+    "vascular": {
+        "descricao": "referente aos vasos sanguíneos"
+    },
+    "reflexo": {
+        "descricao": "reflexo"
+    },
+    "regeneração": {
+        "descricao": "renovação ou preparação de tecidos ou de partes desaparecidas"
+    },
+    "regional": {
+        "descricao": "regional"
+    },
+    "regressão": {
+        "descricao": "retorno a um estado ou fase anterior; desaparecimento dos sintomas ou de um processo anormal; involução"
+    },
+    "retroacção": {
+        "descricao": "regulação"
+    },
+    "termorregulação": {
+        "descricao": "regulação do calor ou da temperatura"
+    },
+    "regurgitação": {
+        "descricao": "voltar à boca [por exemplo, alimentos sólidos que...]"
+    },
+    "reidratação": {
+        "descricao": "restauração da água ou do conteúdo líquido num organismo"
+    },
+    "sistólico": {
+        "descricao": "relacionado com a contracção músculo cardíaco"
+    },
+    "toxicológico": {
+        "descricao": "relativo à ciência que estuda os venenos"
+    },
+    "teratológico": {
+        "descricao": "relativo à ciência que se ocupa do desenvolvimento anormal e das malformações congénitas"
+    },
+    "respiratório": {
+        "descricao": "relativo à respiração"
+    },
+    "retinal": {
+        "descricao": "relativo à retina"
+    },
+    "traumático": {
+        "descricao": "relativo a um trauma ou traumatismo, ou causado por ele"
+    },
+    "vestibular": {
+        "descricao": "relativo a um vestíbulo ou que se dirige para ele"
+    },
+    "sinusal": {
+        "descricao": "relativo a uma bolsa ou cavidade, particularmente na câmara superior do coração"
+    },
+    "ventricular": {
+        "descricao": "relativo a uma pequena cavidade"
+    },
+    "visceral": {
+        "descricao": "relativo a uma víscera"
+    },
+    "vaginal": {
+        "descricao": "relativo à vagina"
+    },
+    "visual": {
+        "descricao": "relativo à visão"
+    },
+    "sináptico": {
+        "descricao": "relativo à zona de contacto entre dois neuronas"
+    },
+    "venéreo": {
+        "descricao": "relativo ao contacto sexual ou transmitido por ele"
+    },
+    "somático": {
+        "descricao": "relativo ao corpo: desenvolvimento somático, por exemplo"
+    },
+    "vegetativo": {
+        "descricao": "relativo ao crescimento e à nutrição; que funciona de maneira involuntária ou inconsciente; em repouso; relativo às plantas; relativo à reprodução assexual"
+    },
+    "serológico": {
+        "descricao": "relativo ao estudo da imunidade pelo soro"
+    },
+    "sinovial": {
+        "descricao": "relativo ao líquido secretado pela membrana sinovial ou que o secreta"
+    },
+    "vagal": {
+        "descricao": "relativo ao nervo vago, décimo nervo craniano"
+    },
+    "renal": {
+        "descricao": "relativo ao rim"
+    },
+    "torácico": {
+        "descricao": "relativo ao tórax ou que o afecta"
+    },
+    "umeral": {
+        "descricao": "relativo ao úmero (osso do braço - do ombro até ao cotovelo)"
+    },
+    "ventral": {
+        "descricao": "relativo ao ventre; abdominal"
+    },
+    "vulvar": {
+        "descricao": "relativo aos órgãos sexuais externos da mulher"
+    },
+    "testicular": {
+        "descricao": "relativo aos testículos"
+    },
+    "viral": {
+        "descricao": "relativo aos vírus ou causado por eles"
+    },
+    "sensorial": {
+        "descricao": "relativo às sensações"
+    },
+    "venoso": {
+        "descricao": "relativo às veias, provido de veias"
+    },
+    "vertebral": {
+        "descricao": "relativo às vértebras"
+    },
+    "renovascular": {
+        "descricao": "renovascular"
+    },
+    "residual": {
+        "descricao": "restante, que deposita"
+    },
+    "resistência cruzada": {
+        "descricao": "resistência a antibióticos similares"
+    },
+    "rigidez": {
+        "descricao": "resistência, robustez"
+    },
+    "responder": {
+        "descricao": "responder"
+    },
+    "localização": {
+        "descricao": "restrição a uma área determinada"
+    },
+    "retardamento": {
+        "descricao": "retardo, atraso no desenvolvimento de determinada actividade"
+    },
+    "reumatóide": {
+        "descricao": "semelhante ao reumatismo"
+    },
+    "revestimento intestinal": {
+        "descricao": "revestimento intestinal"
+    },
+    "ronco": {
+        "descricao": "ruído respiratório anormal; ressono"
+    },
+    "torção": {
+        "descricao": "rotação de um órgão em torno de si mesmo"
+    },
+    "rotatividade": {
+        "descricao": "rotatividade"
+    },
+    "rotura": {
+        "descricao": "ruptura, fractura dos tecidos ou de um órgão"
+    },
+    "rouquidão": {
+        "descricao": "rouquidão"
+    },
+    "rubéola": {
+        "descricao": "sarampo alemão"
+    },
+    "rubor": {
+        "descricao": "ruborização"
+    },
+    "salino": {
+        "descricao": "salgado, que contém sais"
+    },
+    "salivação": {
+        "descricao": "secreção de saliva, ptialismo, sialorreia, polissialia, fluxo salivar"
+    },
+    "sarcoma": {
+        "descricao": "tumor maligno"
+    },
+    "secreção": {
+        "descricao": "secreção"
+    },
+    "xerostomia": {
+        "descricao": "secura ocular"
+    },
+    "xeroftalmia": {
+        "descricao": "secura, ulceração da córnea por falta de vitamina A"
+    },
+    "senilidade": {
+        "descricao": "velhice"
+    },
+    "vertigem": {
+        "descricao": "sensação rotatória associada a náusea; tontura de cabeça"
+    },
+    "septo": {
+        "descricao": "tabique de separação"
+    },
+    "significante": {
+        "descricao": "significativo"
+    },
+    "simpaticomimético": {
+        "descricao": "substância que estimula o sistema nervoso simpático"
+    },
+    "sintoma": {
+        "descricao": "sinal"
+    },
+    "sintomatologia": {
+        "descricao": "sintomas combinados de uma doença"
+    },
+    "subaracnóide": {
+        "descricao": "situado ou produzido por baixo da aracnóide"
+    },
+    "subcapsular": {
+        "descricao": "situado por baixo de uma cápsula"
+    },
+    "subcutâneo": {
+        "descricao": "sob a pele, hipodérmico"
+    },
+    "soluço": {
+        "descricao": "soluço, singulto"
+    },
+    "sonolência": {
+        "descricao": "sonolência"
+    },
+    "sopro": {
+        "descricao": "vibração audível por auscultação, ruído"
+    },
+    "soro": {
+        "descricao": "soro"
+    },
+    "stress": {
+        "descricao": "tensão, vida [moderna] agitada"
+    },
+    "subconjuntival": {
+        "descricao": "subconjuntival"
+    },
+    "subjectivo": {
+        "descricao": "subjectivo; reacção específica, pessoal"
+    },
+    "tirostático": {
+        "descricao": "substância que inibe a biossíntese e/ou a secreção de hormonas tiróides"
+    },
+    "substituição": {
+        "descricao": "substituição, troca"
+    },
+    "supervisão": {
+        "descricao": "vigilância, inspecção, controlo"
+    },
+    "suplemento": {
+        "descricao": "suplemento, adicional"
+    },
+    "supositório": {
+        "descricao": "supositório"
+    },
+    "supressivo": {
+        "descricao": "supressivo"
+    },
+    "tardio": {
+        "descricao": "tardio"
+    },
+    "tono": {
+        "descricao": "tensão"
+    },
+    "teórico": {
+        "descricao": "teórico"
+    },
+    "terapia": {
+        "descricao": "tratamento das doenças, terapêutica"
+    },
+    "termal": {
+        "descricao": "térmico, que faz referência ao calor ou à temperatura"
+    },
+    "tétano": {
+        "descricao": "tétano"
+    },
+    "tinea pedis": {
+        "descricao": "tinha do pé; pé-de-atleta."
+    },
+    "tinitus (aurium)": {
+        "descricao": "zumbido do ouvido"
+    },
+    "xantoma": {
+        "descricao": "tipo de tumor benigno da pele; xantelasma"
+    },
+    "título": {
+        "descricao": "valor, grau, proporção"
+    },
+    "torcicolo": {
+        "descricao": "torticolo"
+    },
+    "torsade de pointes": {
+        "descricao": "torsade de pointes"
+    },
+    "tóxico": {
+        "descricao": "venenoso"
+    },
+    "toxicomania": {
+        "descricao": "toxicodependência (dependência de uma droga)"
+    },
+    "toxina": {
+        "descricao": "veneno"
+    },
+    "tracto (gastrintestinal)": {
+        "descricao": "tubo digestivo, incluindo a boca, esófago, estômago, intestinos delgado e grosso, recto, ânos e glândulas anexas (vesícula biliar e pâncreas)"
+    },
+    "transfusão": {
+        "descricao": "transfusão"
+    },
+    "transplantação": {
+        "descricao": "transplante"
+    },
+    "veículo": {
+        "descricao": "transportador; excipiente"
+    },
+    "tremor": {
+        "descricao": "tremor"
+    },
+    "tremor intencional": {
+        "descricao": "tremor que aparece ao efectuar um movimento voluntário coordenado"
+    },
+    "tubercular": {
+        "descricao": "tubercular"
+    },
+    "tubo": {
+        "descricao": "tubo, cano"
+    },
+    "tumor": {
+        "descricao": "vegetação, excrescência, neoplasma"
+    },
+    "úlcera péptica": {
+        "descricao": "úlcera causada pela acção do suco gástrico; úlcera duodenal"
+    },
+    "úlcera crural": {
+        "descricao": "úlcera da perna"
+    },
+    "umeroscapular": {
+        "descricao": "umeroscapular"
+    },
+    "uniforme": {
+        "descricao": "uniforme"
+    },
+    "urgência": {
+        "descricao": "urgência"
+    },
+    "urinário": {
+        "descricao": "urinário"
+    },
+    "vacina": {
+        "descricao": "vacina"
+    },
+    "vacinação": {
+        "descricao": "vacina"
+    },
+    "(herpes) zóster": {
+        "descricao": "vírus instalado à volta das células sensitivas"
+    },
+    "visão": {
+        "descricao": "visão"
+    },
+    "xantopsia": {
+        "descricao": "visão amarelada"
+    },
+    "voluntário": {
+        "descricao": "voluntário"
+    },
+    "vómito": {
+        "descricao": "vómito"
+    },
+    "zona de pressão": {
+        "descricao": "zona de excitabilidade aumentada (trigger zone)"
+    }
+}
