@@ -1,0 +1,2408 @@
+{
+    "abcesso": {
+        "descricao": [
+            "Coleção de pus bem delimitada, desenvolvida numa cavidade neoformada."
+        ],
+        "remis": {}
+    },
+    "ablação": {
+        "descricao": [
+            "Extirpação cirúrgica de uma parte do corpo."
+        ],
+        "remis": {}
+    },
+    "acalásia": {
+        "descricao": [
+            "Impossibilidade de relaxar uma abertura ou esfíncter."
+        ],
+        "remis": {}
+    },
+    "adenoidectomia": {
+        "descricao": [
+            "Operação para ablação das adenoides."
+        ],
+        "remis": {}
+    },
+    "admissão": {
+        "descricao": [
+            "Ato da responsabilidade de um profissional de saúde credenciado que estabelece o ingresso de um indivíduo num estabelecimento de saúde ou programa de saúde, com o propósito de prestação de cuidados de saúde ou de cuidados continuados integrados."
+        ],
+        "remis": {}
+    },
+    "aférese": {
+        "descricao": [
+            "Corte ou remoção de uma parte de um órgão; ablação. Processo de separação de elementos do sangue, permitindo a recolha seletiva de um ou mais dos seus componentes."
+        ],
+        "remis": {}
+    },
+    "alergia": {
+        "descricao": [
+            "Sensibilidade anormal do organismo perante certas substâncias."
+        ],
+        "remis": {}
+    },
+    "ambulatório": {
+        "descricao": [
+            "Diz-se da doença ou do tratamento que não obriga o doente a estar permanentemente de cama. Pequena enfermaria onde se prestam os primeiros socorros. Tratamento dado aos doentes que não estão acamados."
+        ],
+        "remis": {}
+    },
+    "amigdalectomia": {
+        "descricao": [
+            "Excisão de uma ou das duas amígdalas."
+        ],
+        "remis": {
+            "sin.": "Amidalectomia"
+        }
+    },
+    "amtco": {
+        "descricao": [
+            "Avaliação Multidisciplinar de Tratamento Cirúrgico da Obesidade."
+        ],
+        "remis": {}
+    },
+    "anafilaxia": {
+        "descricao": [
+            "Estado de hipersensibilidade ou de reação exagerada a nova introdução de substância estranha, que ao ser administrada pela primeira vez, não provocou, ou provocou pequena, reação. O contrário de imunidade."
+        ],
+        "remis": {
+            "sin.": "Anafilático"
+        }
+    },
+    "analgésico": {
+        "descricao": [
+            "Fármaco ou substância que combate a dor atuando ao nível do sistema nervoso central. Os analgésicos dividem-se em narcóticos, antipiréticos e antiflogísticos."
+        ],
+        "remis": {
+            "sin.": "Analgesia"
+        }
+    },
+    "análise": {
+        "descricao": [
+            "Determinação, total ou parcial, da composição química, qualitativa ou quantitativa, de uma substância ou mistura de substâncias."
+        ],
+        "remis": {}
+    },
+    "anestesia": {
+        "descricao": [
+            "Supressão temporária da sensibilidade e da consciência, mediante técnicas utilizadas em cirurgia, para fins operatórios, exploratórios, terapêuticos. Ausência ou perda de vários ou de um dos tipos da sensibilidade, em todo ou parte do corpo."
+        ],
+        "remis": {}
+    },
+    "angioedema": {
+        "descricao": [
+            "Tumefação circunscrita, recidivante, que se origina nas camadas profundas da pele e das submucosas e que pode atingir tanto a pele (dedos, lábios, pálpebras ou pénis) como a árvore respiratória (laringe) ou a língua."
+        ],
+        "remis": {}
+    },
+    "angiografia": {
+        "descricao": [
+            "Radiografia obtida após a injeção endovenosa de um produto rádio-opaco (substância de contraste). Denomina-se arteriografia quando aplicado no estudo das artérias, e venografia quando aplicado no estudo das veias."
+        ],
+        "remis": {}
+    },
+    "angioplastia": {
+        "descricao": [
+            "Operação cirúrgica cujo objetivo é reparar um vaso sanguíneo."
+        ],
+        "remis": {}
+    },
+    "anquilose": {
+        "descricao": [
+            "Estado de uma articulação móvel cujos movimentos estão diminuídos ou impossibilitados."
+        ],
+        "remis": {
+            "sin.": "Ancilose"
+        }
+    },
+    "apneia": {
+        "descricao": [
+            "Paragem transitória da respiração, como pode acontecer após inspirações rápidas e profundas ou na uremia."
+        ],
+        "remis": {}
+    },
+    "aponevrectomia": {
+        "descricao": [
+            "Excisão de uma aponevrose."
+        ],
+        "remis": {
+            "sin.": "Aponevrotomia"
+        }
+    },
+    "aponevrose": {
+        "descricao": [
+            "Membrana fibrosa que reveste os músculos e o crânio por baixo do couro cabeludo (aponevrose epicraniana)."
+        ],
+        "remis": {}
+    },
+    "arritmologia": {
+        "descricao": [
+            "Área da cardiologia dedicada ao estudo e tratamento das arritmias."
+        ],
+        "remis": {}
+    },
+    "arteriosclerose": {
+        "descricao": [
+            "Endurecimento, espessamento e perda de elasticidade das artérias devido a processo degenerativo com formação de placas de ateroma que levam à redução ou obliteração do lume do vaso; está geralmente associada a hipertensão arterial."
+        ],
+        "remis": {}
+    },
+    "artrite": {
+        "descricao": [
+            "Inflamação articular que pode ser de causa infeciosa (bacteriana, vírica ou micótica), imunológica (depósito de complexos antigénio-anticorpo) ou de causa desconhecida (por exemplo, conectivites ou devida a psoríase). As artrites podem ainda classificar-se em agudas, crónicas, anafiláticas, deformantes ou exsudativas."
+        ],
+        "remis": {}
+    },
+    "artrocentese": {
+        "descricao": [
+            "Punção de uma articulação."
+        ],
+        "remis": {}
+    },
+    "artroclise": {
+        "descricao": [
+            "Produção de anquilose ou ancilose articular (estado em que a ou as articulações têm os movimentos diminuídos por faixas fibrosas intra-articulares, por malformações congénitas, por soldadura óssea ou por fixação cirúrgica)."
+        ],
+        "remis": {}
+    },
+    "artrografia": {
+        "descricao": [
+            "Radiografia de uma articulação."
+        ],
+        "remis": {}
+    },
+    "artroplastia": {
+        "descricao": [
+            "Operação que se destina a refazer as superfícies articulares numa articulação anquilosada. Cirurgia plástica das articulações."
+        ],
+        "remis": {}
+    },
+    "artroscopia": {
+        "descricao": [
+            "Observação endoscópica do interior de uma articulação."
+        ],
+        "remis": {}
+    },
+    "asma": {
+        "descricao": [
+            "Doença, com acessos irregulares, caracterizada por dificuldade de respirar, tosse seca e uma sensação de aperto no peito."
+        ],
+        "remis": {}
+    },
+    "aterosclerose": {
+        "descricao": [
+            "Forma mais comum de arteriosclerose, caracterizada pelo depósito de lípidos na túnica média das artérias."
+        ],
+        "remis": {}
+    },
+    "audiograma": {
+        "descricao": [
+            "Registo da acuidade auditiva de um indivíduo."
+        ],
+        "remis": {}
+    },
+    "autoanticorpo": {
+        "descricao": [
+            "Anticorpo dirigido contra componentes teciduais do próprio organismo e que pode povocar certas manifestações patológicas."
+        ],
+        "remis": {}
+    },
+    "autoimune": {
+        "descricao": [
+            "(Reação, doença) que resulta da imunização de uma pessoa contra os seus próprios constituintes."
+        ],
+        "remis": {}
+    },
+    "biliar": {
+        "descricao": [
+            "Relativo ou pertencente à bílis."
+        ],
+        "remis": {}
+    },
+    "biópsia": {
+        "descricao": [
+            "Remoção e exame, geralmente microscópico, de tecido de um organismo vivo para diagnóstico."
+        ],
+        "remis": {
+            "sin.": "Biopsia, biópsias"
+        }
+    },
+    "bloco operatório": {
+        "descricao": [
+            "Local, num hospital ou numa clínica, equipado para a realização de intervenções cirúrgicas."
+        ],
+        "remis": {}
+    },
+    "broncoscopia": {
+        "descricao": [
+            "Método de estudo que consiste na observação direta da árvore traqueobrônquica com um instrumento o broncoscópio que permite examinar as alterações da mucosa nas diferentes situações patológicas, colher secreções, efetuar biópsias e executar tratamentos especiais (extrair corpos estranhos, fazer laserterapia, crioterapia ou braquiterapia, colocar próteses, etc.). Por meio de broncoscopia é, ainda, possível fazer fotografia ou filmar a árvore brônquica e fazer registos com câmaras de vídeo."
+        ],
+        "remis": {}
+    },
+    "caaf": {
+        "descricao": [
+            "Citologia Aspirativa por Agulha Fina."
+        ],
+        "remis": {}
+    },
+    "cânula": {
+        "descricao": [
+            "Instrumento tubiforme, que se aplica em operações terapêuticas, cirúrgicas, de higiene, etc., por vezes adaptado a seringas e irrigadores."
+        ],
+        "remis": {}
+    },
+    "capilaroscopia": {
+        "descricao": [
+            "Observação microscópica dos capilares e da sua circulação."
+        ],
+        "remis": {}
+    },
+    "cardiopatia": {
+        "descricao": [
+            "Termo genérico dado a todas as doenças cardíacas, qualquer que seja a sua etiopatogenia."
+        ],
+        "remis": {}
+    },
+    "cardiopatias congénitas": {
+        "descricao": [
+            "As cardiopatias congénitas são malformações cardíacas que ocorrem durante o desenvolvimento do coração do feto no útero materno. Estão presentes ao nascimento, embora, em alguns casos, só sejam diagnosticadas mais tarde, durante a infância ou mesmo na idade adulta."
+        ],
+        "remis": {}
+    },
+    "cardioversão": {
+        "descricao": [
+            "Restauração do ritmo cardíaco para o normal, de um coração em arritmia, com uma descarga elétrica sobre o tórax."
+        ],
+        "remis": {}
+    },
+    "casuística": {
+        "descricao": [
+            "Registo, quantificação e estudo dos casos de determinada doença."
+        ],
+        "remis": {}
+    },
+    "cateter": {
+        "descricao": [
+            "Instrumento tubular, de dimensões variadas, para introduzir numa cavidade, num vaso ou num canal do corpo para extrair ou introduzir determinadas substâncias, líquidos ou fármacos. Pode ainda servir como meio de medir ou registar valores de pressões ou outros parâmetros intraorgânicos."
+        ],
+        "remis": {
+            "sin.": "Cateteres"
+        }
+    },
+    "cauterização": {
+        "descricao": [
+            "Aplicação de um cautério (dispositivo ou agente destinado a destruir tecidos orgânicos doentes - fogo, ferro em brasa, eletricidade galvânica, frio, nitrato de prata ou outras substâncias químicas, etc.) ou de um cáustico com fins terapêuticos."
+        ],
+        "remis": {}
+    },
+    "cdi": {
+        "descricao": [
+            "Cardioversor Desfibrilhador Implantável."
+        ],
+        "remis": {}
+    },
+    "cdt": {
+        "descricao": [
+            "Consulta de decisão terapêutica."
+        ],
+        "remis": {}
+    },
+    "cecv": {
+        "descricao": [
+            "Centro de Estudos Cardiovasculares."
+        ],
+        "remis": {}
+    },
+    "cefaleias": {
+        "descricao": [
+            "Dor de cabeça crónica e, muitas vezes, intermitente, de etiologia muito variada."
+        ],
+        "remis": {}
+    },
+    "cefalorraquidiano": {
+        "descricao": [
+            "Relativo à cabeça e à coluna vertebral."
+        ],
+        "remis": {}
+    },
+    "centro hospitalar": {
+        "descricao": [
+            "Estabelecimento de saúde formado por um conjunto de hospitais, em que cada um deles não tem autonomia administrativa e financeira. Têm serviços comuns e ligações funcionais."
+        ],
+        "remis": {}
+    },
+    "centros de referência": {
+        "descricao": [
+            "Centro de Referência é qualquer serviço, departamento ou unidade de saúde, reconhecido como o expoente mais elevado de competências na prestação de cuidados de saúde de elevada qualidade em situações clínicas que exigem uma concentração de recursos técnicos e tecnológicos altamente diferenciados, de conhecimento e experiência, devido à baixa prevalência da doença, à complexidade no seu diagnóstico ou tratamento e/ou aos custos elevados da mesma, sendo capaz de conduzir formação pós-graduada e investigação científica nas respetivas áreas médicas."
+        ],
+        "remis": {}
+    },
+    "cerebrovascular": {
+        "descricao": [
+            "Relativo ou pertencente ao cérebro e aos vasos sanguíneos que o irrigam."
+        ],
+        "remis": {}
+    },
+    "cesariana": {
+        "descricao": [
+            "Intervenção cirúrgica que consiste em retirar o feto através da incisão da parede abdominal e do útero. A cesariana está, geralmente, indicada quando existe dificuldade, impossibilidade ou grande risco de vida para a mãe ou para o feto de realizar o parto por via vaginal."
+        ],
+        "remis": {}
+    },
+    "chlo": {
+        "descricao": [
+            "Centro Hospitalar de Lisboa Ocidental. Integra o Hospital de São Francisco Xavier, o Hospital de Egas Moniz e o Hospital de Santa Cruz."
+        ],
+        "remis": {}
+    },
+    "cifose": {
+        "descricao": [
+            "Curvatura anormal com proeminência da coluna vertebral."
+        ],
+        "remis": {}
+    },
+    "cintigrafia": {
+        "descricao": [
+            "Registo em duas dimensões das radiações gama emitidas por um radionuclido, em determinada região ou tecido orgânico."
+        ],
+        "remis": {}
+    },
+    "citologia": {
+        "descricao": [
+            "Parte da histologia que estuda as células quanto à sua morfologia, estrutura e funções."
+        ],
+        "remis": {}
+    },
+    "citometria": {
+        "descricao": [
+            "Identificação e quantificação de células com base nas suas características físicas e químicas."
+        ],
+        "remis": {}
+    },
+    "citopatologia": {
+        "descricao": [
+            "Estudo das alterações celulares provocadas pelas doenças."
+        ],
+        "remis": {}
+    },
+    "citoquímica": {
+        "descricao": [
+            "Estudo da constituição química das células e das reações químicas que nela ocorrem."
+        ],
+        "remis": {}
+    },
+    "clister": {
+        "descricao": [
+            "Tratamento ou meio de diagnóstico que consiste na introdução e passagem de um líquido (água ou outra substância) pelo reto através de um tubo introduzido no ânus. Os principais tipos de clisteres são: purgativo ou de limpeza; microclisteres; sedativos, nutritivos; cicatrizantes, etc."
+        ],
+        "remis": {}
+    },
+    "coclear": {
+        "descricao": [
+            "Relativo ou pertencente à cóclea ou caracol do ouvido interno."
+        ],
+        "remis": {}
+    },
+    "colangiografia": {
+        "descricao": [
+            "Método de estudo radiológico da vesícula e dos canais biliares por injeção intravenosa de uma substância de contraste; por injeção direta na vesícula ou nas vias biliares durante o ato operatório (colangiografia peroperatória); ou por injeção direta no parênquima hepático (colangiografia percutânea ou transparietohepática)."
+        ],
+        "remis": {}
+    },
+    "colite": {
+        "descricao": [
+            "Inflamação do cólon."
+        ],
+        "remis": {}
+    },
+    "colonoscopia": {
+        "descricao": [
+            "Exame visual do interior do cólon."
+        ],
+        "remis": {}
+    },
+    "colostomia": {
+        "descricao": [
+            "Formação cirúrgica de uma abertura do cólon à parede abdominal e que pode ser definitiva ou transitória."
+        ],
+        "remis": {}
+    },
+    "comorbilidade": {
+        "descricao": [
+            "Patologia que se desenvolve num indivíduo em simultâneo com outra preexistente."
+        ],
+        "remis": {
+            "sin.": "co-morbilidade"
+        }
+    },
+    "condiloma": {
+        "descricao": [
+            "Espécie de verruga que se forma no ânus, no períneo e nas partes genitais do homem e da mulher."
+        ],
+        "remis": {}
+    },
+    "congénito": {
+        "descricao": [
+            "Que foi gerado ou nasceu com o indivíduo; inato."
+        ],
+        "remis": {}
+    },
+    "consentimento informado": {
+        "descricao": [
+            "O consentimento informado, esclarecido e livre, reflete o direito moral à integridade corporal e à participação ativa nas decisões sobre a sua saúde. Implica uma integração no processo de decisão quanto aos atos/intervenções de saúde que lhe são propostos, após uma partilha de conhecimentos que a tornem competente para essa decisão. Mais do que uma formalidade, deve constituir um momento de comunicação efetiva, com ponderação dos riscos e dos benefícios, promovendo a confiança nos profissionais de saúde. O produto final resultará da interação entre ambos, numa ponderação entre o possível e o aceitável para ambas as partes. Esta lógica negocial é contínua, não se esgotando no momento da aceitação."
+        ],
+        "remis": {}
+    },
+    "consulta": {
+        "descricao": [
+            "Entende-se como consulta, a atividade de um profissional de saúde relacionada com um utente, de onde resulta pelo menos um diagnóstico e um plano de intervenções decorrente."
+        ],
+        "remis": {}
+    },
+    "contraste": {
+        "descricao": [
+            "Substância radiopaca usada em exames radiológicos para melhorar a visibilidade de órgão, tecido ou estrutura anatómica a avaliar."
+        ],
+        "remis": {}
+    },
+    "corticectomia": {
+        "descricao": [
+            "Remoção cirúrgica de uma determinada região do córtex cerebral."
+        ],
+        "remis": {}
+    },
+    "corticoesteroide": {
+        "descricao": [
+            "Designação genérica de todas as substâncias, naturais ou sintéticas, que têm uma ação semelhante às das hormonas do córtex suprarrenal, e que se subdividem em mineralocorticoides e glicocorticoides."
+        ],
+        "remis": {
+            "sin.": "Corticoide"
+        }
+    },
+    "coxartrose": {
+        "descricao": [
+            "Doença degenerativa da articulação coxofemoral, caracterizada por dor e impotência funcional e que pode ser de causa traumática, inflamatória, infeciosa, vascular e metabólica. Surge com maior frequência nos indivíduos idosos."
+        ],
+        "remis": {}
+    },
+    "cpre": {
+        "descricao": [
+            "Colangiopancreatografia Retrógrada Endoscópica."
+        ],
+        "remis": {}
+    },
+    "cricotirotomia": {
+        "descricao": [
+            "Incisão cirúrgica entre as cartilagens cricoide e tiroide."
+        ],
+        "remis": {}
+    },
+    "crni": {
+        "descricao": [
+            "Centro de Referência da Neurorradiologia de Intervenção."
+        ],
+        "remis": {}
+    },
+    "ctg": {
+        "descricao": [
+            "Cardiotocografia. Registo contínuo do ritmo cardíaco do feto e das contrações uterinas durante o parto que permite detetar a existência de sofrimento fetal."
+        ],
+        "remis": {
+            "sin.": "Cardiotocografia, Monitorização cardiotocográfica"
+        }
+    },
+    "cuidador informal": {
+        "descricao": [
+            "Pessoas que cuidam de forma regular ou permanente de outras pessoas que estejam numa situação de dependência."
+        ],
+        "remis": {}
+    },
+    "cuidados paliativos": {
+        "descricao": [
+            "Cuidados de saúde holísticos, ativos que procuram melhorar a qualidade de vida dos doentes, das suas famílias/cuidadores pela prevenção e alívio do sofrimento, através da identificação precoce, diagnóstico e tratamento adequado da dor e de outros problemas, sejam estes físicos, psicológicos, sociais ou espirituais (OMS). São cuidados integrados, prestados por uma equipa interdisciplinar e baseiam-se em princípios éticos e de planeamento antecipado de cuidados, pelo que não antecipam, nem prolongam o processo de morte."
+        ],
+        "remis": {}
+    },
+    "cuidados primários": {
+        "descricao": [
+            "Os cuidados de saúde primários são uma abordagem de toda a sociedade à saúde e bem-estar, centrada nas necessidades e preferências das pessoas, famílias e comunidades. Aborda os determinantes da saúde mais vastos e incide sobre os aspetos completos e interrelacionados da saúde física, mental e social e do bem-estar. Prestam cuidados completos às pessoas, de acordo com as suas necessidades de saúde durante toda a vida e não só para um conjunto de doenças específicas. Os cuidados de saúde primários asseguram que as pessoas recebem cuidados completos, desde a promoção e prevenção ao tratamento, reabilitação e cuidados paliativos, tão perto quanto possível do seu ambiente diário."
+        ],
+        "remis": {}
+    },
+    "curetagem": {
+        "descricao": [
+            "Ação de raspar e limpar, com uma cureta, o interior de uma cavidade orgânica, de uma ferida ou de uma cavidade patológica."
+        ],
+        "remis": {
+            "sin.": "Curetagens"
+        }
+    },
+    "dacriocistorrinostomia": {
+        "descricao": [
+            "Intervenção cirúrgica para efetuar uma comunicação entre o saco lacrimal e o meato médio do nariz."
+        ],
+        "remis": {}
+    },
+    "deiscência": {
+        "descricao": [
+            "Separação ou abertura natural."
+        ],
+        "remis": {}
+    },
+    "densitometria óssea": {
+        "descricao": [
+            "Exame que permite diagnosticar a presença (ou não) de osteoporose através da avaliação do conteúdo mineral dos ossos."
+        ],
+        "remis": {
+            "sin.": "Osteodensitometria"
+        }
+    },
+    "dequitadura": {
+        "descricao": [
+            "Expulsão espontânea da placenta e das membranas após a saída do feto."
+        ],
+        "remis": {}
+    },
+    "dermatite": {
+        "descricao": [
+            "Inflamação da pele, denominada, em alguns casos, cutite; dermite."
+        ],
+        "remis": {}
+    },
+    "dermatomiosite": {
+        "descricao": [
+            "Doença cutânea, autoimune, do grupo das colagenoses ou doenças de tecido conectivo. Evolui por surtos e manifesta-se principalmente por lesões cutâneas (placas vermelhas atróficas, edema, tumefação e dor) e alterações musculares (astenia, diminuição da força com limitação dos movimentos dos membros, dificuldade na deglutição, etc.) a que se podem associar repercussões de carácter sistémico, nomeadamente respiratórias e digestivas. Doença rara que atinge principalmente o sexo feminino."
+        ],
+        "remis": {}
+    },
+    "dermatose": {
+        "descricao": [
+            "Designação genérica das doenças da pele."
+        ],
+        "remis": {
+            "sin.": "Dermatopatia"
+        }
+    },
+    "dermite": {
+        "descricao": [
+            "Inflamação da pele."
+        ],
+        "remis": {
+            "sin.": "Dermatite"
+        }
+    },
+    "desfibrilhador": {
+        "descricao": [
+            "Aparelho com que se provocam descargas elétricas, com corrente alterna ou contínua, sobre a região torácica anterior, incidindo, em especial, na área cardíaca, com a finalidade de fazer com que um ritmo cardíaco anormal volte à normalidade."
+        ],
+        "remis": {}
+    },
+    "desluvamento": {
+        "descricao": [
+            "Lesão em que a pele e o tecido subcutâneo se separam da fáscia, ocorrendo principalmente nos membros."
+        ],
+        "remis": {}
+    },
+    "dgs": {
+        "descricao": [
+            "Direção Geral da Saúde."
+        ],
+        "remis": {}
+    },
+    "diagnóstico": {
+        "descricao": [
+            "Determinação da doença depois da recolha das informações dadas pelo doente (anamnese), dos seus sinais e sintomas e dos resultados dos exames complementares efetuados (laboratoriais, radiológicos, etc.)."
+        ],
+        "remis": {}
+    },
+    "dieta cetogénica": {
+        "descricao": [
+            "Tipo de alimentação com grande quantidade de gordura que leva ao aparecimento de corpos cetónicos na urina. Tem sido utilizada no tratamento de nefropatias crónicas por baciluscoli ou na epilepsia."
+        ],
+        "remis": {}
+    },
+    "discalculia": {
+        "descricao": [
+            "Perturbação de origem neurológica que interfere negativamente na capacidade para compreender e manipular números."
+        ],
+        "remis": {}
+    },
+    "discectomia": {
+        "descricao": [
+            "Excisão parcial ou total de um disco intervertebral herniado."
+        ],
+        "remis": {}
+    },
+    "discrasia": {
+        "descricao": [
+            "Perturbação da crase sanguínea."
+        ],
+        "remis": {}
+    },
+    "disfagia": {
+        "descricao": [
+            "Dificuldade em deglutir."
+        ],
+        "remis": {}
+    },
+    "disgrafia": {
+        "descricao": [
+            "Incapacidade de escrever de modo correto, provocada por lesão cerebral, doença nervosa ou distúrbio neurológico."
+        ],
+        "remis": {}
+    },
+    "dislipidemia": {
+        "descricao": [
+            "Anomalia quantitativa ou qualitativa dos lípidos circulantes. Conhecem-se 5 tipos de dislipidemias em função da fração lipídica alterada e da existência ou ausência de um padrão hereditário."
+        ],
+        "remis": {}
+    },
+    "dismorfia": {
+        "descricao": [
+            "Malformação de um órgão ou aparelho."
+        ],
+        "remis": {}
+    },
+    "dissecção": {
+        "descricao": [
+            "Isolar, por corte ou separação, para estudo, um órgão ou uma parte do corpo."
+        ],
+        "remis": {
+            "sin.": "Dissecação"
+        }
+    },
+    "diverticulectomia": {
+        "descricao": [
+            "Ressecção cirúrgica de um divertículo, em especial do tubo digestivo."
+        ],
+        "remis": {}
+    },
+    "divertículo": {
+        "descricao": [
+            "Apêndice de um órgão tubular ou de uma cavidade principal, natural ou patológico e em forma de fundo de saco ou de bolsa. Os divertículos podem ser congénitos (divertículo de Meckel) ou adquiridos (divertículo brônquico, esofágico, intestinal, da bexiga, etc)."
+        ],
+        "remis": {}
+    },
+    "drc": {
+        "descricao": [
+            "Doença Renal Crónica."
+        ],
+        "remis": {}
+    },
+    "dreno": {
+        "descricao": [
+            "Tubo ou outro dispositivo feito de material diverso (borracha, metal, crina, vidro, etc.) com que se efetua a drenagem de feridas, abcessos, cavidades, quistos. etc."
+        ],
+        "remis": {}
+    },
+    "ecg": {
+        "descricao": [
+            "Eletrocardiograma."
+        ],
+        "remis": {}
+    },
+    "eco-doppler": {
+        "descricao": [
+            "Método de estudo que utiliza o efeito Doppler sobre um feixe de ultrassons e, assim, mede as variações da velocidade de circulação sanguínea num vaso, pela análise das alterações de frequência dos ecos de retorno."
+        ],
+        "remis": {}
+    },
+    "ecocardiograma": {
+        "descricao": [
+            "Método de diagnóstico cardiológico em que se aplicam os ultrassons para a obtenção de imagens das estruturas cardíaca. É particularmente útil no estudo das válvulas, da parede e volume ventriculares e na deteção de derrames pericárdicos."
+        ],
+        "remis": {
+            "sin.": "Ecocardiografia"
+        }
+    },
+    "ecografia": {
+        "descricao": [
+            "Método de estudo e diagnóstico que se serve da reflexão (eco) produzida pelos ultrassons para ver em tempo real estruturas e órgãos do corpo humano; ultrassonografia, ultrassom. Exame realizado através deste método."
+        ],
+        "remis": {}
+    },
+    "ectópico": {
+        "descricao": [
+            "Que está fora do lugar, de que é exemplo a gravidez ectópica ou gravidez extrauterina."
+        ],
+        "remis": {}
+    },
+    "eczema": {
+        "descricao": [
+            "Doença cutânea manifestada por um processo inflamatório, superficial, com características e causas diversas, muitas vezes com formações vesiculosas; dermatite."
+        ],
+        "remis": {}
+    },
+    "edema": {
+        "descricao": [
+            "Infiltração de serosidade nos tecidos do organismo, que produz inchação."
+        ],
+        "remis": {}
+    },
+    "eletrocardiograma": {
+        "descricao": [
+            "Representação gráfica do funcionamento do coração, baseada nas variações do potencial elétrico, nas contrações e descontrações do miocárdio."
+        ],
+        "remis": {}
+    },
+    "elétrodo": {
+        "descricao": [
+            "Instrumento ou peça metálica ligada a uma corrente ou fonte de energia elétrica e que se aplica a uma parte ou região do corpo com fins terapêuticos."
+        ],
+        "remis": {
+            "sin.": "Eléctrodo"
+        }
+    },
+    "eletroencefalograma": {
+        "descricao": [
+            "Registo gráfico dos ritmos elétricos cerebrais obtido por eletroencefalografia, através de elétrodos colocados sobre o couro cabeludo, diretamente em determinados pontos da calote craniana."
+        ],
+        "remis": {
+            "sin.": "EEG, Electroencefalograma"
+        }
+    },
+    "eletrofisiologia": {
+        "descricao": [
+            "Estudo da maneira como se comportam as funções vitais sob a ação de correntes elétricas, eletrobiologia."
+        ],
+        "remis": {}
+    },
+    "eletromiografia": {
+        "descricao": [
+            "Registo gráfico das variações das correntes produzidas nos músculos em repouso ou em atividade. É especialmente útil na investigação e no diagnóstico das doenças neuromusculares."
+        ],
+        "remis": {
+            "sin.": "Electromiograma"
+        }
+    },
+    "encefálico": {
+        "descricao": [
+            "Relativo ao encéfalo."
+        ],
+        "remis": {}
+    },
+    "endócrino": {
+        "descricao": [
+            "Que pertence a ou que se relaciona com a secreção interna ou endócrina. Diz-se dos órgãos ou glândulas que segregam internamente, em especial para a circulação sanguínea sistémica."
+        ],
+        "remis": {}
+    },
+    "endoscopia": {
+        "descricao": [
+            "Exame dos órgãos internos do corpo, pela observação com endoscópio (designação extensiva a diferentes instrumentos, próprios para o exame visual de cavidades ou órgãos do corpo, geralmente constituídos por um tubo, rígido ou flexível, provido de sistema de iluminação)."
+        ],
+        "remis": {}
+    },
+    "endovenoso": {
+        "descricao": [
+            "Que está, que se introduz ou que é aplicado no interior da veia."
+        ],
+        "remis": {}
+    },
+    "enteroscopia": {
+        "descricao": [
+            "Observação direta do intestino com um enteroscópio."
+        ],
+        "remis": {}
+    },
+    "enteroscópio": {
+        "descricao": [
+            "Aparelho para observar diretamente o intestino."
+        ],
+        "remis": {}
+    },
+    "epicondilite": {
+        "descricao": [
+            "Inflamação do epicôndilo do úmero e tecidos circunvizinhos e que pode aparecer em certos desportistas como os tenistas e os esgrimistas."
+        ],
+        "remis": {}
+    },
+    "epicutâneo": {
+        "descricao": [
+            "Que está ou que se realiza sobre a pele."
+        ],
+        "remis": {}
+    },
+    "epidermólise": {
+        "descricao": [
+            "Doença congénita e familiar, caracterizada pelo descolamento agudo e difuso da epiderme sob a forma de bolhas e cistos epidérmicos de conteúdo seroso."
+        ],
+        "remis": {}
+    },
+    "epilepsia": {
+        "descricao": [
+            "Doença neurológica, crónica, caracterizada por crises súbitas recorrentes e paroxísticas de convulsões, mais ou menos violentas, geralmente acompanhadas de perda da sensibilidade e do conhecimento."
+        ],
+        "remis": {}
+    },
+    "episiotomia": {
+        "descricao": [
+            "Incisão cirúrgica (posterior ou lateral e mediana) da vulva para aumentar o seu orifício no momento da expulsão do feto e, assim, evitar lacerações graves do períneo."
+        ],
+        "remis": {}
+    },
+    "epistáxis": {
+        "descricao": [
+            "Hemorragia nasal."
+        ],
+        "remis": {}
+    },
+    "eritrócito": {
+        "descricao": [
+            "Célula anucleada do sangue que contém hemoglobina e transporta o oxigénio necessário ao organismo."
+        ],
+        "remis": {}
+    },
+    "eritropoiese": {
+        "descricao": [
+            "Produção dos eritrócitos, normalmente verificada na medula óssea."
+        ],
+        "remis": {}
+    },
+    "ers": {
+        "descricao": [
+            "Entidade Reguladora da Saúde."
+        ],
+        "remis": {}
+    },
+    "esclerodermia": {
+        "descricao": [
+            "Doença caracterizada pelo espessamento e endurecimento da pele e dos tecidos subcutâneos."
+        ],
+        "remis": {}
+    },
+    "esclerose": {
+        "descricao": [
+            "Endurecimento patológico de um tecido ou de um órgão, devido à produção excessiva de tecido conjuntivo e consecutivo aumento de colagénio e rarefação celular progressiva. A esclerose é, em geral, devida a um processo inflamatório crónico."
+        ],
+        "remis": {}
+    },
+    "escleroterapia": {
+        "descricao": [
+            "Tratamento esclerosante das varizes das pernas com injeções de uma substância irritante que provoca a obliteração venosa."
+        ],
+        "remis": {}
+    },
+    "esfincterotomia": {
+        "descricao": [
+            "Incisão cirúrgica de um esfíncter."
+        ],
+        "remis": {}
+    },
+    "esfregaço": {
+        "descricao": [
+            "Preparado em camada fina de qualquer líquido orgânico sobre uma lâmina de vidro para observação microscópica."
+        ],
+        "remis": {}
+    },
+    "esofágico": {
+        "descricao": [
+            "Relativo ou pertencente ao esófago."
+        ],
+        "remis": {}
+    },
+    "esofagoscopia": {
+        "descricao": [
+            "Observação do interior do esófago com um esofagoscópio."
+        ],
+        "remis": {}
+    },
+    "espirometria": {
+        "descricao": [
+            "Medição, com espirómetro, da capacidade respiratória pulmonar."
+        ],
+        "remis": {}
+    },
+    "espondilartrite": {
+        "descricao": [
+            "Inflamação de uma ou várias articulações da coluna vertebral."
+        ],
+        "remis": {}
+    },
+    "espondilartrose": {
+        "descricao": [
+            "Artrose de articulações vertebrais; alteração degenerativa dos discos intervertebrais que conduz à formação de osteófitos (popularmente conhecidos por bicos de papagaio); espondilose."
+        ],
+        "remis": {}
+    },
+    "espondilolistese": {
+        "descricao": [
+            "Deslizamento ou deslocamento para a frente de uma vértebra sobre outra."
+        ],
+        "remis": {}
+    },
+    "estadiamento": {
+        "descricao": [
+            "Determinação da fase de desenvolvimento de uma doença, em geral maligna, avaliando a sua extensão através de exames específicos (raio X, biópsia, ecografia, TAC, análises, etc.)."
+        ],
+        "remis": {}
+    },
+    "estapédico": {
+        "descricao": [
+            "Relativo ou pertencente ao estribo."
+        ],
+        "remis": {}
+    },
+    "estenose": {
+        "descricao": [
+            "Constrição ou aperto, congénito ou não, de qualquer orifício ou canal orgânico."
+        ],
+        "remis": {}
+    },
+    "estomaterapia": {
+        "descricao": [
+            "Conjunto de medidas de higiene e terapêuticas prestadas aos doentes com um estoma viscerocutâneo (ureteropstomia, colostomia, ileostomia, etc.)."
+        ],
+        "remis": {}
+    },
+    "exame": {
+        "descricao": [
+            "Observação médica cuidada que pode incluir utilização de instrumentos ou aparelhos especiais e determinados exames laboratoriais."
+        ],
+        "remis": {}
+    },
+    "exérese": {
+        "descricao": [
+            "Remoção cirúrgica de um corpo estranho ou de uma parte do organismo (tumor ou tecido patológico)."
+        ],
+        "remis": {}
+    },
+    "exostose": {
+        "descricao": [
+            "Excrescência óssea anormal formada na superfície óssea e que pode ser congénita, ou de causa traumática ou inflamatória."
+        ],
+        "remis": {}
+    },
+    "exsudado": {
+        "descricao": [
+            "Substância ou produto, sólido ou líquido, resultante da exsudação."
+        ],
+        "remis": {}
+    },
+    "faringectomia": {
+        "descricao": [
+            "Operação cirúrgica para a ablação total ou parcial da faringe."
+        ],
+        "remis": {}
+    },
+    "faringoscopia": {
+        "descricao": [
+            "Exame à cavidade da faringe."
+        ],
+        "remis": {}
+    },
+    "farmacocinética": {
+        "descricao": [
+            "Estudo da absorção, transformação e eliminação dos fármacos e seus metabolitos pelo organismo."
+        ],
+        "remis": {}
+    },
+    "fasceíte": {
+        "descricao": [
+            "Inflamação de uma fáscia."
+        ],
+        "remis": {
+            "sin.": "Fascite"
+        }
+    },
+    "fáscia": {
+        "descricao": [
+            "Bainha ou membrana de tecido conjuntivo fibroso que envolve, cobre ou separa os músculos ou outras estruturas do organismo."
+        ],
+        "remis": {}
+    },
+    "fibrilhação": {
+        "descricao": [
+            "Contração anormal, não coordenada, de uma fibrilha muscular (miofibrilha) do coração, do diafragma ou de outras estruturas musculares e que é caracterizada por várias, irregulares e sucessivas contrações seguidas de relaxamentos. A fibrilhação auricular é a contração anormal da aurícula cardíaca em que feixes de miofibrilhas se contraem de forma anárquica e independentemente do estímulo cardíaco fisiológico, o que pode suceder em várias situações patológicas; a fibrilhação auricular é a causa habitual da arritmia completa. A fibrilhação dos ventrículos cardíacos (fibrilhação ventricular) é causa de uma arritmia muito grave de etiologia diversa, que pode provocar a morte por paragem cardíaca."
+        ],
+        "remis": {}
+    },
+    "fibroscópio": {
+        "descricao": [
+            "Instrumento com fibras óticas flexíveis, para efetuar endofibroscopias, e que são transmissoras de imagens."
+        ],
+        "remis": {}
+    },
+    "fístula": {
+        "descricao": [
+            "Trajeto anormal, congénito ou adquirido, que faz comunicar um foco patológico com um órgão ou outra estrutura (interna ou externa) e por onde passa líquido orgânico normal, secreções ou pus."
+        ],
+        "remis": {}
+    },
+    "flebotomia": {
+        "descricao": [
+            "Incisão de uma veia para extrair um trombo ou para fazer uma sangria."
+        ],
+        "remis": {
+            "sin.": "Venessecção"
+        }
+    },
+    "fluoroscopia": {
+        "descricao": [
+            "Produção de uma imagem visual num alvo fluorescente, por efeito de raios X ou de outra radiação ionizante, que pode ser utilizada em diagnóstico médico (radioscopia), no exame de materiais, etc."
+        ],
+        "remis": {}
+    },
+    "flutter": {
+        "descricao": [
+            "Tremor, agitação."
+        ],
+        "remis": {}
+    },
+    "fonação": {
+        "descricao": [
+            "Emissão da voz ou de palavras."
+        ],
+        "remis": {
+            "sin.": "Fonatório"
+        }
+    },
+    "fotobiológico": {
+        "descricao": [
+            "Relativo ou pertencente à fotobiologia (ramo da biologia que estuda os efeitos da luz nos seres vivos)."
+        ],
+        "remis": {}
+    },
+    "gastroduodenal": {
+        "descricao": [
+            "Relativo ao estômago e ao duodeno."
+        ],
+        "remis": {}
+    },
+    "gastrostomia": {
+        "descricao": [
+            "Operação cirúrgica que consiste em praticar uma abertura no estômago para introduzir alimentos."
+        ],
+        "remis": {}
+    },
+    "glossectomia": {
+        "descricao": [
+            "Ressecção total ou parcial da língua."
+        ],
+        "remis": {}
+    },
+    "gónada": {
+        "descricao": [
+            "Designação genérica dada às glândulas que produzem as hormonas e os gâmetas, masculinos e femininos (testículos e ovários)."
+        ],
+        "remis": {}
+    },
+    "gonartrose": {
+        "descricao": [
+            "Artrose do joelho."
+        ],
+        "remis": {}
+    },
+    "hapd": {
+        "descricao": [
+            "Hospital de Apoio Perinatal Diferenciado."
+        ],
+        "remis": {}
+    },
+    "hem": {
+        "descricao": [
+            "Hospital de Egas Moniz."
+        ],
+        "remis": {}
+    },
+    "hematopoiese": {
+        "descricao": [
+            "Formação e desenvolvimento das células sanguíneas."
+        ],
+        "remis": {}
+    },
+    "hemisferectomia": {
+        "descricao": [
+            "Ressecção cirúrgica de parte ou metade do hemisfério cerebral ou do hemisfério cerebeloso."
+        ],
+        "remis": {
+            "sin.": "Hemisferotomia"
+        }
+    },
+    "hemodiálise": {
+        "descricao": [
+            "Método de separação de certos produtos do sangue (ureia, por exemplo) por difusão através de uma membrana semipermeável. Na hemodiálise o sangue do doente, derivado de uma artéria para uma veia, é tornado incoagulável e passado por um tubo num banho apropriado."
+        ],
+        "remis": {}
+    },
+    "hemodinâmica": {
+        "descricao": [
+            "Ramo da Medicina que estuda os fenómenos mecânicos da circulação sanguínea (movimentos do sangue e forças que o impulsionam)."
+        ],
+        "remis": {}
+    },
+    "hemoglobinopatia": {
+        "descricao": [
+            "Designação genérica das doenças hereditárias que se caracterizam pela presença no sangue de hemoglobinas anormais (hemoglobinas C, E, S, etc.) ou de hemoglobinas normais em quantidade excessiva (talassémia, por exemplo)."
+        ],
+        "remis": {}
+    },
+    "hemóstase": {
+        "descricao": [
+            "Interrupção de uma hemorragia por meios mecânicos, físicos ou químicos. Conjunto de mecanismos fisiológicos por meio dos quais se faz a paragem de uma hemorragia (vasoconstrição, aderência e agregação plaquetária e coagulação)."
+        ],
+        "remis": {
+            "sin.": "Hemostase"
+        }
+    },
+    "hemoterapia": {
+        "descricao": [
+            "Processo terapêutico em que o agente utilizado é o sangue ou algum dos seus elementos (por exemplo, o plasma)."
+        ],
+        "remis": {}
+    },
+    "hérnia": {
+        "descricao": [
+            "Protrusão ou saliência de um ou mais órgãos, ou parte de um órgão, para além dos seus limites normais, através das paredes enfraquecidas das cavidades ou estruturas que o contêm ou através de uma fissura ou de um orifício natural ou patológico."
+        ],
+        "remis": {}
+    },
+    "hidrocefalia": {
+        "descricao": [
+            "Aumento excessivo de líquido cefalorraquidiano nos ventrículos cerebrais e que pode ser devida a produção excessiva de líquido cefalorraquidiano, dificuldade de reabsorção de líquido cefalorraquidiano ou bloqueio da circulação do líquido cefalorraquidiano."
+        ],
+        "remis": {}
+    },
+    "hipercolesterolemia": {
+        "descricao": [
+            "Aumento da concentração de colesterol ou colesterina no sangue, o que pode provocar complicações cardiovasculares graves. A hipercolesterolemia pode ser primitiva ou familiar (hereditária) ou adquirida (por perturbações alimentares)."
+        ],
+        "remis": {}
+    },
+    "hiperplasia": {
+        "descricao": [
+            "Aumento anormal de um tecido ou das suas células."
+        ],
+        "remis": {}
+    },
+    "hipocoagulação": {
+        "descricao": [
+            "Redução da capacidade de um líquido para coagular (sangue, por exemplo). Tratamento farmacológico pelo qual se diminui a capacidade de coagulação do sangue, reduzindo a possibilidade de formação de coágulos na circulação sanguínea."
+        ],
+        "remis": {
+            "sin.": "Hipocoagulabilidade"
+        }
+    },
+    "hipófise": {
+        "descricao": [
+            "Pequena glândula de secreção interna situada na base do crânio, na cavidade da sela turca, constituída pelo lobo posterior (cerebral ou nervoso) e pelo lobo anterior (glandular), que exerce uma função reguladora da maior parte das glândulas de secreção interna, tendo uma influência direta no crescimento."
+        ],
+        "remis": {
+            "sin.": "Glândula pituitária"
+        }
+    },
+    "hipofisectomia": {
+        "descricao": [
+            "Extirpação cirúrgica da hipófise (pequena glândula de secreção interna situada na base do crânio)."
+        ],
+        "remis": {}
+    },
+    "hipotálamo": {
+        "descricao": [
+            "Região cerebral, do tamanho de uma cereja, situada por baixo do tálamo, formando o pavimento do terceiro ventrículo. Representa o centro mais importante da vida vegetativa, controlando o sistema nervoso simpático e parassimpático, as atividades das vísceras, a temperatura corporal, o equilíbrio hídrico, etc. O hipotálamo está ligado à hipófise pela haste pituitária ou hipofisária."
+        ],
+        "remis": {}
+    },
+    "histeroscopia": {
+        "descricao": [
+            "Endoscopia do útero."
+        ],
+        "remis": {}
+    },
+    "histologia": {
+        "descricao": [
+            "Ramo da Ciência que estuda a composição e a estrutura microscópica dos tecidos e das células do organismo."
+        ],
+        "remis": {}
+    },
+    "histoquímica": {
+        "descricao": [
+            "Estudo dos elementos químicos presentes nas células e nos tecidos, com recurso a corantes e indicadores, e à observação microscópica."
+        ],
+        "remis": {}
+    },
+    "holter": {
+        "descricao": [
+            "Dispositivo portátil que faz a monitorização do ritmo cardíaco durante a atividade diária normal do indivíduo, habitualmente por um período de 24 horas, cujo objetivo é avaliar a presença de arritmias cardíacas e/ou outras anomalias relacionadas com o funcionamento do coração. Exame médico realizado com esse dispositivo."
+        ],
+        "remis": {}
+    },
+    "hsc": {
+        "descricao": [
+            "Hospital de Santa Cruz."
+        ],
+        "remis": {}
+    },
+    "hsfx": {
+        "descricao": [
+            "Hospital de São Francisco Xavier."
+        ],
+        "remis": {}
+    },
+    "icterícia": {
+        "descricao": [
+            "Coloração amarelada da pele, mucosas e órgãos viscerais devida ao aumento do pigmento biliar (bilirrubina) no sangue. A icterícia é, muitas vezes, o primeiro e principal sinal de muitas doenças do fígado (icterícia hepática) e/ou das vias biliares (icterícia obstrutiva). Considera-se ainda a icterícia hemolítica devida a uma destruição aumentada e excessiva dos glóbulos vermelhos, com consequente aumento da bilirrubina sanguínea."
+        ],
+        "remis": {
+            "sin.": "Iterícia"
+        }
+    },
+    "imunoalergologia": {
+        "descricao": [
+            "Especialidade médica que se dedica ao estudo e tratamento das doenças alérgicas e de doenças do sistema imunitário."
+        ],
+        "remis": {}
+    },
+    "imunodeficiência": {
+        "descricao": [
+            "Incapacidade de resistir a infeções por deficiência, congénita ou adquirida, do sistema imunitário."
+        ],
+        "remis": {}
+    },
+    "imunofluorescência": {
+        "descricao": [
+            "Prova imunológica em que determinado antigénio ou anticorpo é conjugado com um corante fluorescente, o que permite localizar a sua fixação orgânica com o anticorpo ou antigénio correspondente."
+        ],
+        "remis": {}
+    },
+    "imunohematologia": {
+        "descricao": [
+            "Ramo da Medicina que estuda e trata os mecanismos imunológicos relativos à patogenia de certas doenças hematológicas."
+        ],
+        "remis": {}
+    },
+    "imunohemoterapia": {
+        "descricao": [
+            "Especialidade médica que se dedica aos processos terapêuticos em que o agente utilizado é o sangue (ou algum dos seus elementos) e ao estudo das patologias do sistema hemostático."
+        ],
+        "remis": {}
+    },
+    "inervação": {
+        "descricao": [
+            "Envio do influxo nervoso para determinada região do organismo. Distribuição dos nervos num órgão, numa estrutura ou numa região do organismo."
+        ],
+        "remis": {}
+    },
+    "inotrópico": {
+        "descricao": [
+            "Relativo à força de contração das fibras musculares ou à ação dos nervos cardíacos que influem, positiva ou negativamente, sobre a musculatura cardíaca."
+        ],
+        "remis": {}
+    },
+    "internamento": {
+        "descricao": [
+            "Regime de assistência a doentes em alojamento hospitalar devido à gravidade da doença ou à necessidade de tratamentos especiais."
+        ],
+        "remis": {}
+    },
+    "interstício": {
+        "descricao": [
+            "Espaço existente entre duas estruturas anatómicas. Pequeno espaço existente num tecido ou num órgão."
+        ],
+        "remis": {}
+    },
+    "intratecal": {
+        "descricao": [
+            "Que está situado ou que acontece no interior das membranas ou meninges que envolvem a medula."
+        ],
+        "remis": {}
+    },
+    "labirintectomia": {
+        "descricao": [
+            "Ressecção cirúrgica do labirinto do ouvido."
+        ],
+        "remis": {}
+    },
+    "lactação": {
+        "descricao": [
+            "Período de aleitamento. Secreção de leite."
+        ],
+        "remis": {}
+    },
+    "laparotomia": {
+        "descricao": [
+            "Designação genérica de qualquer intervenção cirúrgica em que se faça uma incisão da parede abdominal."
+        ],
+        "remis": {}
+    },
+    "laqueação": {
+        "descricao": [
+            "Processo cirúrgico pelo qual se liga ou aperta fortemente uma artéria, um órgão ou uma porção de tecido."
+        ],
+        "remis": {}
+    },
+    "laringectomia": {
+        "descricao": [
+            "Ressecção cirúrgica parcial ou total da laringe."
+        ],
+        "remis": {}
+    },
+    "laringoscopia": {
+        "descricao": [
+            "Observação da laringe com um laringoscópio (existem diversos tipos de laringoscópios, quer feitos de um tubo rígido, quer feitos de material flexível (fibrolaringoscópios)."
+        ],
+        "remis": {}
+    },
+    "leucaférese": {
+        "descricao": [
+            "Extração sanguínea de leucócitos e reinjeção deste sangue no próprio doente, com a intenção terapêutica de tratar certas leucemias."
+        ],
+        "remis": {
+            "sin.": "Leucaferese"
+        }
+    },
+    "linfedema": {
+        "descricao": [
+            "Edema de uma região ou de um órgão por obstrução de um ou mais vasos linfáticos."
+        ],
+        "remis": {}
+    },
+    "linfoma": {
+        "descricao": [
+            "Designação genérica dada a qualquer tipo de tumor, mais frequentemente maligno, constituído por proliferação de um tecido linfoide (doença de Burkitt, doença de Hodgkin, macromaglobulinemia primária de Waldenström, linfoma mediterrânico). Atualmente, um grande número de linfomas tem tratamento eficaz."
+        ],
+        "remis": {}
+    },
+    "litíase": {
+        "descricao": [
+            "Denominação genérica dada às situações em que se forma ou se acumula ácido úrico ou ácido lítico no organismo."
+        ],
+        "remis": {}
+    },
+    "lobectomia": {
+        "descricao": [
+            "Ressecção cirúrgica de um lobo de um órgão (pulmão, tiroideia, cérebro, fígado)."
+        ],
+        "remis": {}
+    },
+    "luxação": {
+        "descricao": [
+            "Deslocamento anormal das extremidades articulares de dois ossos contíguos. A luxação denomina-se completa ou total quando as superfícies articulares perdem totalmente o contacto entre si, e denomina-se incompleta ou subluxação quando as superfícies articulares mantêm contacto parcial."
+        ],
+        "remis": {}
+    },
+    "magnetoencefalografia": {
+        "descricao": [
+            "Técnica utilizada em neurologia, que se baseia na medição dos campos magnéticos resultantes da atividade eletromagnética do encéfalo."
+        ],
+        "remis": {}
+    },
+    "mamografia": {
+        "descricao": [
+            "Exame imagiológico da mama, feito por raios X, ultrassons (ecografia) ou ressonância magnética nuclear, com a finalidade de diagnosticar alterações patológicas."
+        ],
+        "remis": {}
+    },
+    "mapa 24 horas": {
+        "descricao": [
+            "Registo da pressão arterial realizado em ambulatório durante um período de cerca de 24 horas. Tem como objetivo identificar correlações entre eventuais alterações detetadas e atividades diárias e sintomas descritos por quem faz o exame."
+        ],
+        "remis": {}
+    },
+    "mastectomia": {
+        "descricao": [
+            "Ressecção cirúrgica da mama e que pode ser total ou parcial."
+        ],
+        "remis": {
+            "sin.": "Mamectomia"
+        }
+    },
+    "mastoidectomia": {
+        "descricao": [
+            "Intervenção cirúrgica que consiste na excisão do antro ou das células mastoideias."
+        ],
+        "remis": {}
+    },
+    "mcdt": {
+        "descricao": [
+            "Meios Complementares de Diagnóstico e Terapêutica."
+        ],
+        "remis": {}
+    },
+    "melanócito": {
+        "descricao": [
+            "Célula que contém um pigmento castanho-escuro ou negro (melanina) e que se encontra sobretudo na derme, na camada basal da epiderme e na corioide."
+        ],
+        "remis": {}
+    },
+    "melanoma": {
+        "descricao": [
+            "Tumor cutâneo constituído por células produtoras de melanina (pigmento melânico)."
+        ],
+        "remis": {}
+    },
+    "meningocelo": {
+        "descricao": [
+            "Hérnia congénita das meninges através de uma fissura craniana ou raquidiana. Manifesta-se sob a forma de um tumor saciforme que contém líquido cefalorraquidiano."
+        ],
+        "remis": {}
+    },
+    "mesoterapia": {
+        "descricao": [
+            "Método terapêutico pelo qual se introduz um medicamento em doses mínimas, por meio de agulhas extremamente finas, no ponto mais próximo da dor ou da doença."
+        ],
+        "remis": {}
+    },
+    "metástase": {
+        "descricao": [
+            "Aparecimento de um foco patológico em outra localização de uma ou mais células ou de microrganismos pertencentes ao foco patológico primitivo. A deslocação e aparecimento desses ou desses focos secundários deve-se ao despreendimento e deslocação, geralmente, por via sanguínea ou linfática, dessas células ou microrganismos patológicos provenientes de tumores malignos ou de infeções."
+        ],
+        "remis": {}
+    },
+    "microclister": {
+        "descricao": [
+            "Clister de pequeno volume."
+        ],
+        "remis": {}
+    },
+    "mielograma": {
+        "descricao": [
+            "Radiografia da medula espinal obtida por mielografia. Contagem diferencial dos elementos celulares da medula óssea, colhidos por punção aspiração medular."
+        ],
+        "remis": {}
+    },
+    "miocardiopatia": {
+        "descricao": [
+            "Designação genérica dada às doenças do miocárdio."
+        ],
+        "remis": {}
+    },
+    "miotomia": {
+        "descricao": [
+            "Dissecação ou corte de músculos."
+        ],
+        "remis": {}
+    },
+    "miringotomia": {
+        "descricao": [
+            "Paracentese timpânica."
+        ],
+        "remis": {
+            "sin.": "Miringocentese"
+        }
+    },
+    "mmse": {
+        "descricao": [
+            "Mini-Mental State Examination."
+        ],
+        "remis": {}
+    },
+    "moca": {
+        "descricao": [
+            "Montreal Cognitive Assessment."
+        ],
+        "remis": {}
+    },
+    "mychlo": {
+        "descricao": [
+            "Aplicação móvel do Centro Hospitalar de Lisboa Ocidental que permite aproximar e facilitar o contacto do utente com os seus serviços e reduzir a utilização de papel, receber notificações relevantes sobre as suas consultas ou exames agendados, receber instruções de preparação detalhadas para os exames a realizar, apoio ao processo de admissão do utente na consulta, entre outros.\nPode obter mais informações clicando aqui."
+        ],
+        "remis": {}
+    },
+    "neonatologia": {
+        "descricao": [
+            "Ramo que se ocupa dos cuidados médicos e preventivos referentes aos recém-nascidos."
+        ],
+        "remis": {}
+    },
+    "neoplasia": {
+        "descricao": [
+            "Formação de um tecido novo de origem patológica. Tecido novo de origem patológica; tumor."
+        ],
+        "remis": {}
+    },
+    "neurinoma": {
+        "descricao": [
+            "Tumor benigno da bainha de uma fibra nervosa, de evolução lenta, mas que pode obrigar à respetiva remoção se a sua localização causar perturbações."
+        ],
+        "remis": {}
+    },
+    "neurofisiologia": {
+        "descricao": [
+            "Ramo da Ciência que estuda a fisiologia do sistema nervoso."
+        ],
+        "remis": {}
+    },
+    "neuroma": {
+        "descricao": [
+            "Denominação genérica dada aos tumores derivados de células do sistema nervoso."
+        ],
+        "remis": {}
+    },
+    "neuromodulação": {
+        "descricao": [
+            "Modulação da atividade neuronal ou da ação de neurotransmissores; método terapêutico que visa a alteração da atividade nervosa por meio de estimulação localizada (por via elétrica, eletromagnética, etc.) da área a tratar."
+        ],
+        "remis": {}
+    },
+    "neuropsicologia": {
+        "descricao": [
+            "Parte da psicologia que tem por objeto o estudo das funções mentais e do seu relacionamento com as estruturas cerebrais, na sua qualidade de centros nervosos."
+        ],
+        "remis": {}
+    },
+    "neurorradiologia": {
+        "descricao": [
+            "Radiologia cujo objetivo é o sistema nervoso central."
+        ],
+        "remis": {}
+    },
+    "nistagmo": {
+        "descricao": [
+            "Movimento rápido e involuntário do globo ocular em sentido vertical, horizontal ou rotatório."
+        ],
+        "remis": {}
+    },
+    "nódulo": {
+        "descricao": [
+            "Designação utilizada em Medicina para referir pequena eminência, verruga ou aumento de volume de um tecido ou de uma estrutura orgânica"
+        ],
+        "remis": {}
+    },
+    "optocinético": {
+        "descricao": [
+            "Relativo à visão de objetos móveis."
+        ],
+        "remis": {}
+    },
+    "ortognatia": {
+        "descricao": [
+            "Disposição da face sem os maxilares projetados para a frente e dispostos numa posição quase vertical (linha de perfil da fronte ao mento quase vertical). Estudo das causas e do tratamento das perturbações da posição correta dos ossos da mandíbula."
+        ],
+        "remis": {
+            "sin.": "Ortognática"
+        }
+    },
+    "ortopantomografia": {
+        "descricao": [
+            "Técnica de radiografia utilizada para obter numa única chapa a imagem das duas arcadas dentárias."
+        ],
+        "remis": {}
+    },
+    "ortótese": {
+        "descricao": [
+            "Dispositivo ou aparelho ortopédico de uso externo que se destina a compensar ou corrigir a alteração morfológica de um membro, de parte de um membro, de um órgão, ou a deficiência de uma função."
+        ],
+        "remis": {
+            "sin.": "Ortoprótese, órtese"
+        }
+    },
+    "ostectomia": {
+        "descricao": [
+            "Ressecção total ou parcial de um osso."
+        ],
+        "remis": {}
+    },
+    "osteoartropatia": {
+        "descricao": [
+            "Designação genérica dada às doenças que afetam os ossos e as articulações."
+        ],
+        "remis": {
+            "sin.": "Osteartropatia"
+        }
+    },
+    "osteoartrose": {
+        "descricao": [
+            "Osteartropatia degenerativa crónica."
+        ],
+        "remis": {
+            "sin.": "Osteartrose"
+        }
+    },
+    "osteoporose": {
+        "descricao": [
+            "Alteração óssea, localizada ou difusa, que se caracteriza pelo adelgaçamento dos espaços ósseos com rarefação das trabéculas ósseas. Pode surgir com a idade (osteoporose senil) ou por traumatismos, doenças endócrinas, menopausa, imobilização prolongada, etc."
+        ],
+        "remis": {}
+    },
+    "osteossíntese": {
+        "descricao": [
+            "União das extremidades dos fragmentos ósseos fraturados e sua manutenção em posição anatómica correta com auxílio de placas, fios, pregos, parafusos, etc. O material utilizado é, em geral, retirado após certo tempo, e quando a fratura está consolidada."
+        ],
+        "remis": {}
+    },
+    "ostomia": {
+        "descricao": [
+            "Intervenção cirúrgica que tem como objetivo criar uma abertura artificial no corpo do paciente (por exemplo, na traqueia, no cólon, no estômago, etc.)."
+        ],
+        "remis": {}
+    },
+    "otólito": {
+        "descricao": [
+            "Cada uma das concreções calcárias existentes na endolinfa do labirinto membranoso e no canal coclear de diversos vertebrados, essenciais na perceção da gravidade e na manutenção do equilíbrio e da orientação."
+        ],
+        "remis": {}
+    },
+    "otoplastia": {
+        "descricao": [
+            "Cirurgia plástica ou reconstrutiva do ouvido."
+        ],
+        "remis": {}
+    },
+    "oxigenoterapia": {
+        "descricao": [
+            "Utilização terapêutica do oxigénio."
+        ],
+        "remis": {}
+    },
+    "pacemaker": {
+        "descricao": [
+            "Dispositivo elétrico que se implanta na parede torácica e que tem por objetivo a estimulação do coração de modo a manter um ritmo adequado; estimulador cardíaco."
+        ],
+        "remis": {}
+    },
+    "palatoplastia": {
+        "descricao": [
+            "Reconstituição da abóbada palatina, geralmente para corrigir malformações congénitas do palato."
+        ],
+        "remis": {}
+    },
+    "pápula": {
+        "descricao": [
+            "Lesão cutânea que consiste numa elevação circunscrita e sólida provocada por infiltração da camada superficial da derme e pela hiperplasia dos seus elementos estruturais, assim como da epiderme ou, ainda, por depósito local de substâncias metabólicas. A pápula tem pequenas dimensões (menos de 1 cm) e uma coloração rósea, avermelhada, acastanhada ou amarelada. As pápulas são as lesões elementares de diversas afeções (febres eruptivas, líquen, urticária, etc.) e pode ser muito pruriginosa, como acontece na urticária."
+        ],
+        "remis": {}
+    },
+    "paracentese": {
+        "descricao": [
+            "Introdução numa cavidade de um trocarte, de uma agulha ou de um instrumento canalicular, com a intenção de extrair um líquido."
+        ],
+        "remis": {}
+    },
+    "paraganglioma": {
+        "descricao": [
+            "Tumor habitualmente constituído por tecido cromorrecetor do paragânglio."
+        ],
+        "remis": {}
+    },
+    "parótida": {
+        "descricao": [
+            "Glândula que segrega saliva para o interior da boca através de um canal (canal parotídeo ou canal de Stenon) que atravessa a bochecha. A parótida, a maior das glândulas salivares, está situada à frente do ouvido."
+        ],
+        "remis": {}
+    },
+    "parotidectomia": {
+        "descricao": [
+            "Ressecção cirúrgica de uma parótida."
+        ],
+        "remis": {}
+    },
+    "patologia": {
+        "descricao": [
+            "Ramo da Medicina que estuda as doenças e as modificações orgânicas por elas provocadas. Estado de saúde considerado anormal ou desviante; doença."
+        ],
+        "remis": {}
+    },
+    "patologia do sono": {
+        "descricao": [
+            "Parte da medicina que estuda as origens, os sintomas e a natureza das doenças do sono."
+        ],
+        "remis": {}
+    },
+    "pênfigo": {
+        "descricao": [
+            "Doença cutânea, de certa gravidade, com tendência recidivante, caracterizada pelo aparecimento de bolhas e/ou vesículas cheias de líquido seroso."
+        ],
+        "remis": {}
+    },
+    "perfusão": {
+        "descricao": [
+            "Injeção intravascular (em geral lenta) de um líquido com ação terapêutica."
+        ],
+        "remis": {}
+    },
+    "pericardiocentese": {
+        "descricao": [
+            "Punção do pericárdio para drenagem de líquido pericárdico patológico."
+        ],
+        "remis": {}
+    },
+    "peritoneu": {
+        "descricao": [
+            "Membrana serosa que reveste interiormente as paredes do abdómen e recobre os órgãos nele contidos, fixando-os às próprias paredes da cavidade abdominal."
+        ],
+        "remis": {
+            "sin.": "peritoneal"
+        }
+    },
+    "plasmaférese": {
+        "descricao": [
+            "Saída do plasma dos capilares através das suas paredes. Remoção de determinada quantidade de sangue e separação dos seus elementos celulares por centrifugação, seguido de reinfusão desses elementos numa solução salina ou num substituto de plasma."
+        ],
+        "remis": {
+            "sin.": "Plasmaferese"
+        }
+    },
+    "plastia": {
+        "descricao": [
+            "Intervenção cirúrgica para reparação de um órgão ou de uma estrutura do corpo."
+        ],
+        "remis": {}
+    },
+    "pletismografia": {
+        "descricao": [
+            "Estudo das alterações de volume de um órgão ou membro motivadas pelo afluxo de sangue."
+        ],
+        "remis": {}
+    },
+    "pleura": {
+        "descricao": [
+            "Membrana serosa que reveste os pulmões."
+        ],
+        "remis": {}
+    },
+    "plexo": {
+        "descricao": [
+            "Denominação dada a uma rede de nervos ou de vasos (plexo nervoso braquial ou plexo venoso da coroideia, por exemplo). São conhecidos um grande número de plexos, nervosos, vasculares ou linfáticos, dos quais se assinalam alguns considerados mais dignos de referência."
+        ],
+        "remis": {}
+    },
+    "policitemia": {
+        "descricao": [
+            "Aumento anormal do número de glóbulos vermelhos no sangue circulante."
+        ],
+        "remis": {
+            "sin.": "Policitémia"
+        }
+    },
+    "polipectomia": {
+        "descricao": [
+            "Exérese cirúrgica de um pólipo."
+        ],
+        "remis": {}
+    },
+    "pólipo": {
+        "descricao": [
+            "Designação genérica dada a qualquer formação tumoral (benigna ou maligna) que está ligada por uma haste ou pedículo (de comprimento e largura variados) à superfície, a partir da qual se forma. Os pólipos formam-se, geralmente, nas cavidades revestidas de membranas mucosas (bexiga, canal auditivo, fossas nasais, intestino, laringe, reto, etc.)."
+        ],
+        "remis": {
+            "sin.": "Polipos"
+        }
+    },
+    "polisonografia": {
+        "descricao": [
+            "Exame que permite diagnosticar distúrbios manifestados durante o sono noturno, como a apneia ou o ressonar, através do registo simultâneo e contínuo das variações em determinados parâmetros (atividade cerebral, muscular, cardíaca, respiratória, etc.)"
+        ],
+        "remis": {}
+    },
+    "posologia": {
+        "descricao": [
+            "Parte da terapêutica que se ocupa das dosagens dos fármacos."
+        ],
+        "remis": {}
+    },
+    "prescrição": {
+        "descricao": [
+            "Receita médica."
+        ],
+        "remis": {}
+    },
+    "proctologia": {
+        "descricao": [
+            "Ramo da Medicina dedicado ao estudo da anatomia, fisiologia e patologia do reto e do ânus."
+        ],
+        "remis": {}
+    },
+    "profilaxia": {
+        "descricao": [
+            "Conjunto de medidas que têm como finalidade proteger o indivíduo ou a sociedade de uma determinada doença."
+        ],
+        "remis": {}
+    },
+    "proprioceção": {
+        "descricao": [
+            "Perceção do próprio corpo, o que implica a consciência da postura, das alterações de equilíbrio e do movimento."
+        ],
+        "remis": {}
+    },
+    "prótese": {
+        "descricao": [
+            "Substituição de um órgão, parte de um órgão ou de estrutura anatómica por uma peça artificial (prótese acústica ou auditiva, da anca, dentária, valvular cardíaca, ocular, etc.)."
+        ],
+        "remis": {}
+    },
+    "protético": {
+        "descricao": [
+            "Relativo a prótese."
+        ],
+        "remis": {
+            "sin.": "Prostésico"
+        }
+    },
+    "pseudartrose": {
+        "descricao": [
+            "Formação de uma falsa articulação patológica entre dois fragmentos de osso de uma fratura mal consolidada. A pseudartrose tem uma mobilidade anormal."
+        ],
+        "remis": {}
+    },
+    "psoríase": {
+        "descricao": [
+            "Doença cutânea caracterizada por descamação epidérmica provocada pela inflamação crónica da derme, localizada sobretudo nos cotovelos, nos joelhos e no couro cabeludo."
+        ],
+        "remis": {}
+    },
+    "punção": {
+        "descricao": [
+            "Introdução de uma agulha, de um trocarte ou da ponta de um bisturi delgado ou de qualquer outro instrumento pontiagudo numa estrutura anatómica com fins diagnósticos (averiguar o tipo de líquido existente numa cavidade, colheita de material de biópsia, colheita de material para exame citológico ou bacteriológico, ou introdução de produtos de contraste radiológico) ou com fins terapêuticos (drenagem de líquido ou introdução de fármacos)."
+        ],
+        "remis": {}
+    },
+    "quimioterapia": {
+        "descricao": [
+            "Método de tratamento que utiliza substâncias químicas na cura de uma doença ou para impedir a sua progressão."
+        ],
+        "remis": {}
+    },
+    "quisto": {
+        "descricao": [
+            "Tumor, em regra cavitário, que contém líquido e outras substâncias."
+        ],
+        "remis": {
+            "sin.": "Cisto"
+        }
+    },
+    "radiografia": {
+        "descricao": [
+            "Registo fotográfico obtido por meio de radiações de comprimento de onda muito curto, como os raios X ou os raios gama, podendo também ser obtido por aplicação de neutrões, partículas alfa, eletrões ou protões."
+        ],
+        "remis": {}
+    },
+    "radioscopia": {
+        "descricao": [
+            "Exame por meio da imagem formada sobre um ecrã fluorescente, de um corpo colocado entre esse ecrã e uma fonte de raios X."
+        ],
+        "remis": {}
+    },
+    "raios x": {
+        "descricao": [
+            "Radiações eletromagnéticas penetrantes, de comprimento de onda muito mais curto que a luz visível. São radiações que impressionam as películas fotográficas, e a sua absorção está relacionada com a densidade e o peso atómico da substância que atravessam."
+        ],
+        "remis": {
+            "sin.": "RX"
+        }
+    },
+    "raquidiano": {
+        "descricao": [
+            "Relativo ou pertencente à coluna vertebral."
+        ],
+        "remis": {}
+    },
+    "recidiva": {
+        "descricao": [
+            "Reaparecimento de uma doença num indivíduo que já sofreu dela, há mais ou menos tempo, e da qual ficou curado."
+        ],
+        "remis": {}
+    },
+    "recobro": {
+        "descricao": [
+            "Ato ou efeito de recobrar (-se), recuperação. Local de um hospital onde são mantidas as pessoas que acabaram de ser submetidas a uma intervenção cirúrgica e estão a recuperar de uma anestesia."
+        ],
+        "remis": {}
+    },
+    "referenciação": {
+        "descricao": [
+            "Encaminhamento para determinada especialidade, serviço, instituição, etc."
+        ],
+        "remis": {}
+    },
+    "refratário": {
+        "descricao": [
+            "Que reage pouco ou não reage a um estímulo físico, químico ou de qualquer outra natureza."
+        ],
+        "remis": {}
+    },
+    "renograma": {
+        "descricao": [
+            "Radiografia do rim. Curva de evolução, de captação e de eliminação renal de uma substância radioativa injetada."
+        ],
+        "remis": {}
+    },
+    "rentev": {
+        "descricao": [
+            "Registo Nacional do Testamento Vital. Sistema de informação que permite a recolha, a manutenção e a gestão do acesso aos Testamentos Vitais dos cidadãos que pretendem outorgar um documento de diretivas antecipadas de vontade (DAV). Este sistema é suportado por uma base de dados de âmbito nacional, que centraliza e mantém atualizados os Testamentos Vitais e os Procuradores de Cuidados de Saúde, garantindo aos cidadãos a sua consulta (e ao respetivo procurador de cuidados de saúde, caso exista), bem como aos médicos responsáveis pela prestação de cuidados de saúde.\nPode aceder ao mesmo clicando aqui."
+        ],
+        "remis": {}
+    },
+    "ressecção": {
+        "descricao": [
+            "Intervenção cirúrgica para extração total ou parcial de um órgão ou de uma neoformação patológica."
+        ],
+        "remis": {}
+    },
+    "ressincronização cardíaca": {
+        "descricao": [
+            "Procedimento clínico usado para promover a regularização do batimento cardíaco por via do implante de dispositivos capazes de assegurar a estimulação sincrónica dos ventrículos."
+        ],
+        "remis": {}
+    },
+    "ressonância magnética": {
+        "descricao": [
+            "Técnica de diagnóstico imagiológico segundo a qual, por ação de um campo magnético de frequência especial, os núcleos de hidrogénio (protões) começam a ressoar nos tecidos biológicos e permitem, assim, obter imagens anatómicas digitais da região explorada. É um método de diagnóstico de elevada qualidade, quer em cortes transversais quer em imagens tridimensionais, quer ainda em imagens helicoidais e que é praticamente isento de riscos por não utilizar radiações."
+        ],
+        "remis": {
+            "sin.": "RM"
+        }
+    },
+    "restenose": {
+        "descricao": [
+            "Formação de nova estenose após correção cirúrgica de uma estenose (válvula cardíaca, artéria coronária, árvore traqueobrônquica, etc.)."
+        ],
+        "remis": {}
+    },
+    "retossigmoidoscopia": {
+        "descricao": [
+            "Exame endoscópico do reto e da ansa sigmoide do cólon."
+        ],
+        "remis": {}
+    },
+    "rgpd": {
+        "descricao": [
+            "Regulamento Geral de Proteção de Dados"
+        ],
+        "remis": {}
+    },
+    "rinite": {
+        "descricao": [
+            "Inflamação da mucosa das fossas nasais; coriza."
+        ],
+        "remis": {}
+    },
+    "rinometria": {
+        "descricao": [
+            "Medição das dimensões do nariz e das fossas nasais. Medição da permeabilidade das fossas nasais."
+        ],
+        "remis": {}
+    },
+    "rinoplastia": {
+        "descricao": [
+            "Intervenção cirúrgica plástica para modificar a forma e/ou o tamanho do nariz."
+        ],
+        "remis": {}
+    },
+    "rinotomia": {
+        "descricao": [
+            "Incisão cirúrgica no nariz."
+        ],
+        "remis": {}
+    },
+    "roncopatia": {
+        "descricao": [
+            "Condição daquele que, ao respirar durante o sono, emite um som cavo e ruidoso, causado pela vibração do palato e das paredes da faringe."
+        ],
+        "remis": {}
+    },
+    "rse": {
+        "descricao": [
+            "Registo de Saúde Eletrónico. Visa reunir informação essencial de cada cidadão para a melhoria da prestação de cuidados de saúde; o RSE é construído por dados clínicos recolhidos eletronicamente para cada Cidadão e produzidos por entidades que prestam cuidados de saúde."
+        ],
+        "remis": {}
+    },
+    "rx": {
+        "descricao": [
+            "Raio-X."
+        ],
+        "remis": {}
+    },
+    "saciforme": {
+        "descricao": [
+            "Com a forma de um saco."
+        ],
+        "remis": {}
+    },
+    "sacroilíaco": {
+        "descricao": [
+            "Relativo ou pertencente ao sacro e ao osso ilíaco."
+        ],
+        "remis": {}
+    },
+    "schwanoma": {
+        "descricao": [
+            "Tumor benigno, encapsulado, formado essencialmente por células de substância branca da bainha de Schwann (membrana muito fina, transparente e estriada que envolve a mielina das fibras nervosas cerebroespinhais e o cilindreixo das fibras amielínicas)."
+        ],
+        "remis": {}
+    },
+    "screening": {
+        "descricao": [
+            "Despistagem, rastreio."
+        ],
+        "remis": {}
+    },
+    "senologia": {
+        "descricao": [
+            "Ramo da Ciência que estuda a glândula mamária."
+        ],
+        "remis": {
+            "sin.": "Mastologia"
+        }
+    },
+    "septoplastia": {
+        "descricao": [
+            "Intervenção cirúrgica para corrigir deformações ou desvios do septo nasal."
+        ],
+        "remis": {}
+    },
+    "septotomia": {
+        "descricao": [
+            "Incisão cirúrgica de um septo (geralmente o septo nasal)."
+        ],
+        "remis": {}
+    },
+    "síndrome": {
+        "descricao": [
+            "Conjunto de sintomas e de sinais que coexistem em determinada doença e que a definem clinicamente."
+        ],
+        "remis": {}
+    },
+    "sinovial": {
+        "descricao": [
+            "Que está relacionado com a sinóvia (líquido, mais ou menos incolor e transparente, viscoso, existente nas cavidades articulares e nas bainhas tendinosas, e que atua como lubrificante. É composto, essencialmente, de mucina e de sais minerais)."
+        ],
+        "remis": {}
+    },
+    "sinusoscopia": {
+        "descricao": [
+            "Observação dos seios nasais por transiluminação."
+        ],
+        "remis": {}
+    },
+    "sns": {
+        "descricao": [
+            "Serviço Nacional de Saúde."
+        ],
+        "remis": {}
+    },
+    "sonda": {
+        "descricao": [
+            "Tubo ou estilete para explorar feridas, evacuar uma cavidade."
+        ],
+        "remis": {}
+    },
+    "soroterapia": {
+        "descricao": [
+            "Método de tratamento em que se administra soro de indivíduos ou animais imunizados contra uma determinada doença infeciosa."
+        ],
+        "remis": {
+            "sin.": "Seroterapia"
+        }
+    },
+    "stent": {
+        "descricao": [
+            "Anglicismo frequente que designa uma neoprótese tubular, de calibre muito pequeno, que se introduz, por cateterismo periférico, nas artérias coronárias para impedir a estenose. Na atualidade, utilizam-se stents impregnados de substâncias antiagregantes plaquetárias para evitar a obstrução da prótese e a reestenose arterial."
+        ],
+        "remis": {}
+    },
+    "subdural": {
+        "descricao": [
+            "Que está situado ou que acontece debaixo da dura-máter."
+        ],
+        "remis": {}
+    },
+    "tamponamento": {
+        "descricao": [
+            "Introdução de um tampão, seco ou embebido num fármaco, numa ferida ou cavidade natural, para suster uma hemorragia, por compressão, ou para absorver exsudados ou secreções excessivas."
+        ],
+        "remis": {}
+    },
+    "taquicardia": {
+        "descricao": [
+            "Atividade cardíaca anormal, com excessiva frequência das pulsações."
+        ],
+        "remis": {}
+    },
+    "taxas moderadoras": {
+        "descricao": [
+            "Pequena importância em dinheiro paga pelo utente que beneficia de uma consulta ou outro cuidado de saúde, com a exceção de casos de internamento e/ou de intervenção cirúrgica."
+        ],
+        "remis": {}
+    },
+    "telemedicina": {
+        "descricao": [
+            "Diagnóstico e tratamento de doenças sem deslocação física de doentes e profissionais de saúde, através do recurso a computadores ou outros meios de telecomunicação."
+        ],
+        "remis": {}
+    },
+    "tendinose": {
+        "descricao": [
+            "Alteração degenerativa de um tendão."
+        ],
+        "remis": {}
+    },
+    "terapêutica": {
+        "descricao": [
+            "Ramo da Medicina que trata da cura das doenças."
+        ],
+        "remis": {}
+    },
+    "termocoagulação": {
+        "descricao": [
+            "Coagulação de tecidos sangrantes com aplicação de correntes elétricas de alta frequência."
+        ],
+        "remis": {}
+    },
+    "testamento vital": {
+        "descricao": [
+            "Forma de expressar diretivas antecipadas de vontade pelas quais se manifesta antecipadamente a vontade consciente, livre e esclarecida, no que respeita aos cuidados de saúde que o outorgante deseja receber, ou não receber, no caso de, por qualquer razão, se encontrar incapaz de expressar a sua vontade pessoal e autonomamente."
+        ],
+        "remis": {
+            "sin.": "Diretiva Antecipada de Vontade"
+        }
+    },
+    "tilt test": {
+        "descricao": [
+            "O teste de inclinação ou teste de tilt é um exame que avalia a resposta da frequência cardíaca e da pressão arterial à posição de pé."
+        ],
+        "remis": {}
+    },
+    "timpanoplastia": {
+        "descricao": [
+            "Intervenção cirúrgica reconstrutiva da membrana do tímpano ou dos ossículos da caixa do tímpano."
+        ],
+        "remis": {}
+    },
+    "tireoglosso": {
+        "descricao": [
+            "Que é relativo ou pertencente à glândula tiroide e à língua."
+        ],
+        "remis": {}
+    },
+    "tmrg": {
+        "descricao": [
+            "Tempos Máximos de Resposta Garantidos."
+        ],
+        "remis": {}
+    },
+    "tomografia axial computorizada": {
+        "descricao": [
+            "Técnica radiológica que permite obter radiografias seriadas em cortes ou planos paralelos."
+        ],
+        "remis": {
+            "sin.": "TAC, TC, Tomografia Computorizada"
+        }
+    },
+    "toracentese": {
+        "descricao": [
+            "Punção da parede do tórax."
+        ],
+        "remis": {
+            "sin.": "Toracocentese"
+        }
+    },
+    "toxoplasmose": {
+        "descricao": [
+            "Doença parasitária, de sintomatologia complexa e variável, que, no caso de ser contraída durante a gravidez, pode provocar malformações no feto ou mesmo a morte."
+        ],
+        "remis": {}
+    },
+    "transcutâneo": {
+        "descricao": [
+            "Através da pele."
+        ],
+        "remis": {}
+    },
+    "transfusão": {
+        "descricao": [
+            "Perfusão direta (intravenosa ou intra-arterial) de grandes volumes de sangue ou dos seus componentes (glóbulos vermelhos, plaquetas ou glóbulos brancos) para compensar grandes perdas de sangue e/ou para corrigir algumas anemias graves."
+        ],
+        "remis": {}
+    },
+    "transplante": {
+        "descricao": [
+            "Tecido ou órgão transplantado ou enxertado."
+        ],
+        "remis": {}
+    },
+    "traqueotomia": {
+        "descricao": [
+            "Incisão cirúrgica na parede da traqueia."
+        ],
+        "remis": {}
+    },
+    "triagem": {
+        "descricao": [
+            "Classificação de indivíduos que foram levados a um hospital ou a um Centro de Saúde, segundo as suas patologias ou segundo a gravidade da sua situação clínica."
+        ],
+        "remis": {}
+    },
+    "tricotomia": {
+        "descricao": [
+            "Raspagem ou remoção da pilosidade existente em área do corpo que vai ser sujeita a cirurgia ou intervenção similar."
+        ],
+        "remis": {}
+    },
+    "trombectomia": {
+        "descricao": [
+            "Extirpação cirúrgica de um trombo vascular."
+        ],
+        "remis": {}
+    },
+    "trombo": {
+        "descricao": [
+            "Coágulo de sangue que se forma no interior de um vaso."
+        ],
+        "remis": {}
+    },
+    "tromboembolismo": {
+        "descricao": [
+            "Obstrução de um vaso sanguíneo provocada pela passagem contínua de coágulos sanguíneos provenientes de uma trombose vascular localizada antes dessa obstrução."
+        ],
+        "remis": {}
+    },
+    "trombólise": {
+        "descricao": [
+            "Dissolução de um coágulo existente na corrente sanguínea."
+        ],
+        "remis": {}
+    },
+    "uavc": {
+        "descricao": [
+            "Unidade de Acidentes Vasculares Cerebrais."
+        ],
+        "remis": {}
+    },
+    "uca": {
+        "descricao": [
+            "Unidade de Cirurgia Ambulatória."
+        ],
+        "remis": {}
+    },
+    "ucep": {
+        "descricao": [
+            "Unidade de Cuidados Especiais Pediátricos."
+        ],
+        "remis": {}
+    },
+    "uci": {
+        "descricao": [
+            "Unidade de Cuidados Intensivos."
+        ],
+        "remis": {}
+    },
+    "ucin": {
+        "descricao": [
+            "Unidade de Cuidados Intensivos Neonatais."
+        ],
+        "remis": {}
+    },
+    "ucint": {
+        "descricao": [
+            "Unidade de Cuidados Intermédios Médicos."
+        ],
+        "remis": {}
+    },
+    "ucpa": {
+        "descricao": [
+            "Unidade de Cuidados Pós-Anestésicos."
+        ],
+        "remis": {}
+    },
+    "uic": {
+        "descricao": [
+            "Unidade de Insuficiência Cardíaca Aguda."
+        ],
+        "remis": {}
+    },
+    "úlcera": {
+        "descricao": [
+            "Solução de continuidade, de difícil cicatrização, que ocorre no revestimento cutâneo ou numa mucosa."
+        ],
+        "remis": {}
+    },
+    "ultrassonografia": {
+        "descricao": [
+            "Técnica de localização, medição e delimitação de estruturas de localização profunda, através do reflexo e da medição de ondas ultrassónicas de alta frequência."
+        ],
+        "remis": {}
+    },
+    "unicard": {
+        "descricao": [
+            "Unidade de Cuidados Intensivos Cardíacos."
+        ],
+        "remis": {}
+    },
+    "unicarv": {
+        "descricao": [
+            "Unidade de Hemodinâmica e Intervenção Cardiovascular."
+        ],
+        "remis": {}
+    },
+    "unicor": {
+        "descricao": [
+            "Unidade de Cuidados Coronários."
+        ],
+        "remis": {}
+    },
+    "ureterostomia": {
+        "descricao": [
+            "Intervenção cirúrgica em que se põem em comunicação duas partes do uréter para restabelecer a sua permeabilidade."
+        ],
+        "remis": {}
+    },
+    "uretrocistografia": {
+        "descricao": [
+            "Radiografia da uretra e da bexiga após injeção de um produto radiopaco."
+        ],
+        "remis": {}
+    },
+    "urgência": {
+        "descricao": [
+            "Prestação de cuidados médicos em situações de emergência. Serviço ou setor de um hospital onde se prestam cuidados médicos e cirúrgicos a doentes ou feridos necessitados de cuidados imediatos."
+        ],
+        "remis": {}
+    },
+    "uropatia": {
+        "descricao": [
+            "Designação genérica dada às doenças do aparelho urinário."
+        ],
+        "remis": {}
+    },
+    "urticária": {
+        "descricao": [
+            "Doença cutânea alérgica que se caracteriza pela erupção de pápulas, ligeiramente elevadas, rosadas, avermelhadas ou vermelho-esbranquiçadas, muito pruriginosas ou que provocam sensação de queimadura. As pápulas têm dimensões variáveis e podem ser localizadas ou generalizadas. A urticária é uma doença alérgica e que se manifesta devido a uma reação a qualquer substância a que o indivíduo é hipersensível (agentes físicos como o calor ou o frio; alimentos como chocolate, marisco, morangos ou ovos; fármacos; inalação de substâncias alergénicas, parasitas, picadas de insetos como melgas, pulgas ou percevejos, etc.)."
+        ],
+        "remis": {}
+    },
+    "utente": {
+        "descricao": [
+            "Pessoa que utiliza bens ou serviços públicos ou privados."
+        ],
+        "remis": {}
+    },
+    "valvuloplastia": {
+        "descricao": [
+            "Intervenção cirúrgica para reparar uma válvula."
+        ],
+        "remis": {}
+    },
+    "vascular": {
+        "descricao": [
+            "Que é composto por vasos. Que é relativo ou pertencente a um vaso."
+        ],
+        "remis": {}
+    },
+    "ventriculografia": {
+        "descricao": [
+            "Radiografia dos ventrículos cardíacos, após injeção de um produto radiopaco."
+        ],
+        "remis": {}
+    },
+    "videonistagmograma": {
+        "descricao": [
+            "Observação e registo de nistagmos efetuado com recurso a câmara(s) de vídeo."
+        ],
+        "remis": {
+            "sin.": "Videonistagmografia"
+        }
+    },
+    "viscossuplementação": {
+        "descricao": [
+            "Produto injetável intra-articular que tem por base o ácido hialurónico, componente do líquido sinovial. É usado para lubrificar as articulações do joelho, protegendo-as de qualquer impacto."
+        ],
+        "remis": {}
+    },
+    "vitíligo": {
+        "descricao": [
+            "Doença de etiologia desconhecida que se manifesta por alterações cutâneas e que apresenta zonas descoradas e esbranquiçadas (por ausência local de pigmento melânico), bem limitadas por zonas de pele mais escura. Os pelos ou cabelos nascidos nas zonas despigmentadas são brancos."
+        ],
+        "remis": {}
+    }
+}

@@ -1,0 +1,654 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    {% if is_edit %}
+    <h1 class="mb-4">Editar Termo: {{ original_term }}</h1>
+    {% else %}
+    <h1 class="mb-4">Adicionar Novo Termo ao Dicionário</h1>
+    {% endif %}
+    
+    {% if error %}
+    <div class="alert alert-danger">{{ error }}</div>
+    {% endif %}
+    
+    <form method="post" action="{{ url_for('add_entry_submit') }}">
+        {% if is_edit %}
+        <input type="hidden" name="original_term" value="{{ original_term }}">
+        {% endif %}
+        
+        <!-- Informações Básicas -->
+        <div class="form-section mb-4">
+            <h3 class="mb-3">Informações Básicas</h3>
+            <div class="form-group mb-3">
+                <label for="term">Termo*</label>
+                <input type="text" class="form-control" id="term" name="term" value="{{ term or '' }}" required>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label for="campo">Área</label>
+                <input type="text" class="form-control" id="campo" name="campo" value="{{ campo or '' }}" 
+                       placeholder="Ex: medicina, anatomia, farmacologia">
+                <small class="form-text text-muted">Área de conhecimento ou especialidade médica</small>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label for="cluster">Categoria</label>
+                <div>
+                    <select id="cluster_select" class="form-control" style="display:inline-block;" name="cluster_select">
+                        <option value="">Selecione...</option>
+                        {% if clusters_list %}
+                            {% for cluster_option in clusters_list %}
+                                <option value="{{ cluster_option }}" {% if cluster == cluster_option %}selected{% endif %}>{{ cluster_option }}</option>
+                            {% endfor %}
+                        {% endif %}
+                        <option value="__custom__" {% if cluster and (cluster not in clusters_list) %}selected{% endif %}>Outra...</option>
+                    </select>
+                    <input type="text" id="cluster_custom" name="cluster" class="form-control mt-2" style="display:none;" placeholder="Escreva uma nova categoria" value="{% if cluster and (cluster not in clusters_list) %}{{ cluster }}{% endif %}">
+                </div>
+                <small class="form-text text-muted">Grupo ou cluster relacionado ao termo</small>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label for="categoria">Classe Gramatical</label>
+                <input type="text" class="form-control" id="categoria" name="categoria" value="{{ categoria or '' }}" 
+                       placeholder="Ex: n m, n f, adj, v">
+                <small class="form-text text-muted">n m (nome masculino), n f (nome feminino), adj (adjetivo), v (verbo), etc.</small>
+            </div>
+            <div class="form-group mb-3">
+                <label>Descrição*</label>
+                <div id="descricao-list">
+                    {% set descricoes = descricao if descricao is iterable and not descricao is string else [descricao] %}
+                    {% for desc in descricoes %}
+                    <div class="input-group mb-2">
+                        <textarea class="form-control" name="descricao[]" required>{{ desc }}</textarea>
+                        <button type="button" class="btn btn-danger remove-desc" tabindex="-1">&times;</button>
+                    </div>
+                    {% endfor %}
+                </div>
+                <button type="button" class="btn btn-sm btn-outline-success" id="add-desc">+ Adicionar descrição</button>
+            </div>
+        </div>
+        
+        <!-- Traduções -->
+        <div class="form-section mb-4">
+            <h3 class="mb-3">Traduções</h3>
+            <div id="translations-section">
+                <!-- Exemplo para inglês -->
+                <div class="mb-2">
+                    <label>Inglês (en)</label>
+                    <div id="translations-en-list">
+                        {% if traducao_en %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_en[]" value="{{ traducao_en }}" placeholder="Ex: translation">
+                            <input type="text" class="form-control" name="categoria_traducao_en[]" value="{{ categoria_traducao_en or '' }}" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% else %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_en[]" value="" placeholder="Ex: translation">
+                            <input type="text" class="form-control" name="categoria_traducao_en[]" value="" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-success" onclick="addTranslationRow('en')">+ Adicionar tradução em inglês</button>
+                </div>
+                <!-- Repita para outros idiomas -->
+                <div class="mb-2">
+                    <label>Espanhol (es)</label>
+                    <div id="translations-es-list">
+                        {% if traducao_es %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_es[]" value="{{ traducao_es }}" placeholder="Ex: traducción">
+                            <input type="text" class="form-control" name="categoria_traducao_es[]" value="{{ categoria_traducao_es or '' }}" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% else %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_es[]" value="" placeholder="Ex: traducción">
+                            <input type="text" class="form-control" name="categoria_traducao_es[]" value="" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-success" onclick="addTranslationRow('es')">+ Adicionar tradução em espanhol</button>
+                </div>
+                <!-- Repita para outros idiomas conforme necessário -->
+                <div class="mb-2">
+                    <label>Francês (fr)</label>
+                    <div id="translations-fr-list">
+                        {% if traducao_fr %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_fr[]" value="{{ traducao_fr }}" placeholder="Ex: traduction">
+                            <input type="text" class="form-control" name="categoria_traducao_fr[]" value="{{ categoria_traducao_fr or '' }}" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% else %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_fr[]" value="" placeholder="Ex: traduction">
+                            <input type="text" class="form-control" name="categoria_traducao_fr[]" value="" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-success" onclick="addTranslationRow('fr')">+ Adicionar tradução em francês</button>
+                </div>
+                
+                <div class="mb-2">
+                    <label>Alemão (de)</label>
+                    <div id="translations-de-list">
+                        {% if traducao_de %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_de[]" value="{{ traducao_de }}" placeholder="Ex: Übersetzung">
+                            <input type="text" class="form-control" name="categoria_traducao_de[]" value="{{ categoria_traducao_de or '' }}" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% else %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_de[]" value="" placeholder="Ex: Übersetzung">
+                            <input type="text" class="form-control" name="categoria_traducao_de[]" value="" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-success" onclick="addTranslationRow('de')">+ Adicionar tradução em alemão</button>
+                </div>
+                
+                <div class="mb-2">
+                    <label>Occitano (oc)</label>
+                    <div id="translations-oc-list">
+                        {% if traducao_oc %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_oc[]" value="{{ traducao_oc }}" placeholder="Ex: traducció">
+                            <input type="text" class="form-control" name="categoria_traducao_oc[]" value="{{ categoria_traducao_oc or '' }}" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% else %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_oc[]" value="" placeholder="Ex: traducció">
+                            <input type="text" class="form-control" name="categoria_traducao_oc[]" value="" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-success" onclick="addTranslationRow('oc')">+ Adicionar tradução em occitano</button>
+                </div>
+                
+                <div class="mb-2">
+                    <label>Basco (eu)</label>
+                    <div id="translations-eu-list">
+                        {% if traducao_eu %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_eu[]" value="{{ traducao_eu }}" placeholder="Ex: itzulpen">
+                            <input type="text" class="form-control" name="categoria_traducao_eu[]" value="{{ categoria_traducao_eu or '' }}" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% else %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_eu[]" value="" placeholder="Ex: itzulpen">
+                            <input type="text" class="form-control" name="categoria_traducao_eu[]" value="" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-success" onclick="addTranslationRow('eu')">+ Adicionar tradução em basco</button>
+                </div>
+                
+                <div class="mb-2">
+                    <label>Galego (gl)</label>
+                    <div id="translations-gl-list">
+                        {% if traducao_gl %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_gl[]" value="{{ traducao_gl }}" placeholder="Ex: tradución">
+                            <input type="text" class="form-control" name="categoria_traducao_gl[]" value="{{ categoria_traducao_gl or '' }}" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% else %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_gl[]" value="" placeholder="Ex: tradución">
+                            <input type="text" class="form-control" name="categoria_traducao_gl[]" value="" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-success" onclick="addTranslationRow('gl')">+ Adicionar tradução em galego</button>
+                </div>
+                
+                <div class="mb-2">
+                    <label>Holandês (nl)</label>
+                    <div id="translations-nl-list">
+                        {% if traducao_nl %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_nl[]" value="{{ traducao_nl }}" placeholder="Ex: vertaling">
+                            <input type="text" class="form-control" name="categoria_traducao_nl[]" value="{{ categoria_traducao_nl or '' }}" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% else %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_nl[]" value="" placeholder="Ex: vertaling">
+                            <input type="text" class="form-control" name="categoria_traducao_nl[]" value="" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-success" onclick="addTranslationRow('nl')">+ Adicionar tradução em holandês</button>
+                </div>
+                
+                <div class="mb-2">
+                    <label>Árabe (ar)</label>
+                    <div id="translations-ar-list">
+                        {% if traducao_ar %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_ar[]" value="{{ traducao_ar }}" placeholder="Ex: ترجمة">
+                            <input type="text" class="form-control" name="categoria_traducao_ar[]" value="{{ categoria_traducao_ar or '' }}" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% else %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_ar[]" value="" placeholder="Ex: ترجمة">
+                            <input type="text" class="form-control" name="categoria_traducao_ar[]" value="" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-success" onclick="addTranslationRow('ar')">+ Adicionar tradução em árabe</button>
+                </div>
+                
+                <div class="mb-2">
+                    <label>Português Brasil (pt [BR])</label>
+                    <div id="translations-pt_br-list">
+                        {% if traducao_pt_br %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_pt_br[]" value="{{ traducao_pt_br }}" placeholder="Ex: tradução">
+                            <input type="text" class="form-control" name="categoria_traducao_pt_br[]" value="{{ categoria_traducao_pt_br or '' }}" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% else %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_pt_br[]" value="" placeholder="Ex: tradução">
+                            <input type="text" class="form-control" name="categoria_traducao_pt_br[]" value="" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-success" onclick="addTranslationRow('pt_br')">+ Adicionar tradução em português do Brasil</button>
+                </div>
+                
+                <div class="mb-2">
+                    <label>Português Portugal (pt [PT])</label>
+                    <div id="translations-pt_pt-list">
+                        {% if traducao_pt_pt %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_pt_pt[]" value="{{ traducao_pt_pt }}" placeholder="Ex: tradução">
+                            <input type="text" class="form-control" name="categoria_traducao_pt_pt[]" value="{{ categoria_traducao_pt_pt or '' }}" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% else %}
+                        <div class="input-group mb-1 translation-row">
+                            <input type="text" class="form-control" name="traducao_pt_pt[]" value="" placeholder="Ex: tradução">
+                            <input type="text" class="form-control" name="categoria_traducao_pt_pt[]" value="" placeholder="Categoria">
+                            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+                        </div>
+                        {% endif %}
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-success" onclick="addTranslationRow('pt_pt')">+ Adicionar tradução em português de Portugal</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Remissões -->
+        <div class="form-section mb-4">
+            <h3 class="mb-3">Remissões</h3>
+            <div class="form-group mb-4" id="sinonimos-group">
+                <label>Sinónimos</label>
+                <div id="sinonimos-list">
+                    {% if sinonimos_list %}
+                        {% for sin in sinonimos_list %}
+                        <div class="row mb-2 sinonimo-item">
+                            <div class="col">
+                                <input type="text" class="form-control" name="sinonimos_texto[]" placeholder="Sinônimo" value="{{ sin.texto }}">
+                            </div>
+                            <div class="col-4">
+                                <input type="text" class="form-control" name="sinonimos_categoria[]" placeholder="Categoria" value="{{ sin.categoria }}">
+                            </div>
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-danger btn-remove-sinonimo">&times;</button>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    {% else %}
+                    <div class="row mb-2 sinonimo-item">
+                        <div class="col">
+                            <input type="text" class="form-control" name="sinonimos_texto[]" placeholder="Sinônimo">
+                        </div>
+                        <div class="col-4">
+                            <input type="text" class="form-control" name="sinonimos_categoria[]" placeholder="Categoria">
+                        </div>
+                        <div class="col-auto">
+                            <button type="button" class="btn btn-danger btn-remove-sinonimo">&times;</button>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                <button type="button" class="btn btn-outline-success btn-sm mt-2" id="add-sinonimo">+ Adicionar Sinônimo</button>
+            </div>
+            
+            <div class="form-group mb-3" id="antonimos-group">
+                <label>Antónimos</label>
+                <div id="antonimos-list">
+                    {% if antonimos_list %}
+                        {% for ant in antonimos_list %}
+                        <div class="row mb-2 antonimo-item">
+                            <div class="col">
+                                <input type="text" class="form-control" name="antonimos_texto[]" placeholder="Antônimo" value="{{ ant.texto }}">
+                            </div>
+                            <div class="col-4">
+                                <input type="text" class="form-control" name="antonimos_categoria[]" placeholder="Categoria" value="{{ ant.categoria }}">
+                            </div>
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-danger btn-remove-antonimo">&times;</button>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    {% else %}
+                    <div class="row mb-2 antonimo-item">
+                        <div class="col">
+                            <input type="text" class="form-control" name="antonimos_texto[]" placeholder="Antônimo">
+                        </div>
+                        <div class="col-4">
+                            <input type="text" class="form-control" name="antonimos_categoria[]" placeholder="Categoria">
+                        </div>
+                        <div class="col-auto">
+                            <button type="button" class="btn btn-danger btn-remove-antonimo">&times;</button>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                <button type="button" class="btn btn-outline-success btn-sm mt-2" id="add-antonimo">+ Adicionar Antônimo</button>
+        
+            </div>
+            
+            <div class="form-group mb-3" id="siglas-group">
+                <label>Siglas</label>
+                <div id="siglas-list">
+                    {% if siglas_list %}
+                        {% for sigla in siglas_list %}
+                        <div class="row mb-2 sigla-item">
+                            <div class="col">
+                                <input type="text" class="form-control" name="siglas_texto[]" placeholder="Sigla" value="{{ sigla.texto }}">
+                            </div>
+                            <div class="col-4">
+                                <input type="text" class="form-control" name="siglas_categoria[]" placeholder="Categoria" value="{{ sigla.categoria|default('') }}">
+                            </div>
+                            <div class="col-auto">
+                                <button type="button" class="btn btn-danger btn-remove-sigla">&times;</button>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    {% else %}
+                    <div class="row mb-2 sigla-item">
+                        <div class="col">
+                            <input type="text" class="form-control" name="siglas_texto[]" placeholder="Sigla">
+                        </div>
+                        <div class="col-4">
+                            <input type="text" class="form-control" name="siglas_categoria[]" placeholder="Categoria">
+                        </div>
+                        <div class="col-auto">
+                            <button type="button" class="btn btn-danger btn-remove-sigla">&times;</button>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                <button type="button" class="btn btn-outline-success btn-sm mt-2" id="add-sigla">+ Adicionar Sigla</button>
+            </div>
+        </div>
+        
+        <!-- Códigos -->
+        <div class="form-section mb-4">
+            <h3 class="mb-3">Códigos</h3>
+            <div class="form-group mb-3">
+                <label for="codigo_cas">CAS</label>
+                <input type="text" class="form-control" id="codigo_cas" name="codigo_cas" value="{{ codigo_cas or '' }}">
+            </div>
+            
+            <div class="form-group mb-3">
+                <label for="codigo_sbl">SBL</label>
+                <input type="text" class="form-control" id="codigo_sbl" name="codigo_sbl" value="{{ codigo_sbl or '' }}">
+            </div>
+            
+            <div class="form-group mb-3">
+                <label for="codigo_icd">ICD</label>
+                <input type="text" class="form-control" id="codigo_icd" name="codigo_icd" value="{{ codigo_icd or '' }}">
+            </div>
+            
+            <div class="form-group mb-3">
+                <label for="codigo_outro">Outro Código</label>
+                <input type="text" class="form-control" id="codigo_outro" name="codigo_outro" value="{{ codigo_outro or '' }}">
+            </div>
+        </div>
+        
+        <!-- Exemplos -->
+        <div class="form-section mb-4">
+            <h3 class="mb-3">Exemplos</h3>
+            <div class="form-group mb-3">
+                <label for="exemplo">Exemplo de Uso</label>
+                <textarea class="form-control" id="exemplo" name="exemplo" rows="2">{{ exemplo or '' }}</textarea>
+            </div>
+            
+            <div class="form-group mb-3">
+                <label for="enciclopedia">Informação Enciclopédica</label>
+                <textarea class="form-control" id="enciclopedia" name="enciclopedia" rows="2">{{ enciclopedia or '' }}</textarea>
+            </div>
+        </div>
+        
+        <!-- Notas -->
+        <div class="form-section mb-4">
+            <h3 class="mb-3">Notas</h3>
+            <div class="form-group mb-3">
+                <label for="notas">Notas Adicionais</label>
+                <textarea class="form-control" id="notas" name="notas" rows="3">{{ notas or '' }}</textarea>
+            </div>
+        </div>
+        
+        <div class="mt-4">
+            {% if is_edit %}
+            <button type="submit" class="btn btn-success me-2">Guardar Alterações</button>
+            <a href="{{ url_for('entry_detail', term=original_term) }}" class="btn btn-outline-secondary">Cancelar</a>
+            {% else %}
+            <button type="submit" class="btn btn-success me-2">Adicionar Termo</button>
+            <a href="{{ url_for('index') }}" class="btn btn-outline-secondary">Voltar</a>
+            {% endif %}
+        </div>
+    </form>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    function addSinonimo(texto = '', categoria = '') {
+        const list = document.getElementById('sinonimos-list');
+        const div = document.createElement('div');
+        div.className = 'row mb-2 sinonimo-item';
+        div.innerHTML = `
+            <div class="col">
+                <input type="text" class="form-control" name="sinonimos_texto[]" placeholder="Sinônimo" value="${texto}">
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" name="sinonimos_categoria[]" placeholder="Categoria" value="${categoria}">
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn btn-danger btn-remove-sinonimo">&times;</button>
+            </div>
+        `;
+        list.appendChild(div);
+    }
+    
+    function addAntonimo(texto = '', categoria = '') {
+        const list = document.getElementById('antonimos-list');
+        const div = document.createElement('div');
+        div.className = 'row mb-2 antonimo-item';
+        div.innerHTML = `
+            <div class="col">
+                <input type="text" class="form-control" name="antonimos_texto[]" placeholder="Antônimo" value="${texto}">
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" name="antonimos_categoria[]" placeholder="Categoria" value="${categoria}">
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn btn-danger btn-remove-antonimo">&times;</button>
+            </div>
+        `;
+        list.appendChild(div);
+    }
+    
+    function addSigla(texto = '') {
+        const list = document.getElementById('siglas-list');
+        const div = document.createElement('div');
+        div.className = 'row mb-2 sigla-item';
+        div.innerHTML = `
+            <div class="col">
+                <input type="text" class="form-control" name="siglas_texto[]" placeholder="Sigla" value="${texto}">
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn btn-danger btn-remove-sigla">&times;</button>
+            </div>
+        `;
+        list.appendChild(div);
+    }
+    
+    document.getElementById('add-sinonimo').addEventListener('click', function() {
+        addSinonimo();
+    });
+    
+    document.getElementById('add-antonimo').addEventListener('click', function() {
+        addAntonimo();
+    });
+    
+    document.getElementById('add-sigla').addEventListener('click', function() {
+        addSigla();
+    });
+    
+    document.getElementById('sinonimos-list').addEventListener('click', function(e) {
+        if (e.target.classList.contains('btn-remove-sinonimo')) {
+            e.target.closest('.sinonimo-item').remove();
+        }
+    });
+    
+    document.getElementById('antonimos-list').addEventListener('click', function(e) {
+        if (e.target.classList.contains('btn-remove-antonimo')) {
+            e.target.closest('.antonimo-item').remove();
+        }
+    });
+    
+    document.getElementById('siglas-list').addEventListener('click', function(e) {
+        if (e.target.classList.contains('btn-remove-sigla')) {
+            e.target.closest('.sigla-item').remove();
+        }
+    });
+    
+    window.addTranslationRow = function(lang) {
+        var list = document.getElementById('translations-' + lang + '-list');
+        var div = document.createElement('div');
+        div.className = 'input-group mb-1 translation-row';
+        div.innerHTML = `
+            <input type="text" class="form-control" name="traducao_${lang}[]" placeholder="Tradução">
+            <input type="text" class="form-control" name="categoria_traducao_${lang}[]" placeholder="Categoria">
+            <button type="button" class="btn btn-danger btn-remove-translation" onclick="removeTranslationRow(this)">x</button>
+        `;
+        list.appendChild(div);
+    }
+    
+    window.removeTranslationRow = function(btn) {
+        btn.parentNode.remove();
+    }
+    
+    document.getElementById('add-desc').onclick = function() {
+        var div = document.createElement('div');
+        div.className = 'input-group mb-2';
+        div.innerHTML = '<textarea class="form-control" name="descricao[]" required></textarea><button type="button" class="btn btn-danger remove-desc" tabindex="-1">&times;</button>';
+        document.getElementById('descricao-list').appendChild(div);
+    };
+    document.getElementById('descricao-list').addEventListener('click', function(e) {
+        if (e.target.classList.contains('remove-desc')) {
+            e.target.parentElement.remove();
+        }
+    });
+    
+    // Cluster select logic
+    function handleClusterChange() {
+        const select = document.getElementById('cluster_select');
+        const customInput = document.getElementById('cluster_custom');
+        if (select.value === '__custom__') {
+            select.style.display = 'none';
+            customInput.style.display = 'inline-block';
+            customInput.required = true;
+            customInput.focus();
+        } else if (select.value === '') {
+            customInput.value = '';
+            customInput.style.display = 'none';
+            select.style.display = 'inline-block';
+            customInput.required = false;
+        } else {
+            customInput.value = select.value;
+            customInput.style.display = 'none';
+            select.style.display = 'inline-block';
+            customInput.required = false;
+        }
+    }
+    document.getElementById('cluster_select').addEventListener('change', handleClusterChange);
+
+    const select = document.getElementById('cluster_select');
+    const customInput = document.getElementById('cluster_custom');
+    const currentCluster = customInput.value;
+    if (select.value === '__custom__' || (currentCluster && !Array.from(select.options).some(option => option.value === currentCluster))) {
+        select.value = '__custom__';
+        handleClusterChange();
+    } else if (currentCluster) {
+        select.value = currentCluster;
+        handleClusterChange();
+    }
+});
+</script>
+<style>
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea, .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.descricao-item {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.descricao-item textarea {
+    flex: 1;
+}
+
+.descricao-item button {
+    padding: 5px 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#cluster_select, #cluster_custom {
+    width: 100%;
+    margin-bottom: 5px;
+}
+</style>
+{% endblock %}

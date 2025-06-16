@@ -1,0 +1,278 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<section>
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            {% if letter %}
+            <a href="/?letter={{ letter }}" class="btn btn-outline-success">← Voltar para letra {{ letter|upper }}</a>
+            {% else %}
+            <a href="/" class="btn btn-outline-success">← Voltar</a>
+            {% endif %}
+        </div>
+        <div>
+            <a href="/edit/{{ term }}" class="btn btn-outline-success">Editar</a>
+        </div>
+    </div>
+    
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <div class="d-flex align-items-center">
+            <h2 class="mb-0">{{ term }}</h2>
+            {% if entry.categoria %}
+                <h2 class="card-subtitle mb-0 text-muted ms-3">{{ entry.categoria }}</h2>
+            {% endif %}
+        </div>
+        <div>
+            {% if entry.cluster %}
+                <span class="badge rounded-pill bg-light text-primary border border-primary" style="font-size: 0.95em;" title="Categoria">{{ entry.cluster }}</span>
+            {% endif %}
+            {% if entry.campo %}
+                <span class="badge rounded-pill bg-light text-success border border-success ms-2" style="font-size: 0.95em;" title="Campo">{{ entry.campo }}</span>
+            {% endif %}
+        </div>
+    </div>
+    <div class="mb-4">
+        <hr>
+    </div>
+    
+    <div class="row">
+        {% if entry.descricao and entry.descricao|length > 0 %}
+        <div class="col-12 mb-4">
+            <div class="card">
+                <div class="card-header bg-success bg-opacity-10">
+                    <h3 class="h5 mb-0">Descrição</h3>
+                </div>
+                <div class="card-body">
+                    {% if entry.descricao|length > 1 %}
+                        <ol class="mb-0 ps-3">
+                            {% for desc in entry.descricao %}
+                                {% if desc %}
+                                <li>{{ desc }}</li>
+                                {% endif %}
+                            {% endfor %}
+                        </ol>
+                    {% else %}
+                        {% for desc in entry.descricao %}
+                            {% if desc %}
+                            <p>{{ desc }}</p>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        
+        {% if entry.traducoes and entry.traducoes|length > 0 %}
+        <div class="col-12 mb-4">
+            <div class="card">
+                <div class="card-header bg-success bg-opacity-10">
+                    <h3 class="h5 mb-0">Traduções</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        {% for lang, translation in entry.traducoes.items() %}
+                        <div class="col-md-6 col-lg-4 mb-2">
+                            <div class="border rounded p-2">
+                                <span class="fw-bold text-muted me-2">{{ lang }}:</span>
+                                <span>
+                                    {% if translation is mapping %}
+                                        {% if '1' in translation %}
+                                            <ul class="list-unstyled mt-1">
+                                            {% for key, item in translation.items() %}
+                                                {% if item is mapping %}
+                                                    <li>{{ item.get('tradução', item.get('texto', '')) }}
+                                                        {% if 'categoria' in item and item.categoria %}
+                                                        <small class="text-muted">({{ item.categoria }})</small>
+                                                        {% endif %}
+                                                    </li>
+                                                {% else %}
+                                                    <li>{{ item }}</li>
+                                                {% endif %}
+                                            {% endfor %}
+                                            </ul>
+                                        {% elif 'tradução' in translation %}
+                                            {{ translation.tradução }}
+                                            {% if 'categoria' in translation and translation.categoria %}
+                                            <small class="text-muted">({{ translation.categoria }})</small>
+                                            {% endif %}
+                                        {% elif 'texto' in translation %}
+                                            {{ translation.texto }}
+                                            {% if 'categoria' in translation and translation.categoria %}
+                                            <small class="text-muted">({{ translation.categoria }})</small>
+                                            {% endif %}
+                                        {% else %}
+                                            {{ translation }}
+                                        {% endif %}
+                                    {% else %}
+                                        {{ translation }}
+                                    {% endif %}
+                                </span>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        
+        {% if entry.remis and entry.remis|length > 0 %}
+        <div class="col-12 mb-4">
+            <div class="card">
+                <div class="card-header bg-success bg-opacity-10">
+                    <h3 class="h5 mb-0">Remissivas</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        {% for key, value in entry.remis.items() %}
+                        <li class="list-group-item">
+                            <strong>{{ key }}:</strong> 
+                            {% if value is mapping %}
+                                {% if '1' in value %}
+                                    <ul class="list-unstyled mt-1">
+                                    {% for subkey, item in value.items() %}
+                                        {% if item is mapping %}
+                                            <li>{{ item.get('texto', '') }}
+                                                {% if 'categoria' in item and item.categoria %}
+                                                <small class="text-muted">({{ item.categoria }})</small>
+                                                {% endif %}
+                                            </li>
+                                        {% else %}
+                                            <li>{{ item }}</li>
+                                        {% endif %}
+                                    {% endfor %}
+                                    </ul>
+                                {% elif 'texto' in value %}
+                                    {{ value.texto }}
+                                    {% if 'categoria' in value and value.categoria %}
+                                    <small class="text-muted">({{ value.categoria }})</small>
+                                    {% endif %}
+                                {% else %}
+                                    {{ value }}
+                                {% endif %}
+                            {% else %}
+                                {{ value }}
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        
+        {% if entry.exemplo %}
+        <div class="col-12 mb-4">
+            <div class="card">
+                <div class="card-header bg-success bg-opacity-10">
+                    <h3 class="h5 mb-0">Exemplo</h3>
+                </div>
+                <div class="card-body">
+                    <p>{{ entry.exemplo }}</p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        
+        {% if entry.codigos and entry.codigos|length > 0 %}
+        <div class="col-12 mb-4">
+            <div class="card">
+                <div class="card-header bg-success bg-opacity-10">
+                    <h3 class="h5 mb-0">Códigos</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        {% for code_type, code in entry.codigos.items() %}
+                        <li class="list-group-item"><strong>{{ code_type }}:</strong> {{ code }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        
+        {% if entry.enciclopedia %}
+        <div class="col-12 mb-4">
+            <div class="card">
+                <div class="card-header bg-success bg-opacity-10">
+                    <h3 class="h5 mb-0">Informação Enciclopédica</h3>
+                </div>
+                <div class="card-body">
+                    <p>{{ entry.enciclopedia }}</p>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        
+        {% if entry.Notas %}
+        <div class="col-12 mb-4">
+            <div class="card">
+                <div class="card-header bg-success bg-opacity-10">
+                    <h3 class="h5 mb-0">Notas</h3>
+                </div>
+                <div class="card-body">
+                    {% if entry.Notas is string %}
+                    <p>{{ entry.Notas }}</p>
+                    {% else %}
+                    {% for note in entry.Notas %}
+                        {% if note %}
+                        <p>{{ note }}</p>
+                        {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        
+        {% if similar_terms and similar_terms|length > 0 %}
+        <div class="col-12 mb-4 mt-5">
+            <div class="card">
+                <div class="card-header bg-success bg-opacity-10">
+                    <h3 class="h5 mb-0">Termos Similares</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        {% for term_name, term_data in similar_terms %}
+                        <div class="col-md-6 mb-2">
+                            <div class="border rounded p-3">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <a href="/entry/{{ term_name }}" class="fw-bold text-success">{{ term_name }}</a>
+                                        {% if term_data.categoria %}
+                                            <span class="text-muted">({{ term_data.categoria }})</span>
+                                        {% endif %}
+                                    </div>
+                                    <div>
+                                        {% if term_data.cluster %}
+                                            <span class="badge rounded-pill bg-light text-primary border border-primary" style="font-size: 0.8em;">{{ term_data.cluster }}</span>
+                                        {% endif %}
+                                        {% if term_data.campo %}
+                                            <span class="badge rounded-pill bg-light text-success border border-success ms-1" style="font-size: 0.8em;">{{ term_data.campo }}</span>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                {% if term_data.descricao and term_data.descricao|length > 0 and term_data.descricao[0] %}
+                                    <p class="text-truncate mb-0 small text-muted mt-1">
+                                        {{ term_data.descricao[0]|truncate(100) }}
+                                    </p>
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        
+    </div>
+    
+    <div class="mt-4">
+        <form action="{{ url_for('delete_entry', term=term) }}" method="post" style="display:inline;" onsubmit="return confirm('Tem certeza que deseja excluir este termo?');">
+            <button type="submit" class="btn btn-danger">Excluir termo</button>
+        </form>
+    </div>
+</section>
+{% endblock %}
